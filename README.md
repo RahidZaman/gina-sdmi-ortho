@@ -24,3 +24,5 @@ Information about the SPOT5 L1A source scenes that went into make the SDMI Ortho
 
 * 2009\_2010 - first year source scenes (2009 data pulled from archive)
 * 2011 - new scenes collected in 2011 and a few additional archive scenes 
+
+You can download the 2012.01 version of this dataset from: https://github.com/gina-alaska/gina-sdmi-ortho/downloads
