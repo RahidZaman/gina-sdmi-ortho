@@ -30,8 +30,8 @@
                     <legendlayerfile isInOverview="0" layerid="sdmi_ortho_tile_layout20120116234635208" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer open="true" checked="Qt::Checked" name="SDMI-clip_mask" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
+            <legendlayer open="false" checked="Qt::Checked" name="SDMI-clip_mask" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="sdmi_clip_mask_11062320120116234430163" visible="1"/>
                 </filegroup>
             </legendlayer>
@@ -134,7 +134,12 @@
                 <legendlayerfile isInOverview="0" layerid="Charts20120116151721623" visible="0"/>
             </filegroup>
         </legendlayer>
-        <legendgroup open="true" checked="Qt::PartiallyChecked" name="WMS">
+        <legendlayer open="false" checked="Qt::Checked" name="gina-bath-2004-aa-grey" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="gina_bath_2004_aa_grey20120117001943742" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendgroup open="true" checked="Qt::Unchecked" name="WMS">
             <legendlayer open="false" checked="Qt::Unchecked" name="ORTHO.RGB" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="ORTHO_RGB20120116235424152" visible="0"/>
@@ -150,63 +155,61 @@
                     <legendlayerfile isInOverview="0" layerid="ORTHO_CIR20120116235347285" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer open="false" checked="Qt::Checked" name="SDMI-BDL" showFeatureCount="0">
+            <legendlayer open="false" checked="Qt::Unchecked" name="SDMI-BDL" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="BestDataAvailableLayer20120115152725124" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="BestDataAvailableLayer20120115152725124" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
     </legend>
-    <Composer title="Composer 1" visible="1">
+    <Composer title="Composer 1" visible="0">
+        <ComposerLabel valign="32" labelText="website: http://alaskamapped.org/ortho&#xa;WMS:       http://wms.alaskamapped.org/ortho/&#xa;contact:  orthoproj@gina.alaska.edu" halign="1" margin="1">
+            <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0"/>
+            <FontColor red="0" blue="0" green="0"/>
+            <ComposerItem width="78.34158415841583" x="202.1212871287129" y="182.2747524752475" rotation="0" height="15.14603960396038" frame="true" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="1.914691943127962" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLabel>
         <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
-            <Extent ymin="359706.8929224977" xmin="-1438952.17626161" ymax="2416605.135227599" xmax="1467574.006920674"/>
+            <Extent ymin="359706.850599393" xmin="-1438952.236152796" ymax="2394275.262674653" xmax="1467574.06681186"/>
             <LayerSet/>
             <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
                 <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
             </Grid>
-            <ComposerItem width="300.01" x="-1.789603960396043" y="-1.311881188118811" rotation="0" height="212.3118811881188" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="7.658767772511848" id="" positionLock="false">
+            <ComposerItem width="300" x="-1.789603960396043" y="-0.2673267326732613" rotation="0" height="210" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="1.914691943127962" id="" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
         </ComposerMap>
+        <ComposerLabel valign="32" labelText="2012.01.17" halign="1" margin="1">
+            <LabelFont description="Ubuntu,8,-1,5,50,0,0,0,0,0"/>
+            <FontColor red="0" blue="0" green="0"/>
+            <ComposerItem width="17.75742574257428" x="0.2611386138613057" y="2.35024752475249" rotation="0" height="5.74504950495048" frame="true" outlineWidth="0.3" zValue="4" lastValidViewScaleFactor="1.914691943127962" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLabel>
         <ComposerLegend symbolWidth="7" title="SDMI Ortho" boxSpace="2" titleFont="Ubuntu,16,-1,5,50,0,0,0,0,0" map="0" groupFont="Ubuntu,14,-1,5,50,0,0,0,0,0" layerFont="Ubuntu,12,-1,5,50,0,0,0,0,0" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" itemFont="Ubuntu,12,-1,5,50,0,0,0,0,0">
             <Model autoUpdate="1">
-                <LayerItem layerId="2010_limbo20120116162619040" text="2010 pending acceptance">
-                    <VectorClassificationItemNg text="">
+                <LayerItem layerId="2010_final_tiles_clip20120116235844856" text="2010 ortho mosiac">
+                    <VectorClassificationItemNg text="297,000 km2">
                         <symbols>
                             <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
                                 <layer pass="0" class="SimpleFill" locked="0">
-                                    <prop k="color" v="0,85,255,255"/>
+                                    <prop k="color" v="255,255,127,255"/>
                                     <prop k="color_border" v="0,0,0,255"/>
                                     <prop k="offset" v="0,0"/>
-                                    <prop k="style" v="b_diagonal"/>
-                                    <prop k="style_border" v="no"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
                                     <prop k="width_border" v="0.26"/>
                                 </layer>
                             </symbol>
                         </symbols>
                     </VectorClassificationItemNg>
                 </LayerItem>
-                <GroupItem text="2010-final-ortho-tiles">
-                    <LayerItem layerId="2010_final_tiles_clip20120116235844856" text="2010-final-tiles-clip">
-                        <VectorClassificationItemNg text="">
-                            <symbols>
-                                <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
-                                    <layer pass="0" class="SimpleFill" locked="0">
-                                        <prop k="color" v="255,255,127,255"/>
-                                        <prop k="color_border" v="0,0,0,255"/>
-                                        <prop k="offset" v="0,0"/>
-                                        <prop k="style" v="solid"/>
-                                        <prop k="style_border" v="solid"/>
-                                        <prop k="width_border" v="0.26"/>
-                                    </layer>
-                                </symbol>
-                            </symbols>
-                        </VectorClassificationItemNg>
-                    </LayerItem>
-                </GroupItem>
-                <LayerItem layerId="2009_2010_2011_source20120116234851013" text="2009_2010_2011-source">
-                    <VectorClassificationItemNg text="">
+                <LayerItem layerId="2009_2010_2011_source20120116234851013" text="SPOT5 L1A source (2009-2011)">
+                    <VectorClassificationItemNg text="900,000 km2">
                         <symbols>
                             <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
                                 <layer pass="0" class="SimpleFill" locked="0">
@@ -221,16 +224,15 @@
                         </symbols>
                     </VectorClassificationItemNg>
                 </LayerItem>
-                <LayerItem layerId="BestDataAvailableLayer20120115152725124" text="SDMI-BDL"/>
             </Model>
-            <ComposerItem width="52" x="227.7128712871287" y="7.834158415841586" rotation="0" height="57.9" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="1.914691943127962" id="" positionLock="false">
+            <ComposerItem width="63" x="227.7128712871287" y="7.834158415841586" rotation="0" height="33.3" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="1.914691943127962" id="" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
         </ComposerLegend>
-        <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
+        <Composition printResolution="100" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
     </Composer>
-    <projectlayers layercount="24">
+    <projectlayers layercount="25">
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>2009_2010_2011_source20120116234851013</id>
             <datasource>./source/maps/2009_2010_2011-source.shp</datasource>
@@ -1530,6 +1532,54 @@
                 </threeValuePixelList>
             </rasterproperties>
         </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>gina_bath_2004_aa_grey20120117001943742</id>
+            <datasource>./maps/gina-bath-2004-aa-grey.tif</datasource>
+            <layername>gina-bath-2004-aa-grey</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">0.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="0.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="0.000000" blue="0.000000" green="0.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>sdmi_clip_mask_11062320120116234430163</id>
             <datasource>./ortho/clipmask/2011/sdmi-clip-mask-110623.shp</datasource>
@@ -1560,7 +1610,7 @@
                     <rotationclassificationfieldname></rotationclassificationfieldname>
                     <scaleclassificationfieldname></scaleclassificationfieldname>
                     <symbolfieldname></symbolfieldname>
-                    <outlinecolor red="255" blue="0" green="255"/>
+                    <outlinecolor red="0" blue="0" green="0"/>
                     <outlinestyle>SolidLine</outlinestyle>
                     <outlinewidth>0.26</outlinewidth>
                     <fillcolor red="189" blue="197" green="219"/>

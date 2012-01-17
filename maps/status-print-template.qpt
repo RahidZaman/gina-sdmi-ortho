@@ -8,35 +8,27 @@
   </ComposerItem>
  </ComposerLabel>
  <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
-  <Extent ymin="359706.8929224977" xmin="-1438952.17626161" ymax="2416605.135227599" xmax="1467574.006920674"/>
+  <Extent ymin="359706.850599393" xmin="-1438952.236152796" ymax="2394275.262674653" xmax="1467574.06681186"/>
   <LayerSet/>
   <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
    <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
   </Grid>
-  <ComposerItem width="300.01" x="-1.789603960396043" y="-1.311881188118811" rotation="0" height="212.3118811881188" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="1.914691943127962" id="" positionLock="false">
+  <ComposerItem width="300" x="-1.789603960396043" y="-0.2673267326732613" rotation="0" height="210" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="1.914691943127962" id="" positionLock="false">
    <FrameColor alpha="255" red="0" blue="0" green="0"/>
    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
   </ComposerItem>
  </ComposerMap>
+ <ComposerLabel valign="32" labelText="2012.01.17" halign="1" margin="1">
+  <LabelFont description="Ubuntu,8,-1,5,50,0,0,0,0,0"/>
+  <FontColor red="0" blue="0" green="0"/>
+  <ComposerItem width="17.75742574257428" x="0.2611386138613057" y="2.35024752475249" rotation="0" height="5.74504950495048" frame="true" outlineWidth="0.3" zValue="4" lastValidViewScaleFactor="1.914691943127962" id="" positionLock="false">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerLabel>
  <ComposerLegend symbolWidth="7" title="SDMI Ortho" boxSpace="2" titleFont="Ubuntu,16,-1,5,50,0,0,0,0,0" map="0" groupFont="Ubuntu,14,-1,5,50,0,0,0,0,0" layerFont="Ubuntu,12,-1,5,50,0,0,0,0,0" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" itemFont="Ubuntu,12,-1,5,50,0,0,0,0,0">
   <Model autoUpdate="1">
-   <LayerItem layerId="2010_limbo20120116162619040" text="2010 pending acceptance">
-    <VectorClassificationItemNg text="">
-     <symbols>
-      <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
-       <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="color" v="0,85,255,255"/>
-        <prop k="color_border" v="0,0,0,255"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="style" v="b_diagonal"/>
-        <prop k="style_border" v="no"/>
-        <prop k="width_border" v="0.26"/>
-       </layer>
-      </symbol>
-     </symbols>
-    </VectorClassificationItemNg>
-   </LayerItem>
-   <LayerItem layerId="2010_final_tiles_clip20120116235844856" text="2010-final-tiles-clip">
+   <LayerItem layerId="2010_final_tiles_clip20120116235844856" text="2010 ortho mosiac">
     <VectorClassificationItemNg text="297,000 km2">
      <symbols>
       <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
@@ -69,10 +61,10 @@
     </VectorClassificationItemNg>
    </LayerItem>
   </Model>
-  <ComposerItem width="63" x="227.7128712871287" y="7.834158415841586" rotation="0" height="45.3" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="1.914691943127962" id="" positionLock="false">
+  <ComposerItem width="63" x="227.7128712871287" y="7.834158415841586" rotation="0" height="33.3" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="1.914691943127962" id="" positionLock="false">
    <FrameColor alpha="255" red="0" blue="0" green="0"/>
    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
   </ComposerItem>
  </ComposerLegend>
- <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
+ <Composition printResolution="100" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
 </Composer>
