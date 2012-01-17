@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20110503</CreaDate><CreaTime>13465300</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20110503" Time="134653">CalculateField NM2_20110408_offset offset 0.25
+ VB #</Process><Process ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20110503" Time="134956">CalculateField NM2_20110408_offset offset 0.25
+ VB #</Process><Process ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20110503" Time="135009">CalculateField NM2_20110408_offset offset 0 VB #</Process></lineage></DataProperties></Esri></metadata>
