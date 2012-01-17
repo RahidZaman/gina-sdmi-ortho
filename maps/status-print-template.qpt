@@ -1,0 +1,78 @@
+<Composer title="Composer 1" visible="1">
+ <ComposerLabel valign="32" labelText="website: http://alaskamapped.org/ortho&#xa;WMS:       http://wms.alaskamapped.org/ortho/&#xa;contact:  orthoproj@gina.alaska.edu" halign="1" margin="1">
+  <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0"/>
+  <FontColor red="0" blue="0" green="0"/>
+  <ComposerItem width="78.34158415841583" x="202.1212871287129" y="182.2747524752475" rotation="0" height="15.14603960396038" frame="true" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="1.914691943127962" id="" positionLock="false">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerLabel>
+ <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+  <Extent ymin="359706.8929224977" xmin="-1438952.17626161" ymax="2416605.135227599" xmax="1467574.006920674"/>
+  <LayerSet/>
+  <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+   <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+  </Grid>
+  <ComposerItem width="300.01" x="-1.789603960396043" y="-1.311881188118811" rotation="0" height="212.3118811881188" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="1.914691943127962" id="" positionLock="false">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerMap>
+ <ComposerLegend symbolWidth="7" title="SDMI Ortho" boxSpace="2" titleFont="Ubuntu,16,-1,5,50,0,0,0,0,0" map="0" groupFont="Ubuntu,14,-1,5,50,0,0,0,0,0" layerFont="Ubuntu,12,-1,5,50,0,0,0,0,0" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" itemFont="Ubuntu,12,-1,5,50,0,0,0,0,0">
+  <Model autoUpdate="1">
+   <LayerItem layerId="2010_limbo20120116162619040" text="2010 pending acceptance">
+    <VectorClassificationItemNg text="">
+     <symbols>
+      <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+       <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="color" v="0,85,255,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="style" v="b_diagonal"/>
+        <prop k="style_border" v="no"/>
+        <prop k="width_border" v="0.26"/>
+       </layer>
+      </symbol>
+     </symbols>
+    </VectorClassificationItemNg>
+   </LayerItem>
+   <LayerItem layerId="2010_final_tiles_clip20120116235844856" text="2010-final-tiles-clip">
+    <VectorClassificationItemNg text="297,000 km2">
+     <symbols>
+      <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+       <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="color" v="255,255,127,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.26"/>
+       </layer>
+      </symbol>
+     </symbols>
+    </VectorClassificationItemNg>
+   </LayerItem>
+   <LayerItem layerId="2009_2010_2011_source20120116234851013" text="SPOT5 L1A source (2009-2011)">
+    <VectorClassificationItemNg text="900,000 km2">
+     <symbols>
+      <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+       <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="color" v="0,170,0,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.26"/>
+       </layer>
+      </symbol>
+     </symbols>
+    </VectorClassificationItemNg>
+   </LayerItem>
+  </Model>
+  <ComposerItem width="63" x="227.7128712871287" y="7.834158415841586" rotation="0" height="45.3" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="1.914691943127962" id="" positionLock="false">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerLegend>
+ <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
+</Composer>
