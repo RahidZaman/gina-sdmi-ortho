@@ -63,7 +63,7 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::Unchecked" name="SDMI-Extras">
+        <legendgroup open="true" checked="Qt::Unchecked" name="SDMI-Extras">
             <legendlayer open="false" checked="Qt::Unchecked" name="Pseudo Color Landsat" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="Pseudo_Color_Landsat20120116151225930" visible="0"/>

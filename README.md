@@ -22,6 +22,5 @@ source
 
 Information about the SPOT5 L1A source scenes that went into make the SDMI Orthomosaic products. 
 
-2009\_2010 - first year source scenes (2009 data pulled from archive)
-
-2011 - new scenes collected in 2011 and a few additional archive scenes 
+* 2009\_2010 - first year source scenes (2009 data pulled from archive)
+* 2011 - new scenes collected in 2011 and a few additional archive scenes 
