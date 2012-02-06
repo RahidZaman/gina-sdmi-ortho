@@ -27,3 +27,16 @@ Information about the SPOT5 L1A source scenes that went into make the SDMI Ortho
 * 2011 - new scenes collected in 2011 and a few additional archive scenes 
 
 You can download the 2012.01 version of this dataset from: https://github.com/gina-alaska/gina-sdmi-ortho/downloads
+
+docs
+----
+
+Documents directly related to the SDMI ortho program or some helpful layers 
+to assist in using data here.
+
+
+maps
+----
+
+Exported maps showing project status or highlights used for outreach and
+education of the project.
