@@ -1,2 +1,9 @@
-wget http://soy.gina.alaska.edu/gina/gina.bath/gina-bath-2004-aa-grey.tif
+# concept is to make it easy to grab large files w/o shoving them in github
+# try doing a fun:  source *.wget
+
+if [ ! -f gina-bath-2004-aa-grey.tif ]; then
+  wget http://soy.gina.alaska.edu/gina/gina.bath/gina-bath-2004-aa-grey.tif
+else
+  echo "gina-bath-2004-aa-grey.tif already downloaded. skipping download"
+fi
 md5sum -c gina-bath-2004-aa-grey.tif.md5
