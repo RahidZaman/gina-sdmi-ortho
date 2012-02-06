@@ -23,7 +23,11 @@ http://wms.alaskamapped.org/ortho/pan
 TILES
 =====
 
-Web developers looking to use the tile layers in OpenLayers or Google Maps should 
-take a look at [GINA map layers](https://github.com/gina-alaska/gina-map-layers) 
-for documentation, examples, and a javascript library to help you integrate the
-SDMI ortho tiles into your application.
+Web developers looking to use the tile layers in OpenLayers or Google Maps 
+should take a look at our GINA map layers project at:
+
+https://github.com/gina-alaska/gina-map-layers 
+----------------------------------------------
+
+GINA map layers provides documentation, examples, and a javascript library to 
+help you integrate the SDMI ortho tiles into your application.

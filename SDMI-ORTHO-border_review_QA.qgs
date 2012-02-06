@@ -1,0 +1,2421 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="1.8.0-Trunk">
+    <title></title>
+    <mapcanvas>
+        <units>meters</units>
+        <extent>
+            <xmin>-2262313.077281</xmin>
+            <ymin>145170.381306</ymin>
+            <xmax>1584292.268132</xmax>
+            <ymax>2643294.717471</ymax>
+        </extent>
+        <projections>0</projections>
+        <destinationsrs>
+            <spatialrefsys>
+                <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                <srsid>1296</srsid>
+                <srid>3338</srid>
+                <authid>EPSG:3338</authid>
+                <description>NAD83 / Alaska Albers</description>
+                <projectionacronym>aea</projectionacronym>
+                <ellipsoidacronym>GRS80</ellipsoidacronym>
+                <geographicflag>false</geographicflag>
+            </spatialrefsys>
+        </destinationsrs>
+    </mapcanvas>
+    <legend>
+        <legendlayer open="true" checked="Qt::Unchecked" name="sdmi-clip-mask-120201-KP1+NM" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="sdmi_clip_mask_120201_KP1_NM20120201090255669" visible="0"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Unchecked" name="sdmi-clip-mask-120201-KP1" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="sdmi_clip_mask_120201_KP120120201090158364" visible="0"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Unchecked" name="kenai-mod-aa" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="kenai_mod_aa20120201085810369" visible="0"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Unchecked" name="multi-part-110623" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="multi_part_11062320120201085535112" visible="0"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Unchecked" name="2011-northslop-mod" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="2011_northslop_mod20120131133125832" visible="0"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="false" checked="Qt::Unchecked" name="sdmi-clip-mask-110623" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="sdmi_clip_mask_11062320110802094522468" visible="0"/>
+            </filegroup>
+        </legendlayer>
+        <legendgroup open="true" checked="Qt::Unchecked" name="SDMI.ORTHO">
+            <legendlayer open="false" checked="Qt::Unchecked" name="sdmi_ortho_tile_layout" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="sdmi_ortho_tile_layout20110912121929084" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer open="true" checked="Qt::Unchecked" name="clip_mask_KP1-aa" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="clip_mask_KP1_aa20120131154931189" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer open="true" checked="Qt::Unchecked" name="2010_prod_ortho_tiles" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="2010_prod_ortho_tiles20110803161727325" visible="0"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendgroup open="true" checked="Qt::Unchecked" name="WMS Imagery">
+            <legendlayer open="false" checked="Qt::Unchecked" name="ORTHO.RGB-overview/ORTHO.RGB" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="ORTHO_RGB_overview_ORTHO_RGB20110531152429450" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer open="false" checked="Qt::Unchecked" name="ORTHO_CIR-overview/ORTHO.CIR" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="ORTHO_CIR_overview_ORTHO_CIR20110531152434362" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer open="false" checked="Qt::Unchecked" name="bdl_high_res" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="bdl_high_res20110830143133680" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer open="true" checked="Qt::Unchecked" name="bdl_mid_res_full/bdl_mid_res_overview" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="bdl_mid_res_full_bdl_mid_res_overview20110601114837201" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer open="true" checked="Qt::Unchecked" name="bdl_low_overview/bdl_low_full" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="bdl_low_overview_bdl_low_full20110615112059842" visible="0"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendlayer open="false" checked="Qt::Unchecked" name="Charts" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="Charts20120131132614742" visible="0"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="false" checked="Qt::Checked" name="2012-01-06-source_scenes-ms" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="2012_01_06_source_scenes_ms20120131131837704" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="false" checked="Qt::Checked" name="2012-01-06-source_scenes-pan" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="2012_01_06_source_scenes_pan20120131131731810" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendgroup open="true" checked="Qt::PartiallyChecked" name="blue-marbles">
+            <legendlayer open="false" checked="Qt::Checked" name="newblue-aa.jpg" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="newblue_aa_jpg20110814153342365" visible="1"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer open="false" checked="Qt::Unchecked" name="oldblue-aa.jpg" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="oldblue_aa_jpg20110814153347758" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer open="false" checked="Qt::Unchecked" name="greyblue-aa" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="greyblue_aa20110814153543891" visible="0"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+    </legend>
+    <Composer title="Composer 1" visible="0">
+        <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
+    </Composer>
+    <Composer title="Composer 2" visible="0">
+        <ComposerLabel valign="32" labelText="Glacier Bay - 2010 Glacier Extent&#xa;Landsat ETM+ 2010 scene derived&#xa;University of Alaska Fairbanks &#xa;                 ---&#xa;SDMI.ORTHO.CIR  - 2010 SPOT5&#xa;Statewide Digitinal Mapping Initative&#xa;http://alaskamapped.org&#xa;http://gina.alaska.edu" halign="1" margin="1">
+            <LabelFont description="Abyssinica SIL,8,-1,5,50,0,0,0,0,0"/>
+            <FontColor red="0" blue="0" green="0"/>
+            <ComposerItem width="54.7952898550725" x="171.9438405797101" y="120.3876811594203" rotation="0" height="26.45289855072463" frame="true" outlineWidth="0.3" zValue="4" lastValidViewScaleFactor="3.704697986577181" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLabel>
+        <ComposerLegend symbolWidth="7" title="SDMI CIR ortho" boxSpace="2" titleFont="Sans,16,-1,5,50,0,0,0,0,0" map="0" groupFont="Sans,14,-1,5,50,0,0,0,0,0" layerFont="Sans,12,-1,5,50,0,0,0,0,0" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" itemFont="Sans,12,-1,5,50,0,0,0,0,0">
+            <Model autoUpdate="1">
+                <LayerItem layerId="GlacierBay_2010_IceBounds20110812152719774" text="Glacier Bay Ice Bounds">
+                    <VectorClassificationItem layerId="GlacierBay_2010_IceBounds20110812152719774" text="Land Terminating"/>
+                </LayerItem>
+                <LayerItem layerId="newblue_aa_jpg20110814153342365" text="newblue-aa.jpg"/>
+                <LayerItem layerId="oldblue_aa_jpg20110814153347758" text="oldblue-aa.jpg"/>
+                <LayerItem layerId="greyblue_aa20110814153543891" text="greyblue-aa">
+                    <RasterClassificationItem layerId="greyblue_aa20110814153543891" color="#7d7d7d" text="0-255"/>
+                </LayerItem>
+                <LayerItem layerId="2011_08_30_source_scenes20110830142854620" text="2011-08-30-source_scenes">
+                    <VectorClassificationItem layerId="2011_08_30_source_scenes20110830142854620" text="default"/>
+                    <VectorClassificationItem layerId="2011_08_30_source_scenes20110830142854620" text="accepted"/>
+                    <VectorClassificationItem layerId="2011_08_30_source_scenes20110830142854620" text="flagged"/>
+                    <VectorClassificationItem layerId="2011_08_30_source_scenes20110830142854620" text="unknown"/>
+                </LayerItem>
+                <LayerItem layerId="bdl_high_res20110830143133680" text="bdl_high_res"/>
+                <LayerItem layerId="2011_08_30_source_scenes_ms20110830143244549" text="2011-08-30-source_scenes-ms"/>
+                <LayerItem layerId="2011_09_12_source_scenes20110912083827559" text="2011-09-12-source_scenes">
+                    <VectorClassificationItem layerId="2011_09_12_source_scenes20110912083827559" text="default"/>
+                    <VectorClassificationItem layerId="2011_09_12_source_scenes20110912083827559" text="accepted"/>
+                    <VectorClassificationItem layerId="2011_09_12_source_scenes20110912083827559" text="flagged"/>
+                    <VectorClassificationItem layerId="2011_09_12_source_scenes20110912083827559" text="unknown"/>
+                </LayerItem>
+                <LayerItem layerId="need_scenes20110912084626890" text="need_scenes">
+                    <VectorClassificationItem layerId="need_scenes20110912084626890" text=""/>
+                </LayerItem>
+                <LayerItem layerId="sdmi_ortho_tile_layout20110912121929084" text="sdmi_ortho_tile_layout">
+                    <VectorClassificationItem layerId="sdmi_ortho_tile_layout20110912121929084" text="">
+                        <symbol>
+                            <lowervalue></lowervalue>
+                            <uppervalue></uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="170" blue="0" green="170"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="232" blue="124" green="177"/>
+                            <fillpattern>NoBrush</fillpattern>
+                            <texturepath></texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                </LayerItem>
+                <LayerItem layerId="2012_01_06_source_scenes_pan20120131131731810" text="2012-01-06-source_scenes-pan">
+                    <RasterClassificationItem layerId="2012_01_06_source_scenes_pan20120131131731810" color="#7d7d7d" text="0-255"/>
+                </LayerItem>
+                <LayerItem layerId="2012_01_06_source_scenes_ms20120131131837704" text="2012-01-06-source_scenes-ms"/>
+                <LayerItem layerId="Charts20120131132614742" text="Charts"/>
+                <LayerItem layerId="2011_northslop_mod20120131133125832" text="2011-northslop-mod">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="149,122,94,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="clip_mask_KP1_aa20120131154931189" text="clip_mask_KP1-aa">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="83,139,31,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="multi_part_11062320120201085535112" text="multi-part-110623">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="232,112,152,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="kenai_mod_aa20120201085810369" text="kenai-mod-aa">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="50,253,98,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="sdmi_clip_mask_120201_KP120120201090158364" text="sdmi-clip-mask-120201-KP1">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="78,142,67,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="sdmi_clip_mask_120201_KP1_NM20120201090255669" text="sdmi-clip-mask-120201-KP1+NM">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="103,187,61,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+            </Model>
+            <ComposerItem width="73" x="174.643115942029" y="2.159420289855065" rotation="0" height="235.3000000000001" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="3.38961038961039" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLegend>
+        <ComposerLabel valign="32" labelText="http://www.alaskamapped.org/ortho" halign="1" margin="1">
+            <LabelFont description="Sans,10,-1,5,50,0,0,0,0,0"/>
+            <FontColor red="0" blue="0" green="0"/>
+            <ComposerItem width="66.13224637681158" x="2.699275362318842" y="139.552536231884" rotation="0" height="7.018115942028992" frame="true" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="3.704697986577181" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLabel>
+        <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+            <Extent ymin="1096326.786019258" xmin="1068836.266897145" ymax="1100837.254258778" xmax="1075728.141320045"/>
+            <LayerSet/>
+            <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+                <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Sans,10,-1,5,50,0,0,0,0,0"/>
+            </Grid>
+            <ComposerItem width="230.2173913043478" x="-0.2391304347826084" y="-0.5887681159420284" rotation="0" height="150.6684782608696" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="3.704697986577181" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerMap>
+        <Composition printResolution="300" paperWidth="230" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="150" printAsRaster="0"/>
+    </Composer>
+    <Composer title="Composer 3" visible="0">
+        <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+            <Extent ymin="987062.4892207029" xmin="100034.5844744247" ymax="1000654.180709954" xmax="119230.0160542811"/>
+            <LayerSet/>
+            <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+                <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Sans,10,-1,5,50,0,0,0,0,0"/>
+            </Grid>
+            <ComposerItem width="297.73" x="0" y="0" rotation="0" height="210.8134057971014" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="3.704697986577181" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerMap>
+        <ComposerLegend symbolWidth="7" title="Clipping mask probelms" boxSpace="2" titleFont="Sans,16,-1,5,50,0,0,0,0,0" map="0" groupFont="Sans,14,-1,5,50,0,0,0,0,0" layerFont="Sans,12,-1,5,50,0,0,0,0,0" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" itemFont="Sans,12,-1,5,50,0,0,0,0,0">
+            <Model autoUpdate="1">
+                <LayerItem layerId="sdmi_clip_mask_11062320110802094522468" text="Current SDMI ORTHO clip mask">
+                    <VectorClassificationItem layerId="sdmi_clip_mask_11062320110802094522468" text="">
+                        <symbol>
+                            <lowervalue></lowervalue>
+                            <uppervalue></uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="255" blue="0" green="255"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="41" blue="169" green="89"/>
+                            <fillpattern>NoBrush</fillpattern>
+                            <texturepath></texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                </LayerItem>
+                <LayerItem layerId="newblue_aa_jpg20110814153342365" text="newblue-aa.jpg"/>
+                <LayerItem layerId="oldblue_aa_jpg20110814153347758" text="oldblue-aa.jpg"/>
+                <LayerItem layerId="greyblue_aa20110814153543891" text="greyblue-aa">
+                    <RasterClassificationItem layerId="greyblue_aa20110814153543891" color="#7d7d7d" text="0-255"/>
+                </LayerItem>
+                <LayerItem layerId="2011_08_30_source_scenes20110830142854620" text="2011-08-30-source_scenes">
+                    <VectorClassificationItem layerId="2011_08_30_source_scenes20110830142854620" text="default"/>
+                    <VectorClassificationItem layerId="2011_08_30_source_scenes20110830142854620" text="accepted"/>
+                    <VectorClassificationItem layerId="2011_08_30_source_scenes20110830142854620" text="flagged"/>
+                    <VectorClassificationItem layerId="2011_08_30_source_scenes20110830142854620" text="unknown"/>
+                </LayerItem>
+                <LayerItem layerId="bdl_high_res20110830143133680" text="bdl_high_res"/>
+                <LayerItem layerId="2011_08_30_source_scenes_ms20110830143244549" text="2011-08-30-source_scenes-ms"/>
+                <LayerItem layerId="2011_09_12_source_scenes20110912083827559" text="2011-09-12-source_scenes">
+                    <VectorClassificationItem layerId="2011_09_12_source_scenes20110912083827559" text="default"/>
+                    <VectorClassificationItem layerId="2011_09_12_source_scenes20110912083827559" text="accepted"/>
+                    <VectorClassificationItem layerId="2011_09_12_source_scenes20110912083827559" text="flagged"/>
+                    <VectorClassificationItem layerId="2011_09_12_source_scenes20110912083827559" text="unknown"/>
+                </LayerItem>
+                <LayerItem layerId="need_scenes20110912084626890" text="need_scenes">
+                    <VectorClassificationItem layerId="need_scenes20110912084626890" text=""/>
+                </LayerItem>
+                <LayerItem layerId="sdmi_ortho_tile_layout20110912121929084" text="sdmi_ortho_tile_layout">
+                    <VectorClassificationItem layerId="sdmi_ortho_tile_layout20110912121929084" text="">
+                        <symbol>
+                            <lowervalue></lowervalue>
+                            <uppervalue></uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="170" blue="0" green="170"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="232" blue="124" green="177"/>
+                            <fillpattern>NoBrush</fillpattern>
+                            <texturepath></texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                </LayerItem>
+                <LayerItem layerId="2012_01_06_source_scenes_pan20120131131731810" text="2012-01-06-source_scenes-pan">
+                    <RasterClassificationItem layerId="2012_01_06_source_scenes_pan20120131131731810" color="#7d7d7d" text="0-255"/>
+                </LayerItem>
+                <LayerItem layerId="2012_01_06_source_scenes_ms20120131131837704" text="2012-01-06-source_scenes-ms"/>
+                <LayerItem layerId="Charts20120131132614742" text="Charts"/>
+                <LayerItem layerId="2011_northslop_mod20120131133125832" text="2011-northslop-mod">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="149,122,94,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="clip_mask_KP1_aa20120131154931189" text="clip_mask_KP1-aa">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="83,139,31,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="multi_part_11062320120201085535112" text="multi-part-110623">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="232,112,152,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="kenai_mod_aa20120201085810369" text="kenai-mod-aa">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="50,253,98,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="sdmi_clip_mask_120201_KP120120201090158364" text="sdmi-clip-mask-120201-KP1">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="78,142,67,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="sdmi_clip_mask_120201_KP1_NM20120201090255669" text="sdmi-clip-mask-120201-KP1+NM">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="103,187,61,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+            </Model>
+            <ComposerItem width="73" x="211.3532608695652" y="9.447463768115938" rotation="0" height="235.3000000000001" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.614093959731544" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLegend>
+        <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
+    </Composer>
+    <Composer title="Composer 4" visible="0">
+        <ComposerMap keepLayerSet="true" id="0" previewMode="Cache" drawCanvasItems="true">
+            <Extent ymin="2267640.798263231" xmin="222767.1004741879" ymax="2277251.512430581" xmax="236340.5261702561"/>
+            <LayerSet>
+                <Layer>sdmi_clip_mask_11062320110802094522468</Layer>
+            </LayerSet>
+            <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+                <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Sans,10,-1,5,50,0,0,0,0,0"/>
+            </Grid>
+            <ComposerItem width="298" x="0" y="0" rotation="0" height="211" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="3.704697986577181" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerMap>
+        <ComposerMap keepLayerSet="false" id="1" previewMode="Cache" drawCanvasItems="true">
+            <Extent ymin="-289158.8211664441" xmin="-2261566.077315446" ymax="2690013.120974546" xmax="1584274.06617565"/>
+            <LayerSet/>
+            <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+                <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Sans,10,-1,5,50,0,0,0,0,0"/>
+            </Grid>
+            <ComposerItem width="71" x="2.93297101449275" y="102.2028985507246" rotation="0" height="55" frame="true" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="3.704697986577181" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerMap>
+        <ComposerLegend symbolWidth="7" title="Clipping North Slope islands/infrastructure" boxSpace="2" titleFont="Sans,16,-1,5,50,0,0,0,0,0" map="0" groupFont="Sans,14,-1,5,50,0,0,0,0,0" layerFont="Sans,12,-1,5,50,0,0,0,0,0" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" itemFont="Sans,12,-1,5,50,0,0,0,0,0">
+            <Model autoUpdate="1">
+                <LayerItem layerId="sdmi_clip_mask_11062320110802094522468" text="Current SDMI ORTHO clip mask">
+                    <VectorClassificationItem layerId="sdmi_clip_mask_11062320110802094522468" text="">
+                        <symbol>
+                            <lowervalue></lowervalue>
+                            <uppervalue></uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="255" blue="0" green="255"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.46</outlinewidth>
+                            <fillcolor red="41" blue="169" green="89"/>
+                            <fillpattern>NoBrush</fillpattern>
+                            <texturepath></texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                </LayerItem>
+                <LayerItem layerId="newblue_aa_jpg20110814153342365" text="newblue-aa.jpg"/>
+                <LayerItem layerId="oldblue_aa_jpg20110814153347758" text="oldblue-aa.jpg"/>
+                <LayerItem layerId="greyblue_aa20110814153543891" text="greyblue-aa">
+                    <RasterClassificationItem layerId="greyblue_aa20110814153543891" color="#7d7d7d" text="0-255"/>
+                </LayerItem>
+                <LayerItem layerId="2011_08_30_source_scenes20110830142854620" text="2011-08-30-source_scenes">
+                    <VectorClassificationItem layerId="2011_08_30_source_scenes20110830142854620" text="default"/>
+                    <VectorClassificationItem layerId="2011_08_30_source_scenes20110830142854620" text="accepted"/>
+                    <VectorClassificationItem layerId="2011_08_30_source_scenes20110830142854620" text="flagged"/>
+                    <VectorClassificationItem layerId="2011_08_30_source_scenes20110830142854620" text="unknown"/>
+                </LayerItem>
+                <LayerItem layerId="bdl_high_res20110830143133680" text="bdl_high_res"/>
+                <LayerItem layerId="2011_08_30_source_scenes_ms20110830143244549" text="2011-08-30-source_scenes-ms"/>
+                <LayerItem layerId="2011_09_12_source_scenes20110912083827559" text="2011-09-12-source_scenes">
+                    <VectorClassificationItem layerId="2011_09_12_source_scenes20110912083827559" text="default"/>
+                    <VectorClassificationItem layerId="2011_09_12_source_scenes20110912083827559" text="accepted"/>
+                    <VectorClassificationItem layerId="2011_09_12_source_scenes20110912083827559" text="flagged"/>
+                    <VectorClassificationItem layerId="2011_09_12_source_scenes20110912083827559" text="unknown"/>
+                </LayerItem>
+                <LayerItem layerId="need_scenes20110912084626890" text="need_scenes">
+                    <VectorClassificationItem layerId="need_scenes20110912084626890" text=""/>
+                </LayerItem>
+                <LayerItem layerId="sdmi_ortho_tile_layout20110912121929084" text="sdmi_ortho_tile_layout">
+                    <VectorClassificationItem layerId="sdmi_ortho_tile_layout20110912121929084" text="">
+                        <symbol>
+                            <lowervalue></lowervalue>
+                            <uppervalue></uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="170" blue="0" green="170"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="232" blue="124" green="177"/>
+                            <fillpattern>NoBrush</fillpattern>
+                            <texturepath></texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                </LayerItem>
+                <LayerItem layerId="2012_01_06_source_scenes_pan20120131131731810" text="2012-01-06-source_scenes-pan">
+                    <RasterClassificationItem layerId="2012_01_06_source_scenes_pan20120131131731810" color="#7d7d7d" text="0-255"/>
+                </LayerItem>
+                <LayerItem layerId="2012_01_06_source_scenes_ms20120131131837704" text="2012-01-06-source_scenes-ms"/>
+                <LayerItem layerId="Charts20120131132614742" text="Charts"/>
+                <LayerItem layerId="2011_northslop_mod20120131133125832" text="2011-northslop-mod">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="149,122,94,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="clip_mask_KP1_aa20120131154931189" text="clip_mask_KP1-aa">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="83,139,31,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="multi_part_11062320120201085535112" text="multi-part-110623">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="232,112,152,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="kenai_mod_aa20120201085810369" text="kenai-mod-aa">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="50,253,98,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="sdmi_clip_mask_120201_KP120120201090158364" text="sdmi-clip-mask-120201-KP1">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="78,142,67,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="sdmi_clip_mask_120201_KP1_NM20120201090255669" text="sdmi-clip-mask-120201-KP1+NM">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="103,187,61,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+            </Model>
+            <ComposerItem width="123" x="160.606884057971" y="3.239130434782606" rotation="0" height="235.3000000000001" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="3.704697986577181" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLegend>
+        <ComposerLabel valign="32" labelText="Example of the original clipping mask issue, generated from state &#xa;boundary with 1km buffer, missing islands and infrastructure.  New &#xa;clip mask generated from a combination of original, plus 1km buffer &#xa;on the TerraColor Landsat dataset, plus additional human editing." halign="1" margin="1">
+            <LabelFont description="Sans,10,-1,5,50,0,0,0,0,0"/>
+            <FontColor red="0" blue="0" green="0"/>
+            <ComposerItem width="129.0253623188406" x="63.97282608695653" y="186.25" rotation="0" height="20.51449275362315" frame="true" outlineWidth="0.3" zValue="4" lastValidViewScaleFactor="3.704697986577181" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLabel>
+        <ComposerLabel valign="32" labelText="SDMI ORTHO RGB&#xa;TerraColor Landsat&#xa;NASA BlueMarble&#xa;http://alaskamapped.org/ortho" halign="1" margin="1">
+            <LabelFont description="Sans,10,-1,5,50,0,0,0,0,0"/>
+            <FontColor red="0" blue="0" green="0"/>
+            <ComposerItem width="56.68478260869565" x="3.239130434782606" y="186.5199275362319" rotation="0" height="20.2445652173913" frame="true" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="3.704697986577181" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLabel>
+        <ComposerShape shapeType="2" shapeWidth="4.588768115942031" outlineWidth="1" transparentFill="1" shapeHeight="4.588768115942031">
+            <OutlineColor alpha="255" red="0" blue="0" green="255"/>
+            <FillColor alpha="255" red="0" blue="0" green="0"/>
+            <ComposerItem width="4.588768115942031" x="46.69746376811594" y="107.7010869565217" rotation="0" height="4.588768115942031" frame="true" outlineWidth="0" zValue="6" lastValidViewScaleFactor="2.560402684563758" id="" positionLock="false">
+                <FrameColor alpha="0" red="255" blue="255" green="255"/>
+                <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerShape>
+        <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
+    </Composer>
+    <Composer title="Composer 5" visible="0">
+        <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
+    </Composer>
+    <Composer title="Composer 6" visible="0">
+        <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+            <Extent ymin="1125039.093222608" xmin="58770.23642232187" ymax="1143983.780672396" xmax="85526.24049832531"/>
+            <LayerSet/>
+            <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+                <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Sans,10,-1,5,50,0,0,0,0,0"/>
+            </Grid>
+            <ComposerItem width="298" x="-0.5398550724637516" y="-0.5398550724637801" rotation="0" height="211" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="3.704697986577181" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerMap>
+        <ComposerLegend symbolWidth="7" title="Overly agressive clipping of river deltas" boxSpace="2" titleFont="Sans,16,-1,5,50,0,0,0,0,0" map="0" groupFont="Sans,14,-1,5,50,0,0,0,0,0" layerFont="Sans,12,-1,5,50,0,0,0,0,0" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" itemFont="Sans,12,-1,5,50,0,0,0,0,0">
+            <Model autoUpdate="1">
+                <LayerItem layerId="sdmi_clip_mask_11062320110802094522468" text="Current SDMI ORTHO clip mask">
+                    <VectorClassificationItem layerId="sdmi_clip_mask_11062320110802094522468" text="">
+                        <symbol>
+                            <lowervalue></lowervalue>
+                            <uppervalue></uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="255" blue="0" green="255"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.46</outlinewidth>
+                            <fillcolor red="41" blue="169" green="89"/>
+                            <fillpattern>NoBrush</fillpattern>
+                            <texturepath></texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                </LayerItem>
+                <LayerItem layerId="2011_08_30_source_scenes20110830142854620" text="2011-08-30-source_scenes">
+                    <VectorClassificationItem layerId="2011_08_30_source_scenes20110830142854620" text="default"/>
+                    <VectorClassificationItem layerId="2011_08_30_source_scenes20110830142854620" text="accepted"/>
+                    <VectorClassificationItem layerId="2011_08_30_source_scenes20110830142854620" text="flagged"/>
+                    <VectorClassificationItem layerId="2011_08_30_source_scenes20110830142854620" text="unknown"/>
+                </LayerItem>
+                <LayerItem layerId="bdl_high_res20110830143133680" text="bdl_high_res"/>
+                <LayerItem layerId="2011_08_30_source_scenes_ms20110830143244549" text="2011-08-30-source_scenes-ms"/>
+                <LayerItem layerId="2011_09_12_source_scenes20110912083827559" text="2011-09-12-source_scenes">
+                    <VectorClassificationItem layerId="2011_09_12_source_scenes20110912083827559" text="default"/>
+                    <VectorClassificationItem layerId="2011_09_12_source_scenes20110912083827559" text="accepted"/>
+                    <VectorClassificationItem layerId="2011_09_12_source_scenes20110912083827559" text="flagged"/>
+                    <VectorClassificationItem layerId="2011_09_12_source_scenes20110912083827559" text="unknown"/>
+                </LayerItem>
+                <LayerItem layerId="need_scenes20110912084626890" text="need_scenes">
+                    <VectorClassificationItem layerId="need_scenes20110912084626890" text=""/>
+                </LayerItem>
+                <LayerItem layerId="sdmi_ortho_tile_layout20110912121929084" text="sdmi_ortho_tile_layout">
+                    <VectorClassificationItem layerId="sdmi_ortho_tile_layout20110912121929084" text="">
+                        <symbol>
+                            <lowervalue></lowervalue>
+                            <uppervalue></uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="170" blue="0" green="170"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="232" blue="124" green="177"/>
+                            <fillpattern>NoBrush</fillpattern>
+                            <texturepath></texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                </LayerItem>
+                <LayerItem layerId="2012_01_06_source_scenes_pan20120131131731810" text="2012-01-06-source_scenes-pan">
+                    <RasterClassificationItem layerId="2012_01_06_source_scenes_pan20120131131731810" color="#7d7d7d" text="0-255"/>
+                </LayerItem>
+                <LayerItem layerId="2012_01_06_source_scenes_ms20120131131837704" text="2012-01-06-source_scenes-ms"/>
+                <LayerItem layerId="Charts20120131132614742" text="Charts"/>
+                <LayerItem layerId="2011_northslop_mod20120131133125832" text="2011-northslop-mod">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="149,122,94,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="clip_mask_KP1_aa20120131154931189" text="clip_mask_KP1-aa">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="83,139,31,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="multi_part_11062320120201085535112" text="multi-part-110623">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="232,112,152,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="kenai_mod_aa20120201085810369" text="kenai-mod-aa">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="50,253,98,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="sdmi_clip_mask_120201_KP120120201090158364" text="sdmi-clip-mask-120201-KP1">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="78,142,67,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="sdmi_clip_mask_120201_KP1_NM20120201090255669" text="sdmi-clip-mask-120201-KP1+NM">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="103,187,61,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+            </Model>
+            <ComposerItem width="115" x="11.33695652173911" y="160.0670289855072" rotation="0" height="211.6000000000001" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.560402684563758" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLegend>
+        <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
+    </Composer>
+    <Composer title="Composer 7" visible="0">
+        <ComposerLabel valign="32" labelText="http://alaskamapped.org/ortho" halign="1" margin="1">
+            <LabelFont description="Sans,10,-1,5,50,0,0,0,0,0"/>
+            <FontColor red="0" blue="0" green="0"/>
+            <ComposerItem width="57.76449275362319" x="236.1865942028985" y="199.7463768115942" rotation="0" height="7.288043478260867" frame="true" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="3.704697986577181" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLabel>
+        <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+            <Extent ymin="355053.0855615974" xmin="-1682165.582630489" ymax="2655715.225543273" xmax="1562636.20913612"/>
+            <LayerSet/>
+            <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+                <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Sans,10,-1,5,50,0,0,0,0,0"/>
+            </Grid>
+            <ComposerItem width="299" x="-1" y="-1" rotation="0" height="212" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="3.704697986577181" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerMap>
+        <ComposerLegend symbolWidth="7" title="SDMI Ortho source collection" boxSpace="2" titleFont="Sans,16,-1,5,50,0,0,0,0,0" map="0" groupFont="Sans,14,-1,5,50,0,0,0,0,0" layerFont="Sans,12,-1,5,50,0,0,0,0,0" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" itemFont="Sans,12,-1,5,50,0,0,0,0,0">
+            <Model autoUpdate="1">
+                <LayerItem layerId="2011_08_30_source_scenes20110830142854620" text="2011-08-30-source_scenes">
+                    <VectorClassificationItem layerId="2011_08_30_source_scenes20110830142854620" text="default"/>
+                    <VectorClassificationItem layerId="2011_08_30_source_scenes20110830142854620" text="accepted"/>
+                    <VectorClassificationItem layerId="2011_08_30_source_scenes20110830142854620" text="flagged"/>
+                    <VectorClassificationItem layerId="2011_08_30_source_scenes20110830142854620" text="unknown"/>
+                </LayerItem>
+                <LayerItem layerId="bdl_high_res20110830143133680" text="bdl_high_res"/>
+                <LayerItem layerId="2011_08_30_source_scenes_ms20110830143244549" text="2011-08-30-source_scenes-ms"/>
+                <LayerItem layerId="2011_09_12_source_scenes20110912083827559" text="2011-09-12-source_scenes">
+                    <VectorClassificationItem layerId="2011_09_12_source_scenes20110912083827559" text="default"/>
+                    <VectorClassificationItem layerId="2011_09_12_source_scenes20110912083827559" text="accepted"/>
+                    <VectorClassificationItem layerId="2011_09_12_source_scenes20110912083827559" text="flagged"/>
+                    <VectorClassificationItem layerId="2011_09_12_source_scenes20110912083827559" text="unknown"/>
+                </LayerItem>
+                <LayerItem layerId="need_scenes20110912084626890" text="need_scenes">
+                    <VectorClassificationItem layerId="need_scenes20110912084626890" text=""/>
+                </LayerItem>
+                <LayerItem layerId="sdmi_ortho_tile_layout20110912121929084" text="sdmi_ortho_tile_layout">
+                    <VectorClassificationItem layerId="sdmi_ortho_tile_layout20110912121929084" text="">
+                        <symbol>
+                            <lowervalue></lowervalue>
+                            <uppervalue></uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="170" blue="0" green="170"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="232" blue="124" green="177"/>
+                            <fillpattern>NoBrush</fillpattern>
+                            <texturepath></texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                </LayerItem>
+                <LayerItem layerId="2012_01_06_source_scenes_pan20120131131731810" text="2012-01-06-source_scenes-pan">
+                    <RasterClassificationItem layerId="2012_01_06_source_scenes_pan20120131131731810" color="#7d7d7d" text="0-255"/>
+                </LayerItem>
+                <LayerItem layerId="2012_01_06_source_scenes_ms20120131131837704" text="2012-01-06-source_scenes-ms"/>
+                <LayerItem layerId="Charts20120131132614742" text="Charts"/>
+                <LayerItem layerId="2011_northslop_mod20120131133125832" text="2011-northslop-mod">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="149,122,94,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="clip_mask_KP1_aa20120131154931189" text="clip_mask_KP1-aa">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="83,139,31,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="multi_part_11062320120201085535112" text="multi-part-110623">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="232,112,152,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="kenai_mod_aa20120201085810369" text="kenai-mod-aa">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="50,253,98,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="sdmi_clip_mask_120201_KP120120201090158364" text="sdmi-clip-mask-120201-KP1">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="78,142,67,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="sdmi_clip_mask_120201_KP1_NM20120201090255669" text="sdmi-clip-mask-120201-KP1+NM">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="103,187,61,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+            </Model>
+            <ComposerItem width="84" x="205.9547101449275" y="16.73550724637681" rotation="0" height="199.7" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.597315436241611" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLegend>
+        <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
+    </Composer>
+    <projectlayers layercount="20">
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+            <id>2010_prod_ortho_tiles20110803161727325</id>
+            <datasource>/hub/tub/layers/sdmi-ortho/2010_prod_ortho_tiles/2010_prod_ortho_tiles.shp</datasource>
+            <layername>2010_prod_ortho_tiles</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="0" blue="0" green="255"/>
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.36</outlinewidth>
+                    <fillcolor red="255" blue="0" green="85"/>
+                    <fillpattern>DiagCrossPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <customproperties/>
+            <displayfield>ITEM_NAME</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="ACRUED_EFF"/>
+                <edittype type="0" name="ASSIGNEE"/>
+                <edittype type="0" name="COMPLETED_"/>
+                <edittype type="0" name="DATA_END_D"/>
+                <edittype type="0" name="DATA_START"/>
+                <edittype type="0" name="EFFORT_EST"/>
+                <edittype type="0" name="FLAG_COMPL"/>
+                <edittype type="0" name="FLAG_COM_1"/>
+                <edittype type="0" name="FLAG_DUE_D"/>
+                <edittype type="0" name="FLAG_FEMIN"/>
+                <edittype type="0" name="FLAG_REMIN"/>
+                <edittype type="0" name="FLAG_START"/>
+                <edittype type="0" name="GEOMETRY_A"/>
+                <edittype type="0" name="GEOMETRY_L"/>
+                <edittype type="0" name="GEOM_AREA"/>
+                <edittype type="0" name="GEOM_AREA_"/>
+                <edittype type="0" name="GEOM_PERIM"/>
+                <edittype type="0" name="GEOM_PER_1"/>
+                <edittype type="0" name="ITEM_CAP_F"/>
+                <edittype type="0" name="ITEM_CAP_S"/>
+                <edittype type="0" name="ITEM_DEL_F"/>
+                <edittype type="0" name="ITEM_DEL_S"/>
+                <edittype type="0" name="ITEM_DESCR"/>
+                <edittype type="0" name="ITEM_LATIT"/>
+                <edittype type="0" name="ITEM_LONGI"/>
+                <edittype type="0" name="ITEM_NAME"/>
+                <edittype type="0" name="ITEM_PRODU"/>
+                <edittype type="0" name="ITEM_PUBLI"/>
+                <edittype type="0" name="ITEM_SRID1"/>
+                <edittype type="0" name="ITEM_SRID_"/>
+                <edittype type="0" name="ITEM_STATU"/>
+                <edittype type="0" name="ITEM_STA_1"/>
+                <edittype type="0" name="ITEM_STA_2"/>
+                <edittype type="0" name="ITEM_STA_3"/>
+                <edittype type="0" name="ITEM_TYPE"/>
+                <edittype type="0" name="NEXT_TASK"/>
+                <edittype type="0" name="PERCENT_CO"/>
+                <edittype type="0" name="REF_OBJ_CL"/>
+                <edittype type="0" name="REF_OBJ_ID"/>
+                <edittype type="0" name="REF_OBJ_LA"/>
+                <edittype type="0" name="REF_S_ROWI"/>
+                <edittype type="0" name="REF_WBS_S_"/>
+                <edittype type="0" name="REL_PERCEN"/>
+                <edittype type="0" name="REL_TYPE"/>
+                <edittype type="0" name="REL_VALUE"/>
+                <edittype type="0" name="REMINDER_1"/>
+                <edittype type="0" name="REMINDER_L"/>
+                <edittype type="0" name="S_BASEFEAT"/>
+                <edittype type="0" name="S_CSDN_ID"/>
+                <edittype type="0" name="S_DECLAT"/>
+                <edittype type="0" name="S_DECLON"/>
+                <edittype type="0" name="S_FEATUREC"/>
+                <edittype type="0" name="S_MAPINDEX"/>
+                <edittype type="0" name="S_OBJGUID"/>
+                <edittype type="0" name="S_OBJID"/>
+                <edittype type="0" name="S_OBJLABEL"/>
+                <edittype type="0" name="S_OBJMODSE"/>
+                <edittype type="0" name="S_OBJMODUS"/>
+                <edittype type="0" name="S_PARENTRE"/>
+                <edittype type="0" name="S_ROWGUID"/>
+                <edittype type="0" name="S_ROWID"/>
+                <edittype type="0" name="S_ROWSTATE"/>
+                <edittype type="0" name="S_ROWVERSI"/>
+                <edittype type="0" name="S_SEARCHST"/>
+                <edittype type="0" name="S_SEQUENCE"/>
+                <edittype type="0" name="S_SYSMESSA"/>
+                <edittype type="0" name="S_TRANS_ID"/>
+                <edittype type="0" name="S_XVAL"/>
+                <edittype type="0" name="S_YVAL"/>
+                <edittype type="0" name="S_ZVAL"/>
+                <edittype type="0" name="U_OBJCLASS"/>
+                <edittype type="0" name="U_OBJOWNER"/>
+                <edittype type="0" name="U_OBJSTATE"/>
+                <edittype type="0" name="XY_UOM"/>
+                <edittype type="0" name="Z_UOM"/>
+            </edittypes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <attributeactions/>
+            <overlay display="false" type="diagram">
+                <renderer item_interpretation="linear">
+                    <diagramitem size="0" value="0"/>
+                    <diagramitem size="0" value="0"/>
+                </renderer>
+                <factory sizeUnits="MM" type="Pie">
+                    <wellknownname>Pie</wellknownname>
+                    <classificationfield>0</classificationfield>
+                </factory>
+                <scalingAttribute>0</scalingAttribute>
+            </overlay>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>2011_northslop_mod20120131133125832</id>
+            <datasource>/home/dbroders/Dropbox/sdmi-clip-mask/2011-northslope-mod/2011-northslop-mod.shp</datasource>
+            <layername>2011-northslop-mod</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="149,122,94,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>name</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>2012_01_06_source_scenes_ms20120131131837704</id>
+            <datasource>/hub/tub/layers/sdmi-ortho/2011-source_scenes/2012-01-06-source_scenes/2012-01-06-source_scenes/2012-01-06-source_scenes-ms.vrt</datasource>
+            <layername>2012-01-06-source_scenes-ms</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterproperties>
+                <mDrawingStyle>MultiBandColor</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName>Band 1</mRedBandName>
+                <mGreenBandName>Band 2</mGreenBandName>
+                <mBlueBandName>Band 3</mBlueBandName>
+                <mGrayBandName>Not Set</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">0.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="0.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="0.000000" blue="0.000000" green="0.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>2012_01_06_source_scenes_pan20120131131731810</id>
+            <datasource>/hub/tub/layers/sdmi-ortho/2011-source_scenes/2012-01-06-source_scenes/2012-01-06-source_scenes/2012-01-06-source_scenes-pan.vrt</datasource>
+            <layername>2012-01-06-source_scenes-pan</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">0.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="0.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="0.000000" blue="0.000000" green="0.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>Charts20120131132614742</id>
+            <datasource>http://wms.alaskamapped.org/charts</datasource>
+            <layername>Charts</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>wms</provider>
+            <rasterproperties>
+                <wmsSublayer>
+                    <name>Charts</name>
+                    <style></style>
+                </wmsSublayer>
+                <wmsFormat>image/png</wmsFormat>
+                <mDrawingStyle>SingleBandColorDataStyle</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>-1.79769e+308</min>
+                        <max>1.79769e+308</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="false">0.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="0.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="0.000000" blue="0.000000" green="0.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>ORTHO_CIR_overview_ORTHO_CIR20110531152434362</id>
+            <datasource>http://wms.soy.gina.alaska.edu/map/ortho</datasource>
+            <layername>ORTHO_CIR-overview/ORTHO.CIR</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>wms</provider>
+            <rasterproperties>
+                <wmsSublayer>
+                    <name>ORTHO_CIR-overview</name>
+                    <style></style>
+                </wmsSublayer>
+                <wmsSublayer>
+                    <name>ORTHO.CIR</name>
+                    <style></style>
+                </wmsSublayer>
+                <wmsFormat>image/png</wmsFormat>
+                <mDrawingStyle>SingleBandColorDataStyle</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="false"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="false"/>
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>-1.79769e+308</min>
+                        <max>1.79769e+308</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="false">0.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="0.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="0.000000" blue="0.000000" green="0.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>ORTHO_RGB_overview_ORTHO_RGB20110531152429450</id>
+            <datasource>http://wms.soy.gina.alaska.edu/map/ortho</datasource>
+            <layername>ORTHO.RGB-overview/ORTHO.RGB</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>wms</provider>
+            <rasterproperties>
+                <wmsSublayer>
+                    <name>ORTHO.RGB-overview</name>
+                    <style></style>
+                </wmsSublayer>
+                <wmsSublayer>
+                    <name>ORTHO.RGB</name>
+                    <style></style>
+                </wmsSublayer>
+                <wmsFormat>image/png</wmsFormat>
+                <mDrawingStyle>SingleBandColorDataStyle</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="true"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="true"/>
+                <mGrayMinimumMaximumEstimated boolean="false"/>
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>-1.79769e+308</min>
+                        <max>1.79769e+308</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="false">0.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="0.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="0.000000" blue="0.000000" green="0.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>bdl_high_res20110830143133680</id>
+            <datasource>http://wms.alaskamapped.org/bdl</datasource>
+            <layername>bdl_high_res</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>wms</provider>
+            <rasterproperties>
+                <wmsSublayer>
+                    <name>bdl_high_res</name>
+                    <style></style>
+                </wmsSublayer>
+                <wmsFormat>image/png</wmsFormat>
+                <mDrawingStyle>SingleBandColorDataStyle</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>-1.79769e+308</min>
+                        <max>1.79769e+308</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="false">0.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="0.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="0.000000" blue="0.000000" green="0.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>bdl_low_overview_bdl_low_full20110615112059842</id>
+            <datasource>http://wms.alaskamapped.org/bdl</datasource>
+            <layername>bdl_low_overview/bdl_low_full</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>wms</provider>
+            <rasterproperties>
+                <wmsSublayer>
+                    <name>bdl_low_overview</name>
+                    <style></style>
+                </wmsSublayer>
+                <wmsSublayer>
+                    <name>bdl_low_full</name>
+                    <style></style>
+                </wmsSublayer>
+                <wmsFormat>image/png</wmsFormat>
+                <mDrawingStyle>SingleBandColorDataStyle</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="true"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="true"/>
+                <mGrayMinimumMaximumEstimated boolean="false"/>
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>-1.79769e+308</min>
+                        <max>1.79769e+308</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="false">0.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="0.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="0.000000" blue="0.000000" green="0.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>bdl_mid_res_full_bdl_mid_res_overview20110601114837201</id>
+            <datasource>http://wms.alaskamapped.org/bdl</datasource>
+            <layername>bdl_mid_res_full/bdl_mid_res_overview</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>wms</provider>
+            <rasterproperties>
+                <wmsSublayer>
+                    <name>bdl_mid_res_full</name>
+                    <style></style>
+                </wmsSublayer>
+                <wmsSublayer>
+                    <name>bdl_mid_res_overview</name>
+                    <style></style>
+                </wmsSublayer>
+                <wmsFormat>image/png</wmsFormat>
+                <mDrawingStyle>SingleBandColorDataStyle</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="true"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="true"/>
+                <mGrayMinimumMaximumEstimated boolean="false"/>
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>-1.79769e+308</min>
+                        <max>1.79769e+308</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="false">0.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="0.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="0.000000" blue="0.000000" green="0.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>clip_mask_KP1_aa20120131154931189</id>
+            <datasource>/home/dbroders/Downloads/mark-kp1-clipmask/clip_mask_KP1-aa.shp</datasource>
+            <layername>clip_mask_KP1-aa</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="83,139,31,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield></displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>greyblue_aa20110814153543891</id>
+            <datasource>/home/dbroders/greyblue-aa.tif</datasource>
+            <layername>greyblue-aa</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>173</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>ColorRampShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>27</min>
+                        <max>199</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">0.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="0.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="0.000000" blue="0.000000" green="0.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+                <customColorRamp>
+                    <colorRampType>DISCRETE</colorRampType>
+                    <colorRampEntry red="0" blue="0" value="1.000000" green="0" label="1.000000"/>
+                    <colorRampEntry red="103" blue="103" value="37.285714" green="103" label="37.285714"/>
+                    <colorRampEntry red="193" blue="193" value="73.571429" green="193" label="73.571429"/>
+                    <colorRampEntry red="162" blue="162" value="109.857143" green="162" label="109.857143"/>
+                    <colorRampEntry red="131" blue="131" value="146.142857" green="131" label="146.142857"/>
+                    <colorRampEntry red="155" blue="155" value="182.428571" green="155" label="182.428571"/>
+                    <colorRampEntry red="234" blue="234" value="218.714286" green="234" label="218.714286"/>
+                    <colorRampEntry red="255" blue="255" value="255.000000" green="255" label="255.000000"/>
+                </customColorRamp>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>kenai_mod_aa20120201085810369</id>
+            <datasource>/home/dbroders/Dropbox/sdmi-clip-mask/kenai-mod/kenai-mod-aa.shp</datasource>
+            <layername>kenai-mod-aa</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="50,253,98,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield></displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>multi_part_11062320120201085535112</id>
+            <datasource>/home/dbroders/projects/gina-sdmi-ortho/ortho/clipmask/current/2012.02.01-KP1_NM-mod/multi-part-110623.shp</datasource>
+            <layername>multi-part-110623</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="232,112,152,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield></displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>newblue_aa_jpg20110814153342365</id>
+            <datasource>/home/dbroders/newblue-aa.jpg.tif</datasource>
+            <layername>newblue-aa.jpg</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterproperties>
+                <mDrawingStyle>MultiBandColor</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName>Band 1</mRedBandName>
+                <mGreenBandName>Band 2</mGreenBandName>
+                <mBlueBandName>Band 3</mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">0.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="0.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="0.000000" blue="0.000000" green="0.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>oldblue_aa_jpg20110814153347758</id>
+            <datasource>/home/dbroders/www/gina/oldblue/oldblue-aa.jpg.tif</datasource>
+            <layername>oldblue-aa.jpg</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterproperties>
+                <mDrawingStyle>MultiBandColor</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName>Band 1</mRedBandName>
+                <mGreenBandName>Band 2</mGreenBandName>
+                <mBlueBandName>Band 3</mBlueBandName>
+                <mGrayBandName>Not Set</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-32768.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-32768.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-32768.000000" blue="-32768.000000" green="-32768.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+            <id>sdmi_clip_mask_11062320110802094522468</id>
+            <datasource>/hub/tub/layers/sdmi-ortho/2010_prod_clip_mask/sdmi-clip-mask-110623.shp</datasource>
+            <layername>sdmi-clip-mask-110623</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="255" blue="0" green="255"/>
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.46</outlinewidth>
+                    <fillcolor red="41" blue="169" green="89"/>
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <customproperties/>
+            <displayfield>FID_union_</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="BUFF_DIST"/>
+                <edittype type="0" name="BUFF_DIS_1"/>
+                <edittype type="0" name="FID_1"/>
+                <edittype type="0" name="FID_akb1k1"/>
+                <edittype type="0" name="FID_akb1k_"/>
+                <edittype type="0" name="FID_sm_1_r"/>
+                <edittype type="0" name="FID_union_"/>
+                <edittype type="0" name="Id"/>
+                <edittype type="0" name="SUM_SUM__1"/>
+                <edittype type="0" name="SUM_SUM_ar"/>
+            </edittypes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <attributeactions/>
+            <overlay display="false" type="diagram">
+                <renderer item_interpretation="linear">
+                    <diagramitem size="0" value="0"/>
+                    <diagramitem size="0" value="0"/>
+                </renderer>
+                <factory sizeUnits="MM" type="Pie">
+                    <wellknownname>Pie</wellknownname>
+                    <classificationfield>0</classificationfield>
+                </factory>
+                <scalingAttribute>0</scalingAttribute>
+            </overlay>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>sdmi_clip_mask_120201_KP120120201090158364</id>
+            <datasource>/home/dbroders/projects/gina-sdmi-ortho/ortho/clipmask/current/sdmi-clip-mask-120201-KP1.shp</datasource>
+            <layername>sdmi-clip-mask-120201-KP1</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="78,142,67,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield></displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>sdmi_clip_mask_120201_KP1_NM20120201090255669</id>
+            <datasource>/home/dbroders/projects/gina-sdmi-ortho/ortho/clipmask/current/sdmi-clip-mask-120201-KP1+NM.shp</datasource>
+            <layername>sdmi-clip-mask-120201-KP1+NM</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="103,187,61,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield></displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+            <id>sdmi_ortho_tile_layout20110912121929084</id>
+            <datasource>/hub/tub/layers/sdmi-ortho/ortho_tile_layout/sdmi_ortho_tile_layout.shp</datasource>
+            <layername>sdmi_ortho_tile_layout</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <singlesymbol>
+                <symbol>
+                    <lowervalue></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="170" blue="0" green="170"/>
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="85" blue="0" green="170"/>
+                    <fillpattern>NoBrush</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </singlesymbol>
+            <customproperties/>
+            <displayfield>TileName</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="Status"/>
+                <edittype type="0" name="TileName"/>
+            </edittypes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <attributeactions/>
+            <overlay display="false" type="diagram">
+                <renderer item_interpretation="linear">
+                    <diagramitem size="0" value="0"/>
+                    <diagramitem size="0" value="0"/>
+                </renderer>
+                <factory sizeUnits="MM" type="Pie">
+                    <wellknownname>Pie</wellknownname>
+                    <classificationfield>0</classificationfield>
+                </factory>
+                <scalingAttribute>0</scalingAttribute>
+            </overlay>
+        </maplayer>
+    </projectlayers>
+    <properties>
+        <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+        <WMSOnlineResource type="QString"></WMSOnlineResource>
+        <WMSContactPerson type="QString"></WMSContactPerson>
+        <Identify>
+            <disabledLayers type="QStringList"/>
+        </Identify>
+        <WMSContactPhone type="QString"></WMSContactPhone>
+        <SpatialRefSys>
+            <ProjectCRSProj4String type="QString">+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</ProjectCRSProj4String>
+            <ProjectCRSID type="int">1296</ProjectCRSID>
+            <ProjectionsEnabled type="int">0</ProjectionsEnabled>
+        </SpatialRefSys>
+        <ScaleBar>
+            <ColorBluePart type="int">0</ColorBluePart>
+            <ColorGreenPart type="int">0</ColorGreenPart>
+            <Enabled type="bool">false</Enabled>
+            <ColorRedPart type="int">0</ColorRedPart>
+            <Placement type="int">2</Placement>
+            <Snapping type="bool">true</Snapping>
+            <Style type="int">0</Style>
+            <PreferredSize type="int">30</PreferredSize>
+        </ScaleBar>
+        <Gui>
+            <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+            <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+            <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+            <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+            <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+            <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+            <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+        </Gui>
+        <Paths>
+            <Absolute type="bool">true</Absolute>
+        </Paths>
+        <WMSContactMail type="QString"></WMSContactMail>
+        <PositionPrecision>
+            <DecimalPlaces type="int">2</DecimalPlaces>
+            <Automatic type="bool">true</Automatic>
+        </PositionPrecision>
+        <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+        <WMSContactOrganization type="QString"></WMSContactOrganization>
+        <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+        <WMSServiceTitle type="QString"></WMSServiceTitle>
+    </properties>
+</qgis>
