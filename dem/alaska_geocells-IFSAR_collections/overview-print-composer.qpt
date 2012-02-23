@@ -1,0 +1,80 @@
+<Composer title="Composer 1" visible="1">
+ <ComposerLegend symbolWidth="7" title="SDMI 2010 DEM" boxSpace="2" titleFont="Sans,16,-1,5,50,0,0,0,0,0" map="0" groupFont="Sans,14,-1,5,50,0,0,0,0,0" layerFont="Sans,12,-1,5,50,0,0,0,0,0" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" itemFont="Sans,12,-1,5,50,0,0,0,0,0">
+  <Model autoUpdate="1">
+   <LayerItem layerId="alaska_geocells_IFSAR_collections20110916103927449" text="IFSAR DEM collections">
+    <VectorClassificationItem layerId="alaska_geocells_IFSAR_collections20110916103927449" text="FUGRO">
+     <symbol>
+      <lowervalue>FUGRO</lowervalue>
+      <uppervalue>FUGRO</uppervalue>
+      <label>FUGRO</label>
+      <pointsymbol>hard:circle</pointsymbol>
+      <pointsize>2</pointsize>
+      <pointsizeunits>pixels</pointsizeunits>
+      <outlinecolor red="0" blue="0" green="0"/>
+      <outlinestyle>SolidLine</outlinestyle>
+      <outlinewidth>0.26</outlinewidth>
+      <fillcolor red="0" blue="255" green="85"/>
+      <fillpattern>SolidPattern</fillpattern>
+      <texturepath></texturepath>
+     </symbol>
+    </VectorClassificationItem>
+    <VectorClassificationItem layerId="alaska_geocells_IFSAR_collections20110916103927449" text="FUGRO: Not Purchased">
+     <symbol>
+      <lowervalue>FUGRO-P</lowervalue>
+      <uppervalue>FUGRO-P</uppervalue>
+      <label>FUGRO: Not Purchased</label>
+      <pointsymbol>hard:circle</pointsymbol>
+      <pointsize>2</pointsize>
+      <pointsizeunits>pixels</pointsizeunits>
+      <outlinecolor red="0" blue="0" green="0"/>
+      <outlinestyle>SolidLine</outlinestyle>
+      <outlinewidth>0.26</outlinewidth>
+      <fillcolor red="255" blue="0" green="85"/>
+      <fillpattern>SolidPattern</fillpattern>
+      <texturepath></texturepath>
+     </symbol>
+    </VectorClassificationItem>
+    <VectorClassificationItem layerId="alaska_geocells_IFSAR_collections20110916103927449" text="InterMap">
+     <symbol>
+      <lowervalue>InterMap</lowervalue>
+      <uppervalue>InterMap</uppervalue>
+      <label>InterMap</label>
+      <pointsymbol>hard:circle</pointsymbol>
+      <pointsize>2</pointsize>
+      <pointsizeunits>pixels</pointsizeunits>
+      <outlinecolor red="0" blue="0" green="0"/>
+      <outlinestyle>SolidLine</outlinestyle>
+      <outlinewidth>0.26</outlinewidth>
+      <fillcolor red="255" blue="0" green="255"/>
+      <fillpattern>SolidPattern</fillpattern>
+      <texturepath></texturepath>
+     </symbol>
+    </VectorClassificationItem>
+   </LayerItem>
+  </Model>
+  <ComposerItem width="60" x="232.6902887139108" y="14.46981627296588" rotation="0" height="33.1" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.557046979865772" id="" positionLock="false">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerLegend>
+ <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+  <Extent ymin="1185282.340518437" xmin="16337.12602770307" ymax="1744038.548192258" xmax="808508.0436150329"/>
+  <LayerSet/>
+  <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+   <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Sans,10,-1,5,50,0,0,0,0,0"/>
+  </Grid>
+  <ComposerItem width="298.7821522309712" x="-1.173228346456693" y="-1.128608923884515" rotation="0" height="210.745406824147" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="2.557046979865772" id="" positionLock="false">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerMap>
+ <ComposerLabel valign="32" labelText="http://www.alaskamapped.org/dem" halign="1" margin="1">
+  <LabelFont description="DejaVu Sans,16,-1,5,50,0,0,0,0,0"/>
+  <FontColor red="0" blue="0" green="0"/>
+  <ComposerItem width="102.8530183727034" x="183.4146981627297" y="193.1916010498688" rotation="0" height="9.776902887139094" frame="true" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="2.557046979865772" id="" positionLock="false">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerLabel>
+ <Composition printResolution="75" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
+</Composer>

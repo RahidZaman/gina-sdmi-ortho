@@ -1,0 +1,113 @@
+﻿###############################################################################
+             SDMI SPOT5.SDMI.ORTHO  |   2010 production ortho mosaic tiles 
+    http://alaskamapped.org/ortho   |          orthoproj@gina.alaska.edu
+###############################################################################
+
+This is the README file for the Statewide Digital Mapping Initiative’s (SDMI) 
+ortho mosaic tiles.  The ortho tiles provided here are derived from the 2011 
+block production using SPOT5 source scenes from the 2009 and 2010 collection 
+season. 
+
+The ortho tiles within this block are map products and are differentially 
+rectified using the aerotriangulation results and the elevation data to produce 
+orthoimagery with a horizontal spatial resolution equal to 2.5 meter per pixel. 
+ These are available in three separate renderings, each co-registered and in 
+uncompressed GeoTIFF format as a 20,000m x 20,000m (8000x8000 pixels) tile: 
+
+    CIR: 24 bit false color-infrared 
+    RGB: 24 bit simulated natural color
+    PAN: 8 bit panchromatic - greyscale of the RGB
+
+The following production block files are also supplied with this bundle: AT 
+Report in PDF format, AT block boundary in ESRI shapefile format, cutlines in 
+ESRI shapefile format, QC Master in PDF format, scene boundaries in ESRI 
+shapefile format, and tile layout in ESRI shapefile format.
+
+Each SDMI ortho tile set (RGB, PAN, CIR) is accompanied with FGDC compliant 
+metadata. Please refer to the metadata files for detailed descriptions of the 
+data products.  
+
+The SPOT5 L1A source scenes used to generate these ortho tiles are available to 
+licensed users from the AlaskaMapped browse site:
+http://browse.alaskamapped.org/display/group/SPOT5.SDMI.SOURCE-L1A
+
+
+
+Licensing:
+All data products related to this acquisition block are licensed for use by the 
+US public sector and academia at no additional cost.  The ortho tile products 
+are available via Open Geospatial Consortium web services for all US users.  
+Please see the license file EULA for details.  
+http://alaskamapped.org/public_docs/sdmi-ortho-eula.pdf
+
+The source date (level 1a, ortho tiles, and ortho mosaic are available to US 
+civilian federal, state, local, and tribal governments and academia defined 
+under these terms from the EULA:
+United States public entities: 
+- U.S. Fed/Civ - : any U.S. Federal civil government agency located in or doing 
+work on behalf of any State of U.S.. 
+- U.S. State/Local - : any state, county and local government agency located in 
+or doing work on behalf of any State of U.S.. 
+- Universities - : any higher education institutions within Alaska, or within 
+the U.S. performing work on projects in any State of U.S.. 
+- Native American Tribes: means any federally recognized tribe in Alaska and/or 
+any domestic dependent nation located in or doing work on behalf of any State 
+of U.S.. 
+
+
+Open Geospatial Web Services Availability:
+The CIR, RGB, and PAN ortho tiles are available as separate layers in the 
+following WMS:
+WMS URL: http://wms.alaskamapped.org/ortho?
+
+The WMS is available to all US users, including public, private, government, 
+military, and NGO users under these terms from the EULA:
+The orthoimagery data is available to all US users via an Open Geospatial 
+Consortium Web Mapping Service (WMS). 
+
+When using imagery from the WMS in a product please include the following 
+reference text in full (see above for URL to full EULA):
+includes material © CNES 2011, Distribution Spot Image S.A., France, SICORP, 
+USA, all rights reserved
+
+The WMS layers are available as a web map tile services.  Details for the tile 
+service end points can be found at
+tile service documentation: http://alaskamapped.org/ortho/services
+
+
+SDMI orthoimagery program background:
+The State of Alaska is creating an updated basemap for the state. Reliable, 
+current, statewide base geographic information is essential for continued 
+economic development, livability, and public safety. Ortho-imagery is 
+considered a foundation element for the framework of base geographic data. At 
+this time, Alaska does not have an updated statewide digital ortho imagery with 
+a high enough resolution and accuracy to meet most user needs. The new 
+ortho-imagery being captured and processed by this project will provide a 
+common layer that shows current conditions and trends over the Alaska 
+landscape. It will also allow other types of geographic information to be 
+extracted and registered. This ortho-imagery will allow Alaskan agencies and 
+private organizations to better utilize geographic information systems (GIS) 
+and other mapping technologies to aid in responsible decision making. This data 
+acquisition program will provide statewide coverage within five years (by 
+2014). The State of Alaska funded the Statewide Digital Mapping Initiative to 
+remedy this short-coming and to strengthen the alignment between state and 
+federal mapping interests. The SDMI goal is a new statewide basemap, composed 
+of ortho-imagery and elevation models. Moving forward the state would like to 
+acquire refreshed imagery on a 3-5 year cycle, and to extend the extent of 
+available imagery to include the three-mile territorial waters of Alaska and 
+the U.S. Exclusive Economic Zone (EEZ), which extends 200 miles offshore. In 
+November 2009, the SDMI entered into a partnership with federal partners 
+representing the National Geospatial Agency, U.S. Geological Survey, Bureau of 
+Land Management, U.S.D.A. Natural Resources Conservation Service and National 
+Park Service to collect mid-accuracy (6-foot RMSE-z) DEM for the state. This 
+collection is expected to occur in phases, with the first phase for collection 
+of (28) one-degree cells beginning in 2010. SDMI managers are continuing to 
+work with federal managers to develop an active federal program for the state. 
+In August 2008, Alaska sponsored a joint meeting of the National Digital 
+Elevation Program and National Digital Ortho-imagery Program. SDMI managers 
+also directed planning contracts, surveys, multiple presentations, and two 
+technical workshops, one on elevation and one on imagery. Each workshop 
+resulted in a published whitepaper. 
+
+The project website http://alaskamapped.org provides further background 
+information.
