@@ -4,12 +4,12 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>-1401239.680057</xmin>
-            <ymin>530476.329763</ymin>
-            <xmax>1505286.503125</xmax>
-            <ymax>2365274.569294</ymax>
+            <xmin>-1473574.015104</xmin>
+            <ymin>593542.407046</ymin>
+            <xmax>1152495.411836</xmax>
+            <ymax>2422960.655492</ymax>
         </extent>
-        <projections>0</projections>
+        <projections>1</projections>
         <destinationsrs>
             <spatialrefsys>
                 <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -24,22 +24,42 @@
         </destinationsrs>
     </mapcanvas>
     <legend>
-        <legendgroup open="true" checked="Qt::PartiallyChecked" name="Misc">
+        <legendlayer open="false" checked="Qt::Checked" name="IFSAR collections" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="alaska_geocells_IFSAR_collections20120523101236289" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Unchecked" name="usgs_place_name" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="usgs_place_name20120509164135641" visible="0"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="false" checked="Qt::Unchecked" name="0" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="020120508092257399" visible="0"/>
+            </filegroup>
+        </legendlayer>
+        <legendgroup open="true" checked="Qt::Unchecked" name="Misc">
             <legendlayer open="true" checked="Qt::Unchecked" name="sdmi_ortho_tile_layout" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="sdmi_ortho_tile_layout20120116234635208" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer open="false" checked="Qt::Checked" name="SDMI-clip_mask" showFeatureCount="0">
+            <legendlayer open="false" checked="Qt::Unchecked" name="SDMI-clip_mask" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="sdmi_clip_mask_11062320120116234430163" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="sdmi_clip_mask_11062320120116234430163" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
         <legendgroup open="true" checked="Qt::PartiallyChecked" name="2010-final-ortho-tiles">
-            <legendlayer open="true" checked="Qt::Checked" name="2010 pending acceptance" showFeatureCount="0">
+            <legendlayer open="true" checked="Qt::Checked" name="2011-draft_tiles-1202-clipped" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="2010_limbo20120116162619040" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="2011_draft_tiles_1202_clipped20120410155521876" visible="1"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer open="false" checked="Qt::Checked" name="2010-final-tiles-clip" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="2010_final_tiles_clip20120523101309833" visible="1"/>
                 </filegroup>
             </legendlayer>
             <legendlayer open="true" checked="Qt::Unchecked" name="2010-final-tiles" showFeatureCount="0">
@@ -47,9 +67,9 @@
                     <legendlayerfile isInOverview="0" layerid="2010_final_tiles20120116161631656" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer open="true" checked="Qt::Checked" name="2010-final-tiles-clip" showFeatureCount="0">
+            <legendlayer open="true" checked="Qt::Unchecked" name="2010-final-tiles-clip" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="2010_final_tiles_clip20120116235844856" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="2010_final_tiles_clip20120116235844856" visible="0"/>
                 </filegroup>
             </legendlayer>
             <legendlayer open="true" checked="Qt::Unchecked" name="2010-final-tiles-merged" showFeatureCount="0">
@@ -58,7 +78,7 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::PartiallyChecked" name="SPOT5-SOURCE">
+        <legendgroup open="true" checked="Qt::Unchecked" name="SPOT5-SOURCE">
             <legendlayer open="true" checked="Qt::Unchecked" name="2011-source" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="SPOT5_2011_source20120116165917838" visible="0"/>
@@ -69,9 +89,9 @@
                     <legendlayerfile isInOverview="0" layerid="2009_2010_source20120116165950270" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer open="true" checked="Qt::Checked" name="2009_2010_2011-source" showFeatureCount="0">
+            <legendlayer open="true" checked="Qt::Unchecked" name="2009_2010_2011-source" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="2009_2010_2011_source20120116234851013" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="2009_2010_2011_source20120116234851013" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
@@ -171,17 +191,6 @@
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
         </ComposerLabel>
-        <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
-            <Extent ymin="359706.850599393" xmin="-1438952.236152796" ymax="2394275.262674653" xmax="1467574.06681186"/>
-            <LayerSet/>
-            <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
-                <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
-            </Grid>
-            <ComposerItem width="300" x="-1.789603960396043" y="-0.2673267326732613" rotation="0" height="210" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="1.914691943127962" id="" positionLock="false">
-                <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            </ComposerItem>
-        </ComposerMap>
         <ComposerLabel valign="32" labelText="2012.01.17" halign="1" margin="1">
             <LabelFont description="Ubuntu,8,-1,5,50,0,0,0,0,0"/>
             <FontColor red="0" blue="0" green="0"/>
@@ -190,6 +199,17 @@
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
         </ComposerLabel>
+        <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+            <Extent ymin="359706.850599393" xmin="-1438952.236152796" ymax="2394275.262674652" xmax="1467574.06681186"/>
+            <LayerSet/>
+            <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+                <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+            </Grid>
+            <ComposerItem width="300" x="-1.789603960396043" y="-0.2673267326732613" rotation="0" height="210" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="3.312080536912752" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerMap>
         <ComposerLegend symbolWidth="7" title="SDMI Ortho" boxSpace="2" titleFont="Ubuntu,16,-1,5,50,0,0,0,0,0" map="0" groupFont="Ubuntu,14,-1,5,50,0,0,0,0,0" layerFont="Ubuntu,12,-1,5,50,0,0,0,0,0" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" itemFont="Ubuntu,12,-1,5,50,0,0,0,0,0">
             <Model autoUpdate="1">
                 <LayerItem layerId="2010_final_tiles_clip20120116235844856" text="2010 ortho mosiac">
@@ -224,22 +244,326 @@
                         </symbols>
                     </VectorClassificationItemNg>
                 </LayerItem>
+                <LayerItem layerId="2011_draft_tiles_1202_clipped20120410155521876" text="2011-draft_tiles-1202-clipped">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="187,13,173,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="020120508092257399" text="0"/>
+                <LayerItem layerId="usgs_place_name20120509164135641" text="usgs_place_name">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
+                                <layer pass="0" class="SimpleMarker" locked="0">
+                                    <prop k="angle" v="0"/>
+                                    <prop k="color" v="105,210,14,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="name" v="circle"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="size" v="2"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="alaska_geocells_IFSAR_collections20120523101236289" text="alaska_geocells-IFSAR_collections">
+                    <VectorClassificationItem layerId="alaska_geocells_IFSAR_collections20120523101236289" text="default">
+                        <symbol>
+                            <lowervalue null="1"></lowervalue>
+                            <uppervalue></uppervalue>
+                            <label>default</label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="0" blue="0" green="0"/>
+                            <outlinestyle>NoPen</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="30" blue="95" green="89"/>
+                            <fillpattern>NoBrush</fillpattern>
+                            <texturepath>.</texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                    <VectorClassificationItem layerId="alaska_geocells_IFSAR_collections20120523101236289" text="FUGRO">
+                        <symbol>
+                            <lowervalue>FUGRO</lowervalue>
+                            <uppervalue>FUGRO</uppervalue>
+                            <label>FUGRO</label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="0" blue="0" green="0"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="0" blue="255" green="85"/>
+                            <fillpattern>SolidPattern</fillpattern>
+                            <texturepath>.</texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                    <VectorClassificationItem layerId="alaska_geocells_IFSAR_collections20120523101236289" text="FUGRO: Not Purchased">
+                        <symbol>
+                            <lowervalue>FUGRO-P</lowervalue>
+                            <uppervalue>FUGRO-P</uppervalue>
+                            <label>FUGRO: Not Purchased</label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="0" blue="0" green="0"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="255" blue="0" green="85"/>
+                            <fillpattern>SolidPattern</fillpattern>
+                            <texturepath>.</texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                    <VectorClassificationItem layerId="alaska_geocells_IFSAR_collections20120523101236289" text="InterMap">
+                        <symbol>
+                            <lowervalue>InterMap</lowervalue>
+                            <uppervalue>InterMap</uppervalue>
+                            <label>InterMap</label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="0" blue="0" green="0"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="255" blue="0" green="255"/>
+                            <fillpattern>SolidPattern</fillpattern>
+                            <texturepath>.</texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                </LayerItem>
+                <LayerItem layerId="2010_final_tiles_clip20120523101309833" text="2010-final-tiles-clip">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="8,137,79,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
             </Model>
-            <ComposerItem width="63" x="227.7128712871287" y="7.834158415841586" rotation="0" height="33.3" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="1.914691943127962" id="" positionLock="false">
+            <ComposerItem width="75" x="227.7128712871287" y="7.834158415841586" rotation="0" height="104.5" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="3.312080536912752" id="" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
         </ComposerLegend>
         <Composition printResolution="100" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
     </Composer>
-    <projectlayers layercount="25">
+    <Composer title="Composer 2" visible="1">
+        <ComposerLabel valign="32" labelText="website: http://alaskamapped.org/&#xa;contact:  orthoproj@gina.alaska.edu" halign="1" margin="1">
+            <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0"/>
+            <FontColor red="0" blue="0" green="0"/>
+            <ComposerItem width="71.44271287128706" x="212.2532871287129" y="188.2347524752475" rotation="0" height="14.10724752475249" frame="true" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="3.355704697986577" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLabel>
+        <ComposerLegend symbolWidth="7" title="SDMI Ortho &amp; Dem" boxSpace="2" titleFont="Ubuntu,16,-1,5,50,0,0,0,0,0" map="0" groupFont="Ubuntu,14,-1,5,50,0,0,0,0,0" layerFont="Ubuntu,12,-1,5,50,0,0,0,0,0" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" itemFont="Ubuntu,12,-1,5,50,0,0,0,0,0">
+            <Model autoUpdate="1">
+                <LayerItem layerId="alaska_geocells_IFSAR_collections20120523101236289" text="IFSAR collections">
+                    <VectorClassificationItem layerId="alaska_geocells_IFSAR_collections20120523101236289" text="FUGRO (accepted)">
+                        <symbol>
+                            <lowervalue>FUGRO</lowervalue>
+                            <uppervalue>FUGRO</uppervalue>
+                            <label>FUGRO</label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="0" blue="0" green="0"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="0" blue="255" green="85"/>
+                            <fillpattern>Dense3Pattern</fillpattern>
+                            <texturepath>.</texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                    <VectorClassificationItem layerId="alaska_geocells_IFSAR_collections20120523101236289" text="FUGRO (pending)">
+                        <symbol>
+                            <lowervalue>FUGRO-B</lowervalue>
+                            <uppervalue>0</uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="0" blue="0" green="0"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="36" blue="207" green="228"/>
+                            <fillpattern>Dense5Pattern</fillpattern>
+                            <texturepath null="1"></texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                    <VectorClassificationItem layerId="alaska_geocells_IFSAR_collections20120523101236289" text="FUGRO (spec)">
+                        <symbol>
+                            <lowervalue>FUGRO-SPEC</lowervalue>
+                            <uppervalue>FUGRO-P</uppervalue>
+                            <label>FUGRO: Not Purchased</label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="0" blue="0" green="0"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="255" blue="0" green="85"/>
+                            <fillpattern>Dense5Pattern</fillpattern>
+                            <texturepath>.</texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                    <VectorClassificationItem layerId="alaska_geocells_IFSAR_collections20120523101236289" text="InterMap">
+                        <symbol>
+                            <lowervalue>InterMap</lowervalue>
+                            <uppervalue>InterMap</uppervalue>
+                            <label>InterMap</label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="0" blue="0" green="0"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="255" blue="0" green="255"/>
+                            <fillpattern>Dense4Pattern</fillpattern>
+                            <texturepath>.</texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                </LayerItem>
+                <LayerItem layerId="2011_draft_tiles_1202_clipped20120410155521876" text="2011 ortho tiles">
+                    <VectorClassificationItemNg text="275,000 km2">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="0,255,255,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="2010_final_tiles_clip20120523101309833" text="2010 ortho tiles">
+                    <VectorClassificationItemNg text="300,000 km2">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="255,237,161,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+            </Model>
+            <ComposerItem width="56" x="221.1568712871287" y="6.940158415841587" rotation="0" height="62.9" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="3.355704697986577" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLegend>
+        <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+            <Extent ymin="359706.850599393" xmin="-1438952.236152796" ymax="2394275.262674652" xmax="1467574.06681186"/>
+            <LayerSet/>
+            <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+                <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+            </Grid>
+            <ComposerItem width="300" x="-1.789603960396043" y="-0.2673267326732613" rotation="0" height="210" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="3.355704697986577" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerMap>
+        <ComposerLabel valign="32" labelText="2012.05.23" halign="1" margin="1">
+            <LabelFont description="Ubuntu,8,-1,5,50,0,0,0,0,0"/>
+            <FontColor red="0" blue="0" green="0"/>
+            <ComposerItem width="20.00286138613869" x="0.2611386138613057" y="2.35024752475249" rotation="0" height="5.74504950495048" frame="true" outlineWidth="0.3" zValue="4" lastValidViewScaleFactor="3.355704697986577" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLabel>
+        <Composition printResolution="90" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
+    </Composer>
+    <projectlayers layercount="29">
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>020120508092257399</id>
+            <datasource>http://seakgis03.alaska.edu/agsv10_wshandler//SEAKHydro_Streams/MapServer/WMSServer</datasource>
+            <layername>0</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>wms</provider>
+            <rasterproperties>
+                <wmsSublayer>
+                    <name>0</name>
+                    <style></style>
+                </wmsSublayer>
+                <wmsFormat>image/png</wmsFormat>
+                <mDrawingStyle>SingleBandColorDataStyle</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>-1.79769e+308</min>
+                        <max>1.79769e+308</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="false">0.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="0.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="0.000000" blue="0.000000" green="0.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>2009_2010_2011_source20120116234851013</id>
             <datasource>./source/maps/2009_2010_2011-source.shp</datasource>
             <layername>2009_2010_2011-source</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</proj4>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
                     <srsid>3452</srsid>
                     <srid>4326</srid>
                     <authid>EPSG:4326</authid>
@@ -313,9 +637,9 @@
                 <edittype type="0" name="url"/>
                 <edittype type="0" name="url_2"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
@@ -463,7 +787,7 @@
             <layername>2010-final-tiles-clip</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</proj4>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
                     <srsid>3452</srsid>
                     <srid>4326</srid>
                     <authid>EPSG:4326</authid>
@@ -518,10 +842,87 @@
             <edittypes>
                 <edittype type="0" name="location"/>
             </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>2010_final_tiles_clip20120523101309833</id>
+            <datasource>./ortho/2010/final-tiles/2010-final-tiles-clip-shp/2010-final-tiles-clip.shp</datasource>
+            <layername>2010-final-tiles-clip</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="255,237,161,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>location</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="location"/>
+            </edittypes>
             <editform></editform>
             <editforminit></editforminit>
             <annotationform></annotationform>
             <attributeactions/>
+            <overlay display="false" type="diagram">
+                <renderer item_interpretation="linear">
+                    <diagramitem size="0" value="0"/>
+                    <diagramitem size="0" value="0"/>
+                </renderer>
+                <factory sizeUnits="MM" type="Pie">
+                    <wellknownname>Pie</wellknownname>
+                    <classificationfield>0</classificationfield>
+                </factory>
+                <scalingAttribute>0</scalingAttribute>
+            </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>2010_final_tiles_merged20120116161215915</id>
@@ -529,7 +930,7 @@
             <layername>2010-final-tiles-merged</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</proj4>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
                     <srsid>3452</srsid>
                     <srid>4326</srid>
                     <authid>EPSG:4326</authid>
@@ -581,72 +982,6 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform>.</editform>
-            <editforminit></editforminit>
-            <annotationform>.</annotationform>
-            <attributeactions/>
-        </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>2010_limbo20120116162619040</id>
-            <datasource>./ortho/2010/final-tiles/2010-limbo.geojson</datasource>
-            <layername>2010 pending acceptance</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</proj4>
-                    <srsid>3452</srsid>
-                    <srid>4326</srid>
-                    <authid>EPSG:4326</authid>
-                    <description>WGS 84</description>
-                    <projectionacronym>longlat</projectionacronym>
-                    <ellipsoidacronym>WGS84</ellipsoidacronym>
-                    <geographicflag>true</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="UTF-8">ogr</provider>
-            <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
-                <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
-                        <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="0,85,255,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="style" v="b_diagonal"/>
-                            <prop k="style_border" v="no"/>
-                            <prop k="width_border" v="0.26"/>
-                        </layer>
-                    </symbol>
-                </symbols>
-                <rotation field=""/>
-                <sizescale field=""/>
-            </renderer-v2>
-            <customproperties/>
-            <displayfield>location</displayfield>
-            <label>0</label>
-            <labelattributes>
-                <label fieldname="" text="Label"/>
-                <family fieldname="" name="Sans"/>
-                <size fieldname="" units="pt" value="12"/>
-                <bold fieldname="" on="0"/>
-                <italic fieldname="" on="0"/>
-                <underline fieldname="" on="0"/>
-                <strikeout fieldname="" on="0"/>
-                <color fieldname="" red="0" blue="0" green="0"/>
-                <x fieldname=""/>
-                <y fieldname=""/>
-                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-                <angle fieldname="" value="0" auto="0"/>
-                <alignment fieldname="" value="center"/>
-                <buffercolor fieldname="" red="255" blue="255" green="255"/>
-                <buffersize fieldname="" units="pt" value="1"/>
-                <bufferenabled fieldname="" on=""/>
-                <multilineenabled fieldname="" on=""/>
-                <selectedonly on=""/>
-            </labelattributes>
-            <edittypes>
-                <edittype type="0" name="location"/>
-            </edittypes>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -714,6 +1049,84 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>2011_draft_tiles_1202_clipped20120410155521876</id>
+            <datasource>./ortho/2011/draft_tiles-1202/2011-draft_tiles-1202-clipped.shp</datasource>
+            <layername>2011-draft_tiles-1202-clipped</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="0,255,255,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>TileName</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="Status"/>
+                <edittype type="0" name="TileName"/>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <attributeactions/>
+            <overlay display="false" type="diagram">
+                <renderer item_interpretation="linear">
+                    <diagramitem size="0" value="0"/>
+                    <diagramitem size="0" value="0"/>
+                </renderer>
+                <factory sizeUnits="MM" type="Pie">
+                    <wellknownname>Pie</wellknownname>
+                    <classificationfield>0</classificationfield>
+                </factory>
+                <scalingAttribute>0</scalingAttribute>
+            </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>BestDataAvailableLayer20120115152725124</id>
@@ -1114,9 +1527,9 @@
                 <mDrawingStyle>SingleBandColorDataStyle</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -1220,9 +1633,9 @@
                 <mDrawingStyle>SingleBandColorDataStyle</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -1236,7 +1649,7 @@
                         <max>1.79769e+308</max>
                     </minMaxEntry>
                 </contrastEnhancementMinMaxValues>
-                <mNoDataValue mValidNoDataValue="true">0.000000</mNoDataValue>
+                <mNoDataValue mValidNoDataValue="false">0.000000</mNoDataValue>
                 <singleValuePixelList>
                     <pixelListEntry pixelValue="0.000000" percentTransparent="100"/>
                 </singleValuePixelList>
@@ -1326,9 +1739,9 @@
                 <mDrawingStyle>SingleBandColorDataStyle</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -1532,6 +1945,162 @@
                 </threeValuePixelList>
             </rasterproperties>
         </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+            <id>alaska_geocells_IFSAR_collections20120523101236289</id>
+            <datasource>./dem/alaska_geocells-IFSAR_collections/alaska_geocells-IFSAR_collections.shp</datasource>
+            <layername>IFSAR collections</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>239</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <classificationattribute>status</classificationattribute>
+            <uniquevalue>
+                <classificationfield>status</classificationfield>
+                <symbol>
+                    <lowervalue null="1"></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label>default</label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="0" blue="0" green="0"/>
+                    <outlinestyle>NoPen</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="30" blue="95" green="89"/>
+                    <fillpattern>NoBrush</fillpattern>
+                    <texturepath>.</texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>FUGRO</lowervalue>
+                    <uppervalue>FUGRO</uppervalue>
+                    <label>FUGRO</label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="0" blue="0" green="0"/>
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="0" blue="255" green="85"/>
+                    <fillpattern>Dense3Pattern</fillpattern>
+                    <texturepath>.</texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>FUGRO-B</lowervalue>
+                    <uppervalue>0</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="0" blue="0" green="0"/>
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="36" blue="207" green="228"/>
+                    <fillpattern>Dense5Pattern</fillpattern>
+                    <texturepath null="1"></texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>FUGRO-SPEC</lowervalue>
+                    <uppervalue>FUGRO-P</uppervalue>
+                    <label>FUGRO: Not Purchased</label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="0" blue="0" green="0"/>
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="255" blue="0" green="85"/>
+                    <fillpattern>Dense5Pattern</fillpattern>
+                    <texturepath>.</texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>InterMap</lowervalue>
+                    <uppervalue>InterMap</uppervalue>
+                    <label>InterMap</label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="0" blue="0" green="0"/>
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="255" blue="0" green="255"/>
+                    <fillpattern>Dense4Pattern</fillpattern>
+                    <texturepath>.</texturepath>
+                </symbol>
+            </uniquevalue>
+            <customproperties/>
+            <displayfield>DEG_LON</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="DEG_LAT"/>
+                <edittype type="0" name="DEG_LON"/>
+                <edittype type="0" name="GEOCELL_ID"/>
+                <edittype type="0" name="NAME"/>
+                <edittype type="0" name="date"/>
+                <edittype type="0" name="new_lon_lb"/>
+                <edittype type="0" name="status"/>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <attributeactions/>
+            <overlay display="false" type="diagram">
+                <renderer item_interpretation="linear">
+                    <diagramitem size="0" value="0"/>
+                    <diagramitem size="0" value="0"/>
+                </renderer>
+                <factory sizeUnits="MM" type="Pie">
+                    <wellknownname>Pie</wellknownname>
+                    <classificationfield>0</classificationfield>
+                </factory>
+                <scalingAttribute>0</scalingAttribute>
+            </overlay>
+        </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>gina_bath_2004_aa_grey20120117001943742</id>
             <datasource>./maps/gina-bath-2004-aa-grey.tif</datasource>
@@ -1728,6 +2297,87 @@
             <annotationform>.</annotationform>
             <attributeactions/>
         </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>usgs_place_name20120509164135641</id>
+            <datasource>/hub/tub/gina/pete/asgdc/asgdc_gis_base_shp/cultural/usgs_place_name.shp|layerid=0|subset="ELEV" > 13000</datasource>
+            <layername>usgs_place_name</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="marker" name="0">
+                        <layer pass="0" class="SimpleMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="color" v="105,210,14,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="name" v="circle"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="size" v="2"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>GEONAME</displayfield>
+            <label>1</label>
+            <labelfield>GEONAME</labelfield>
+            <labelattributes>
+                <label fieldname="GEONAME" text="Label"/>
+                <family fieldname="" name="Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="aboveright"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="COUNTY"/>
+                <edittype type="0" name="DESIG"/>
+                <edittype type="0" name="ELEV"/>
+                <edittype type="0" name="GEONAME"/>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <attributeactions/>
+            <overlay display="false" type="diagram">
+                <renderer item_interpretation="linear">
+                    <diagramitem size="0" value="0"/>
+                    <diagramitem size="0" value="0"/>
+                </renderer>
+                <factory sizeUnits="MM" type="Pie">
+                    <wellknownname>Pie</wellknownname>
+                    <classificationfield>0</classificationfield>
+                </factory>
+                <scalingAttribute>0</scalingAttribute>
+            </overlay>
+        </maplayer>
     </projectlayers>
     <properties>
         <WMSServiceAbstract type="QString"></WMSServiceAbstract>
@@ -1741,6 +2391,7 @@
             <ProjectCRSProj4String type="QString">+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</ProjectCRSProj4String>
             <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
             <ProjectCRSID type="int">1296</ProjectCRSID>
+            <ProjectionsEnabled type="int">1</ProjectionsEnabled>
         </SpatialRefSys>
         <Gui>
             <SelectionColorBluePart type="int">0</SelectionColorBluePart>
