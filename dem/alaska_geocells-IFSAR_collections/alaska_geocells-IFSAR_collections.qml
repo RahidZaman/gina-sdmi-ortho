@@ -1,12 +1,12 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
 <qgis version="1.8.0-Trunk" minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
-  <transparencyLevelInt>255</transparencyLevelInt>
+  <transparencyLevelInt>239</transparencyLevelInt>
   <classificationattribute>status</classificationattribute>
   <uniquevalue>
     <classificationfield>status</classificationfield>
     <symbol>
       <lowervalue null="1"></lowervalue>
-      <uppervalue null="1"></uppervalue>
+      <uppervalue></uppervalue>
       <label>default</label>
       <pointsymbol>hard:circle</pointsymbol>
       <pointsize>2</pointsize>
@@ -19,7 +19,7 @@
       <outlinewidth>0.26</outlinewidth>
       <fillcolor red="30" blue="95" green="89"/>
       <fillpattern>NoBrush</fillpattern>
-      <texturepath null="1"></texturepath>
+      <texturepath>.</texturepath>
     </symbol>
     <symbol>
       <lowervalue>FUGRO</lowervalue>
@@ -35,11 +35,28 @@
       <outlinestyle>SolidLine</outlinestyle>
       <outlinewidth>0.26</outlinewidth>
       <fillcolor red="0" blue="255" green="85"/>
-      <fillpattern>SolidPattern</fillpattern>
+      <fillpattern>Dense3Pattern</fillpattern>
+      <texturepath>.</texturepath>
+    </symbol>
+    <symbol>
+      <lowervalue>FUGRO-B</lowervalue>
+      <uppervalue>0</uppervalue>
+      <label></label>
+      <pointsymbol>hard:circle</pointsymbol>
+      <pointsize>2</pointsize>
+      <pointsizeunits>pixels</pointsizeunits>
+      <rotationclassificationfieldname></rotationclassificationfieldname>
+      <scaleclassificationfieldname></scaleclassificationfieldname>
+      <symbolfieldname></symbolfieldname>
+      <outlinecolor red="0" blue="0" green="0"/>
+      <outlinestyle>SolidLine</outlinestyle>
+      <outlinewidth>0.26</outlinewidth>
+      <fillcolor red="36" blue="207" green="228"/>
+      <fillpattern>Dense5Pattern</fillpattern>
       <texturepath null="1"></texturepath>
     </symbol>
     <symbol>
-      <lowervalue>FUGRO-P</lowervalue>
+      <lowervalue>FUGRO-SPEC</lowervalue>
       <uppervalue>FUGRO-P</uppervalue>
       <label>FUGRO: Not Purchased</label>
       <pointsymbol>hard:circle</pointsymbol>
@@ -52,8 +69,8 @@
       <outlinestyle>SolidLine</outlinestyle>
       <outlinewidth>0.26</outlinewidth>
       <fillcolor red="255" blue="0" green="85"/>
-      <fillpattern>SolidPattern</fillpattern>
-      <texturepath null="1"></texturepath>
+      <fillpattern>Dense5Pattern</fillpattern>
+      <texturepath>.</texturepath>
     </symbol>
     <symbol>
       <lowervalue>InterMap</lowervalue>
@@ -69,8 +86,8 @@
       <outlinestyle>SolidLine</outlinestyle>
       <outlinewidth>0.26</outlinewidth>
       <fillcolor red="255" blue="0" green="255"/>
-      <fillpattern>SolidPattern</fillpattern>
-      <texturepath null="1"></texturepath>
+      <fillpattern>Dense4Pattern</fillpattern>
+      <texturepath>.</texturepath>
     </symbol>
   </uniquevalue>
   <customproperties/>
@@ -105,9 +122,9 @@
     <edittype type="0" name="new_lon_lb"/>
     <edittype type="0" name="status"/>
   </edittypes>
-  <editform></editform>
+  <editform>.</editform>
   <editforminit></editforminit>
-  <annotationform></annotationform>
+  <annotationform>.</annotationform>
   <attributeactions/>
   <overlay display="false" type="diagram">
     <renderer item_interpretation="linear">

@@ -1,0 +1,136 @@
+<Composer title="Composer 2" visible="1">
+ <ComposerLabel valign="32" labelText="website: http://alaskamapped.org/&#xa;contact:  orthoproj@gina.alaska.edu" halign="1" margin="1">
+  <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0"/>
+  <FontColor red="0" blue="0" green="0"/>
+  <ComposerItem width="71.44271287128706" x="212.2532871287129" y="188.2347524752475" rotation="0" height="14.10724752475249" frame="true" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="3.355704697986577" id="" positionLock="false">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerLabel>
+ <ComposerLegend symbolWidth="7" title="SDMI Ortho &amp; Dem" boxSpace="2" titleFont="Ubuntu,16,-1,5,50,0,0,0,0,0" map="0" groupFont="Ubuntu,14,-1,5,50,0,0,0,0,0" layerFont="Ubuntu,12,-1,5,50,0,0,0,0,0" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" itemFont="Ubuntu,12,-1,5,50,0,0,0,0,0">
+  <Model autoUpdate="1">
+   <LayerItem layerId="alaska_geocells_IFSAR_collections20120523101236289" text="IFSAR collections">
+    <VectorClassificationItem layerId="alaska_geocells_IFSAR_collections20120523101236289" text="FUGRO (accepted)">
+     <symbol>
+      <lowervalue>FUGRO</lowervalue>
+      <uppervalue>FUGRO</uppervalue>
+      <label>FUGRO</label>
+      <pointsymbol>hard:circle</pointsymbol>
+      <pointsize>2</pointsize>
+      <pointsizeunits>pixels</pointsizeunits>
+      <outlinecolor red="0" blue="0" green="0"/>
+      <outlinestyle>SolidLine</outlinestyle>
+      <outlinewidth>0.26</outlinewidth>
+      <fillcolor red="0" blue="255" green="85"/>
+      <fillpattern>Dense3Pattern</fillpattern>
+      <texturepath>.</texturepath>
+     </symbol>
+    </VectorClassificationItem>
+    <VectorClassificationItem layerId="alaska_geocells_IFSAR_collections20120523101236289" text="FUGRO (pending)">
+     <symbol>
+      <lowervalue>FUGRO-B</lowervalue>
+      <uppervalue>0</uppervalue>
+      <label></label>
+      <pointsymbol>hard:circle</pointsymbol>
+      <pointsize>2</pointsize>
+      <pointsizeunits>pixels</pointsizeunits>
+      <outlinecolor red="0" blue="0" green="0"/>
+      <outlinestyle>SolidLine</outlinestyle>
+      <outlinewidth>0.26</outlinewidth>
+      <fillcolor red="36" blue="207" green="228"/>
+      <fillpattern>Dense5Pattern</fillpattern>
+      <texturepath null="1"></texturepath>
+     </symbol>
+    </VectorClassificationItem>
+    <VectorClassificationItem layerId="alaska_geocells_IFSAR_collections20120523101236289" text="FUGRO (spec)">
+     <symbol>
+      <lowervalue>FUGRO-SPEC</lowervalue>
+      <uppervalue>FUGRO-P</uppervalue>
+      <label>FUGRO: Not Purchased</label>
+      <pointsymbol>hard:circle</pointsymbol>
+      <pointsize>2</pointsize>
+      <pointsizeunits>pixels</pointsizeunits>
+      <outlinecolor red="0" blue="0" green="0"/>
+      <outlinestyle>SolidLine</outlinestyle>
+      <outlinewidth>0.26</outlinewidth>
+      <fillcolor red="255" blue="0" green="85"/>
+      <fillpattern>Dense5Pattern</fillpattern>
+      <texturepath>.</texturepath>
+     </symbol>
+    </VectorClassificationItem>
+    <VectorClassificationItem layerId="alaska_geocells_IFSAR_collections20120523101236289" text="InterMap">
+     <symbol>
+      <lowervalue>InterMap</lowervalue>
+      <uppervalue>InterMap</uppervalue>
+      <label>InterMap</label>
+      <pointsymbol>hard:circle</pointsymbol>
+      <pointsize>2</pointsize>
+      <pointsizeunits>pixels</pointsizeunits>
+      <outlinecolor red="0" blue="0" green="0"/>
+      <outlinestyle>SolidLine</outlinestyle>
+      <outlinewidth>0.26</outlinewidth>
+      <fillcolor red="255" blue="0" green="255"/>
+      <fillpattern>Dense4Pattern</fillpattern>
+      <texturepath>.</texturepath>
+     </symbol>
+    </VectorClassificationItem>
+   </LayerItem>
+   <LayerItem layerId="2011_draft_tiles_1202_clipped20120410155521876" text="2011 ortho tiles">
+    <VectorClassificationItemNg text="275,000 km2">
+     <symbols>
+      <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+       <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="color" v="0,255,255,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.26"/>
+       </layer>
+      </symbol>
+     </symbols>
+    </VectorClassificationItemNg>
+   </LayerItem>
+   <LayerItem layerId="2010_final_tiles_clip20120523101309833" text="2010 ortho tiles">
+    <VectorClassificationItemNg text="300,000 km2">
+     <symbols>
+      <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+       <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="color" v="255,237,161,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.26"/>
+       </layer>
+      </symbol>
+     </symbols>
+    </VectorClassificationItemNg>
+   </LayerItem>
+  </Model>
+  <ComposerItem width="56" x="221.1568712871287" y="6.940158415841587" rotation="0" height="62.9" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="3.355704697986577" id="" positionLock="false">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerLegend>
+ <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+  <Extent ymin="359706.850599393" xmin="-1438952.236152796" ymax="2394275.262674652" xmax="1467574.06681186"/>
+  <LayerSet/>
+  <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+   <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+  </Grid>
+  <ComposerItem width="300" x="-1.789603960396043" y="-0.2673267326732613" rotation="0" height="210" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="3.355704697986577" id="" positionLock="false">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerMap>
+ <ComposerLabel valign="32" labelText="2012.05.23" halign="1" margin="1">
+  <LabelFont description="Ubuntu,8,-1,5,50,0,0,0,0,0"/>
+  <FontColor red="0" blue="0" green="0"/>
+  <ComposerItem width="20.00286138613869" x="0.2611386138613057" y="2.35024752475249" rotation="0" height="5.74504950495048" frame="true" outlineWidth="0.3" zValue="4" lastValidViewScaleFactor="3.355704697986577" id="" positionLock="false">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerLabel>
+ <Composition printResolution="90" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
+</Composer>

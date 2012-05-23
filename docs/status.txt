@@ -1,0 +1,8 @@
+clipped_area_2011 = 274478
+clipped_area_2010 = 297750
+total ortho tile area clipped => 572228 
+# clipped to ortho clip mask is caveat
+total area of clipped state = 1579464 # (total delivery size)
+# 17% of the project was done with delivery of 2010 ortho tiles
+# 36% of the project was done with delivery of the 2011 ortho tiles
+
