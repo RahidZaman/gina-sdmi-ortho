@@ -6,8 +6,8 @@ GINA-SDMI-ORTHO
 *State Wide Digital Mapping Initiative of Alaska*
 
 A public repository to help organize the ancilary documents and datasets
-related to the SDMI ortho mosaic.  For an easy bundled download check out
-the [date revisioned tags page](https://github.com/downloads/gina-alaska/gina-sdmi-ortho/tags).  
+related to the SDMI ortho mosaic.  You can download the latest version 
+via the [github Downloads section](https://github.com/gina-alaska/gina-sdmi-ortho/downloads). 
 
 ortho
 -----
