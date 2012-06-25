@@ -1,0 +1,1712 @@
+<VRTDataset rasterXSize="697157" rasterYSize="762500">
+  <SRS>PROJCS[&quot;Alaska_Albers_Equal_Area_Conic&quot;,GEOGCS[&quot;NAD83&quot;,DATUM[&quot;North_American_Datum_1983&quot;,SPHEROID[&quot;GRS 1980&quot;,6378137,298.2572221010002,AUTHORITY[&quot;EPSG&quot;,&quot;7019&quot;]],AUTHORITY[&quot;EPSG&quot;,&quot;6269&quot;]],PRIMEM[&quot;Greenwich&quot;,0],UNIT[&quot;degree&quot;,0.0174532925199433],AUTHORITY[&quot;EPSG&quot;,&quot;4269&quot;]],PROJECTION[&quot;Albers_Conic_Equal_Area&quot;],PARAMETER[&quot;standard_parallel_1&quot;,55],PARAMETER[&quot;standard_parallel_2&quot;,65],PARAMETER[&quot;latitude_of_center&quot;,50],PARAMETER[&quot;longitude_of_center&quot;,-154],PARAMETER[&quot;false_easting&quot;,0],PARAMETER[&quot;false_northing&quot;,0],UNIT[&quot;metre&quot;,1,AUTHORITY[&quot;EPSG&quot;,&quot;9001&quot;]]]</SRS>
+  <GeoTransform> -1.0165714870697038e+06,  2.5480992426364826e+00,  0.0000000000000000e+00,  2.4181286665608683e+06,  0.0000000000000000e+00, -2.5480992426364826e+00</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <NoDataValue>0.00000000000000E+00</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54022071106102301412B0_1A/sdmi/54022071106102301412B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34145" RasterYSize="33449" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34145" ySize="33449" />
+      <DstRect xOff="178344" yOff="98136" xSize="33325" ySize="32645" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54052061009222322072B0_1A/sdmi/54052061009222322072B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34614" RasterYSize="33712" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34614" ySize="33712" />
+      <DstRect xOff="213247" yOff="86095" xSize="34830" ySize="33922" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54052071009222322152B0_1A/sdmi/54052071009222322152B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34500" RasterYSize="33716" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34500" ySize="33716" />
+      <DstRect xOff="199760" yOff="101598" xSize="34770" ySize="33980" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54052081009222322232B0_1A/sdmi/54052081009222322232B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34395" RasterYSize="33719" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34395" ySize="33719" />
+      <DstRect xOff="186268" yOff="117158" xSize="34712" ySize="34030" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54052081109162315522B0_1A/sdmi/54052081109162315522B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34351" RasterYSize="33685" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34351" ySize="33685" />
+      <DstRect xOff="187539" yOff="117507" xSize="34347" ySize="33681" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54062030909042242522B1_1A/sdmi/54062030909042242522B1_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34280" RasterYSize="32917" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34280" ySize="32917" />
+      <DstRect xOff="255310" yOff="42745" xSize="33501" ySize="32169" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54062041106202308442B2_1A/sdmi/54062041106202308442B2_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34670" RasterYSize="33568" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34670" ySize="33568" />
+      <DstRect xOff="250104" yOff="60877" xSize="34138" ySize="33053" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54062061107232233572B0_1A/sdmi/54062061107232233572B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33738" RasterYSize="32315" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33738" ySize="32315" />
+      <DstRect xOff="231810" yOff="89517" xSize="33809" ySize="32383" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54062071107272257132B0_1A/sdmi/54062071107272257132B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34075" RasterYSize="33381" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34075" ySize="33381" />
+      <DstRect xOff="222174" yOff="105730" xSize="33278" ySize="32600" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54062141110022308422B0_1A/sdmi/54062141110022308422B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33818" RasterYSize="33595" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33818" ySize="33595" />
+      <DstRect xOff="137073" yOff="218682" xSize="33897" ySize="33673" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54062151110022308502B0_1A/sdmi/54062151110022308502B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33770" RasterYSize="33601" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33770" ySize="33601" />
+      <DstRect xOff="124347" yOff="234969" xSize="33871" ySize="33701" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54062191206182303232B8_1A/sdmi/54062191206182303232B8_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33626" RasterYSize="33582" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33626" ySize="33582" />
+      <DstRect xOff="75009" yOff="318524" xSize="34161" ySize="34117" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54092121106152305552B2_1A/sdmi/54092121106152305552B2_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33863" RasterYSize="33506" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33863" ySize="33506" />
+      <DstRect xOff="178819" yOff="193558" xSize="33936" ySize="33578" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54092131106152306032B0_1A/sdmi/54092131106152306032B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33815" RasterYSize="33511" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33815" ySize="33511" />
+      <DstRect xOff="169223" yOff="206199" xSize="33910" ySize="33605" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54092140909032303282B0_1A/sdmi/54092140909032303282B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33755" RasterYSize="33529" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33755" ySize="33529" />
+      <DstRect xOff="156584" yOff="222632" xSize="33811" ySize="33584" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54092150909032303362B6_1A/sdmi/54092150909032303362B6_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33678" RasterYSize="33538" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33678" ySize="33538" />
+      <DstRect xOff="135526" yOff="250387" xSize="33768" ySize="33627" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54102121009232303262B0_1A/sdmi/54102121009232303262B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33829" RasterYSize="33419" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33829" ySize="33419" />
+      <DstRect xOff="201317" yOff="193095" xSize="33931" ySize="33520" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54102130906082234212B0_1A/sdmi/54102130906082234212B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33204" RasterYSize="32819" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33204" ySize="32819" />
+      <DstRect xOff="187870" yOff="209889" xSize="32803" ySize="32422" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54102131009232303342B0_1A/sdmi/54102131009232303342B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33769" RasterYSize="33425" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33769" ySize="33425" />
+      <DstRect xOff="189076" yOff="209700" xSize="33898" ySize="33553" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54102141009232303422B0_1A/sdmi/54102141009232303422B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33714" RasterYSize="33431" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33714" ySize="33431" />
+      <DstRect xOff="176826" yOff="226333" xSize="33868" ySize="33583" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54102151009232303502B0_1A/sdmi/54102151009232303502B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33666" RasterYSize="33437" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33666" ySize="33437" />
+      <DstRect xOff="164544" yOff="243020" xSize="33841" ySize="33611" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54132011107062300232B7_1A/sdmi/54132011107062300232B7_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34954" RasterYSize="33376" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34954" ySize="33376" />
+      <DstRect xOff="317512" yOff="26343" xSize="34391" ySize="32838" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54132101206192242482B0_1A/sdmi/54132101206192242482B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33642" RasterYSize="33200" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33642" ySize="33200" />
+      <DstRect xOff="234906" yOff="161557" xSize="33098" ySize="32663" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54132111206192242552B0_1A/sdmi/54132111206192242552B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33570" RasterYSize="33209" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33570" ySize="33209" />
+      <DstRect xOff="223703" yOff="178290" xSize="33059" ySize="32703" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54132140906242227062B0_1A/sdmi/54132140906242227062B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32984" RasterYSize="32484" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32984" ySize="32484" />
+      <DstRect xOff="196902" yOff="230126" xSize="32831" ySize="32333" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54142001106262252342B1_1A/sdmi/54142001106262252342B1_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="35054" RasterYSize="33208" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="35054" ySize="33208" />
+      <DstRect xOff="350387" yOff="0" xSize="34093" ySize="32297" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54142011106262252422B0_1A/sdmi/54142011106262252422B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34889" RasterYSize="33211" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34889" ySize="33211" />
+      <DstRect xOff="340243" yOff="14156" xSize="34009" ySize="32373" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54142011107082221442B1_1A/sdmi/54142011107082221442B1_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33866" RasterYSize="31883" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33866" ySize="31883" />
+      <DstRect xOff="339861" yOff="16661" xSize="33259" ySize="31312" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54142021106262252502B0_1A/sdmi/54142021106262252502B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34717" RasterYSize="33216" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34717" ySize="33216" />
+      <DstRect xOff="328747" yOff="30283" xSize="33921" ySize="32454" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54142051006232231052B3_1A/sdmi/54142051006232231052B3_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33505" RasterYSize="32453" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33505" ySize="32453" />
+      <DstRect xOff="301175" yOff="86360" xSize="32765" ySize="31736" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54142131107272257492B0_1A/sdmi/54142131107272257492B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33702" RasterYSize="33317" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33702" ySize="33317" />
+      <DstRect xOff="209067" yOff="212837" xSize="33938" ySize="33550" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54142331109232244052B4_1A/sdmi/54142331109232244052B4_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33105" RasterYSize="33182" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33105" ySize="33182" />
+      <DstRect xOff="0" yOff="574292" xSize="32643" ySize="32719" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54172011206192241342B0_1A/sdmi/54172011206192241342B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34814" RasterYSize="33092" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34814" ySize="33092" />
+      <DstRect xOff="358836" yOff="14800" xSize="34036" ySize="32353" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54172021107072241082B7_1A/sdmi/54172021107072241082B7_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34222" RasterYSize="32918" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34222" ySize="32918" />
+      <DstRect xOff="337988" yOff="45045" xSize="33237" ySize="31971" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54172021206192241422B0_1A/sdmi/54172021206192241422B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34642" RasterYSize="33097" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34642" ySize="33097" />
+      <DstRect xOff="347537" yOff="31133" xSize="33949" ySize="32435" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54172041009182258272B0_1A/sdmi/54172041009182258272B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34597" RasterYSize="33246" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34597" ySize="33246" />
+      <DstRect xOff="324094" yOff="63717" xSize="34553" ySize="33203" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54172041108182233112B7_1A/sdmi/54172041108182233112B7_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33683" RasterYSize="32667" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33683" ySize="32667" />
+      <DstRect xOff="317461" yOff="78450" xSize="32747" ySize="31759" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54172090908092242552B0_1A/sdmi/54172090908092242552B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33654" RasterYSize="33084" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33654" ySize="33084" />
+      <DstRect xOff="270411" yOff="147676" xSize="33106" ySize="32545" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54172151206192243222B0_1A/sdmi/54172151206192243222B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33410" RasterYSize="33164" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33410" ySize="33164" />
+      <DstRect xOff="209406" yOff="250474" xSize="33481" ySize="33235" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54172161206192243292B0_1A/sdmi/54172161206192243292B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33369" RasterYSize="33172" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33369" ySize="33172" />
+      <DstRect xOff="197909" yOff="267664" xSize="33459" ySize="33261" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54172260909042245362B1_1A/sdmi/54172260909042245362B1_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33109" RasterYSize="33197" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33109" ySize="33197" />
+      <DstRect xOff="89533" yOff="445528" xSize="32974" ySize="33061" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54172341109242224522B7_1A/sdmi/54172341109242224522B7_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32891" RasterYSize="32314" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32891" ySize="32314" />
+      <DstRect xOff="8612" yOff="604236" xSize="33187" ySize="32605" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54182051206142238182B0_1A/sdmi/54182051206142238182B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34132" RasterYSize="32981" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34132" ySize="32981" />
+      <DstRect xOff="336411" yOff="81837" xSize="33782" ySize="32643" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54182061206192242092B0_1A/sdmi/54182061206192242092B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34141" RasterYSize="33065" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34141" ySize="33065" />
+      <DstRect xOff="320861" yOff="98292" xSize="34070" ySize="32997" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54182071206192242172B0_1A/sdmi/54182071206192242172B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34027" RasterYSize="33072" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34027" ySize="33072" />
+      <DstRect xOff="309421" yOff="115133" xSize="34009" ySize="33055" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54182111009292247442B0_1A/sdmi/54182111009292247442B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33534" RasterYSize="33046" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33534" ySize="33046" />
+      <DstRect xOff="269123" yOff="183674" xSize="33390" ySize="32904" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54182131009242244082B0_1A/sdmi/54182131009242244082B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33279" RasterYSize="32989" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33279" ySize="32989" />
+      <DstRect xOff="249542" yOff="218487" xSize="32956" ySize="32669" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54182141009242244162B0_1A/sdmi/54182141009242244162B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33227" RasterYSize="32998" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33227" ySize="32998" />
+      <DstRect xOff="238674" yOff="235807" xSize="32928" ySize="32701" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54182201105262251362B0_1A/sdmi/54182201105262251362B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33337" RasterYSize="33097" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33337" ySize="33097" />
+      <DstRect xOff="176428" yOff="340845" xSize="34044" ySize="33799" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54182211105262251442B0_1A/sdmi/54182211105262251442B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33319" RasterYSize="33105" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33319" ySize="33105" />
+      <DstRect xOff="164678" yOff="358362" xSize="34035" ySize="33817" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54212031206142238032B0_1A/sdmi/54212031206142238032B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34414" RasterYSize="32968" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34414" ySize="32968" />
+      <DstRect xOff="358626" yOff="48334" xSize="33930" ySize="32504" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54212041206142238102B0_1A/sdmi/54212041206142238102B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34268" RasterYSize="32975" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34268" ySize="32975" />
+      <DstRect xOff="347515" yOff="65054" xSize="33854" ySize="32576" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54212101206202223172B0_1A/sdmi/54212101206202223172B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33051" RasterYSize="32609" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33051" ySize="32609" />
+      <DstRect xOff="304099" yOff="168858" xSize="32411" ySize="31978" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54212111206202223252B0_1A/sdmi/54212111206202223252B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32980" RasterYSize="32621" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32980" ySize="32621" />
+      <DstRect xOff="294228" yOff="186266" xSize="32374" ySize="32021" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54212121206202223332B0_1A/sdmi/54212121206202223332B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32916" RasterYSize="32633" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32916" ySize="32633" />
+      <DstRect xOff="284333" yOff="203736" xSize="32340" ySize="32062" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54212131108192214552B0_1A/sdmi/54212131108192214552B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32495" RasterYSize="31784" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32495" ySize="31784" />
+      <DstRect xOff="267295" yOff="220767" xSize="32402" ySize="31693" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54212141108192215032B0_1A/sdmi/54212141108192215032B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32455" RasterYSize="31804" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32455" ySize="31804" />
+      <DstRect xOff="258677" yOff="238447" xSize="32380" ySize="31731" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54212151108192215102B0_1A/sdmi/54212151108192215102B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32419" RasterYSize="31824" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32419" ySize="31824" />
+      <DstRect xOff="250020" yOff="256195" xSize="32361" ySize="31767" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54212161108192215182B0_1A/sdmi/54212161108192215182B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32390" RasterYSize="31843" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32390" ySize="31843" />
+      <DstRect xOff="241315" yOff="274024" xSize="32346" ySize="31800" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54212251009242245392B0_1A/sdmi/54212251009242245392B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33074" RasterYSize="32988" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33074" ySize="32988" />
+      <DstRect xOff="143874" yOff="433672" xSize="33385" ySize="33298" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54212261009242245472B0_1A/sdmi/54212261009242245472B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33076" RasterYSize="32995" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33076" ySize="32995" />
+      <DstRect xOff="132555" yOff="451547" xSize="33386" ySize="33304" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54212271009242245552B0_1A/sdmi/54212271009242245552B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33085" RasterYSize="33002" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33085" ySize="33002" />
+      <DstRect xOff="121202" yOff="469442" xSize="33392" ySize="33308" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54222131009202220532B0_1A/sdmi/54222131009202220532B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32482" RasterYSize="32161" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32482" ySize="32161" />
+      <DstRect xOff="288596" yOff="222702" xSize="31936" ySize="31621" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54222141009202221012B0_1A/sdmi/54222141009202221012B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32435" RasterYSize="32177" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32435" ySize="32177" />
+      <DstRect xOff="279571" yOff="240472" xSize="31911" ySize="31657" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54222161009202221162B0_1A/sdmi/54222161009202221162B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32362" RasterYSize="32208" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32362" ySize="32208" />
+      <DstRect xOff="261414" yOff="276201" xSize="31873" ySize="31722" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54222171009202221242B0_1A/sdmi/54222171009202221242B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32336" RasterYSize="32223" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32336" ySize="32223" />
+      <DstRect xOff="252278" yOff="294157" xSize="31861" ySize="31750" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54222181009202221322B0_1A/sdmi/54222181009202221322B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32312" RasterYSize="32237" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32312" ySize="32237" />
+      <DstRect xOff="243101" yOff="312176" xSize="31849" ySize="31775" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54222191009242244492B0_1A/sdmi/54222191009242244492B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33180" RasterYSize="32871" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33180" ySize="32871" />
+      <DstRect xOff="224556" yOff="328476" xSize="33805" ySize="33490" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54222191206042232332B0_1A/sdmi/54222191206042232332B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33038" RasterYSize="32779" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33038" ySize="32779" />
+      <DstRect xOff="233876" yOff="329688" xSize="33489" ySize="33227" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54222200908112205372B0_1A/sdmi/54222200908112205372B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32207" RasterYSize="31346" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32207" ySize="31346" />
+      <DstRect xOff="223502" yOff="348225" xSize="32738" ySize="31863" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54222201009242244572B0_1A/sdmi/54222201009242244572B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33159" RasterYSize="32879" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33159" ySize="32879" />
+      <DstRect xOff="213348" yOff="346298" xSize="33793" ySize="33507" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54222210908112205452B0_1A/sdmi/54222210908112205452B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32202" RasterYSize="31366" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32202" ySize="31366" />
+      <DstRect xOff="215150" yOff="366500" xSize="32738" ySize="31888" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54222211009242245052B0_1A/sdmi/54222211009242245052B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33143" RasterYSize="32887" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33143" ySize="32887" />
+      <DstRect xOff="202122" yOff="364137" xSize="33783" ySize="33522" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54222221009242245132B0_1A/sdmi/54222221009242245132B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33131" RasterYSize="32895" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33131" ySize="32895" />
+      <DstRect xOff="190859" yOff="382017" xSize="33775" ySize="33535" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54252021107022237072B0_1A/sdmi/54252021107022237072B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34406" RasterYSize="32686" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34406" ySize="32686" />
+      <DstRect xOff="407820" yOff="31489" xSize="33975" ySize="32277" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54252031107022237152B0_1A/sdmi/54252031107022237152B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34245" RasterYSize="32692" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34245" ySize="32692" />
+      <DstRect xOff="397108" yOff="48574" xSize="33891" ySize="32354" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54252121206162200262B0_1A/sdmi/54252121206162200262B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32204" RasterYSize="31410" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32204" ySize="31410" />
+      <DstRect xOff="309417" yOff="205938" xSize="32071" ySize="31280" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54252131206162200342B0_1A/sdmi/54252131206162200342B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32158" RasterYSize="31431" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32158" ySize="31431" />
+      <DstRect xOff="301367" yOff="223780" xSize="32045" ySize="31321" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54252251206162202082B0_1A/sdmi/54252251206162202082B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32121" RasterYSize="31516" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32121" ySize="31516" />
+      <DstRect xOff="185280" yOff="440729" xSize="32445" ySize="31834" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54262141105272231192B0_1A/sdmi/54262141105272231192B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32961" RasterYSize="32510" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32961" ySize="32510" />
+      <DstRect xOff="315850" yOff="242655" xSize="33119" ySize="32666" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54262221109192219162B0_1A/sdmi/54262221109192219162B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32202" RasterYSize="32321" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32202" ySize="32321" />
+      <DstRect xOff="231426" yOff="387865" xSize="31716" ySize="31833" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54262231109192219242B0_1A/sdmi/54262231109192219242B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32199" RasterYSize="32333" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32199" ySize="32333" />
+      <DstRect xOff="222010" yOff="406245" xSize="31717" ySize="31849" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54262241109192219322B0_1A/sdmi/54262241109192219322B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32201" RasterYSize="32345" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32201" ySize="32345" />
+      <DstRect xOff="212554" yOff="424665" xSize="31720" ySize="31862" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54262251109192219402B0_1A/sdmi/54262251109192219402B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32205" RasterYSize="32356" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32205" ySize="32356" />
+      <DstRect xOff="203066" yOff="443108" xSize="31725" ySize="31874" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54262261109192219482B0_1A/sdmi/54262261109192219482B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32213" RasterYSize="32367" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32213" ySize="32367" />
+      <DstRect xOff="193538" yOff="461588" xSize="31731" ySize="31883" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54262281206152221482B0_1A/sdmi/54262281206152221482B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32590" RasterYSize="32548" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32590" ySize="32548" />
+      <DstRect xOff="180907" yOff="499295" xSize="32650" ySize="32608" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54292020906092213182B6_1A/sdmi/54292020906092213182B6_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33446" RasterYSize="32075" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33446" ySize="32075" />
+      <DstRect xOff="427301" yOff="43435" xSize="32450" ySize="31120" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54292031108252157572B6_1A/sdmi/54292031108252157572B6_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32489" RasterYSize="30900" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32489" ySize="30900" />
+      <DstRect xOff="417139" yOff="61645" xSize="31884" ySize="30324" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54292041108132229072B3_1A/sdmi/54292041108132229072B3_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33826" RasterYSize="32420" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33826" ySize="32420" />
+      <DstRect xOff="412472" yOff="71351" xSize="33565" ySize="32170" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54292061108252158192B0_1A/sdmi/54292061108252158192B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32238" RasterYSize="30958" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32238" ySize="30958" />
+      <DstRect xOff="400546" yOff="101080" xSize="31745" ySize="30485" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54292141109152155042B0_1A/sdmi/54292141109152155042B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31678" RasterYSize="30740" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31678" ySize="30740" />
+      <DstRect xOff="336466" yOff="244408" xSize="31812" ySize="30870" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54292151009212201422B0_1A/sdmi/54292151009212201422B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31712" RasterYSize="31132" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31712" ySize="31132" />
+      <DstRect xOff="328658" yOff="262635" xSize="31557" ySize="30980" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54292201009212202232B0_1A/sdmi/54292201009212202232B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31793" RasterYSize="31041" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31793" ySize="31041" />
+      <DstRect xOff="268754" yOff="353195" xSize="32102" ySize="31342" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54292211009262206232B0_1A/sdmi/54292211009262206232B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31814" RasterYSize="31409" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31814" ySize="31409" />
+      <DstRect xOff="258035" yOff="371452" xSize="31795" ySize="31390" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54292231009262206382B0_1A/sdmi/54292231009262206382B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31812" RasterYSize="31444" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31812" ySize="31444" />
+      <DstRect xOff="241658" yOff="408614" xSize="31799" ySize="31431" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54292241009262206462B0_1A/sdmi/54292241009262206462B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31817" RasterYSize="31461" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31817" ySize="31461" />
+      <DstRect xOff="233405" yOff="427263" xSize="31806" ySize="31450" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54292401108242222052B0_1A/sdmi/54292401108242222052B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32655" RasterYSize="32370" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32655" ySize="32370" />
+      <DstRect xOff="99981" yOff="730301" xSize="32482" ySize="32199" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54302031206152218282B0_1A/sdmi/54302031206152218282B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33906" RasterYSize="32237" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33906" ySize="32237" />
+      <DstRect xOff="443780" yOff="46965" xSize="33647" ySize="31991" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54302041206152218362B0_1A/sdmi/54302041206152218362B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33758" RasterYSize="32244" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33758" ySize="32244" />
+      <DstRect xOff="433835" yOff="64584" xSize="33569" ySize="32063" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54302161206012149392B0_1A/sdmi/54302161206012149392B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31601" RasterYSize="30808" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31601" ySize="30808" />
+      <DstRect xOff="321719" yOff="281053" xSize="31729" ySize="30932" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54302281109302208192B0_1A/sdmi/54302281109302208192B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31809" RasterYSize="31885" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31809" ySize="31885" />
+      <DstRect xOff="215070" yOff="504100" xSize="31365" ySize="31440" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54302291109302208272B0_1A/sdmi/54302291109302208272B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31829" RasterYSize="31897" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31829" ySize="31897" />
+      <DstRect xOff="206285" yOff="522961" xSize="31380" ySize="31447" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54302301109302208352B0_1A/sdmi/54302301109302208352B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31849" RasterYSize="31909" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31849" ySize="31909" />
+      <DstRect xOff="197458" yOff="541854" xSize="31394" ySize="31454" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54332021206152218202B0_1A/sdmi/54332021206152218202B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34065" RasterYSize="32230" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="34065" ySize="32230" />
+      <DstRect xOff="453751" yOff="29394" xSize="33731" ySize="31914" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54332081106082159252B0_1A/sdmi/54332081106082159252B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31945" RasterYSize="31173" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31945" ySize="31173" />
+      <DstRect xOff="412734" yOff="136085" xSize="31260" ySize="30504" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54332141205262204551B0_1A/sdmi/54332141205262204551B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32068" RasterYSize="31881" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32068" ySize="31881" />
+      <DstRect xOff="359751" yOff="244864" xSize="31592" ySize="31408" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54332300907112202122B0_1A/sdmi/54332300907112202122B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31657" RasterYSize="31766" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31657" ySize="31766" />
+      <DstRect xOff="232220" yOff="545841" xSize="31181" ySize="31288" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54342051108192213362B0_1A/sdmi/54342051108192213362B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33104" RasterYSize="31846" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33104" ySize="31846" />
+      <DstRect xOff="452411" yOff="81082" xSize="32632" ySize="31392" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54342111108192214202B0_1A/sdmi/54342111108192214202B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32591" RasterYSize="31849" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32591" ySize="31849" />
+      <DstRect xOff="411925" yOff="189422" xSize="32634" ySize="31891" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54342121108192214282B0_1A/sdmi/54342121108192214282B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32524" RasterYSize="31862" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32524" ySize="31862" />
+      <DstRect xOff="402823" yOff="207841" xSize="32598" ySize="31934" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54372131206172140582B8_1A/sdmi/54372131206172140582B8_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31040" RasterYSize="30608" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31040" ySize="30608" />
+      <DstRect xOff="404049" yOff="244489" xSize="30652" ySize="30226" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54372141206172141062B0_1A/sdmi/54372141206172141062B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31037" RasterYSize="30609" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31037" ySize="30609" />
+      <DstRect xOff="403689" yOff="245473" xSize="30651" ySize="30228" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54372161108262140062B0_1A/sdmi/54372161108262140062B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30925" RasterYSize="29792" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30925" ySize="29792" />
+      <DstRect xOff="385740" yOff="282956" xSize="31277" ySize="30131" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54372161206172141212B0_1A/sdmi/54372161206172141212B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30970" RasterYSize="30653" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30970" ySize="30653" />
+      <DstRect xOff="389968" yOff="282875" xSize="30616" ySize="30303" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54372171108262140142B0_1A/sdmi/54372171108262140142B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30903" RasterYSize="29819" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30903" ySize="29819" />
+      <DstRect xOff="379475" yOff="301737" xSize="31266" ySize="30169" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54372181109052147552B0_1A/sdmi/54372181109052147552B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30988" RasterYSize="30639" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30988" ySize="30639" />
+      <DstRect xOff="370390" yOff="320493" xSize="30738" ySize="30392" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54372191109052148032B0_1A/sdmi/54372191109052148032B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30975" RasterYSize="30661" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30975" ySize="30661" />
+      <DstRect xOff="363423" yOff="339395" xSize="30733" ySize="30422" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54372201109052148112B0_1A/sdmi/54372201109052148112B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30964" RasterYSize="30681" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30964" ySize="30681" />
+      <DstRect xOff="356424" yOff="358346" xSize="30730" ySize="30449" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54372231010222206202B0_1A/sdmi/54372231010222206202B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31587" RasterYSize="31602" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31587" ySize="31602" />
+      <DstRect xOff="339512" yOff="415298" xSize="31392" ySize="31407" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54372351010172204072B0_1A/sdmi/54372351010172204072B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31583" RasterYSize="31631" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31583" ySize="31631" />
+      <DstRect xOff="235533" yOff="646585" xSize="31106" ySize="31153" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54372381107042202582B0_1A/sdmi/54372381107042202582B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31692" RasterYSize="31655" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31692" ySize="31655" />
+      <DstRect xOff="209881" yOff="704831" xSize="31191" ySize="31155" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54382121009262204592B0_1A/sdmi/54382121009262204592B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31894" RasterYSize="31460" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31894" ySize="31460" />
+      <DstRect xOff="428826" yOff="207505" xSize="31531" ySize="31102" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54382121105292152132B0_1A/sdmi/54382121105292152132B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31247" RasterYSize="30902" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31247" ySize="30902" />
+      <DstRect xOff="430954" yOff="207795" xSize="30642" ySize="30304" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54382131009262205072B0_1A/sdmi/54382131009262205072B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31837" RasterYSize="31475" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31837" ySize="31475" />
+      <DstRect xOff="420642" yOff="226155" xSize="31500" ySize="31141" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54382201105232208442B0_1A/sdmi/54382201105232208442B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31938" RasterYSize="31561" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31938" ySize="31561" />
+      <DstRect xOff="375576" yOff="357939" xSize="32310" ySize="31928" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54382220908172150152B0_1A/sdmi/54382220908172150152B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31010" RasterYSize="31077" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31010" ySize="31077" />
+      <DstRect xOff="354126" yOff="396678" xSize="30568" ySize="30634" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54382240908172150312B0_1A/sdmi/54382240908172150312B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31015" RasterYSize="31110" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31015" ySize="31110" />
+      <DstRect xOff="339150" yOff="435035" xSize="30577" ySize="30670" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54382241110262207172B0_1A/sdmi/54382241110262207172B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31878" RasterYSize="31663" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31878" ySize="31663" />
+      <DstRect xOff="332199" yOff="434269" xSize="32092" ySize="31876" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54382341105292155072B0_1A/sdmi/54382341105292155072B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31208" RasterYSize="31251" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31208" ySize="31251" />
+      <DstRect xOff="264916" yOff="629083" xSize="30696" ySize="30738" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54412131109052147102B0_1A/sdmi/54412131109052147102B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30983" RasterYSize="30722" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30983" ySize="30722" />
+      <DstRect xOff="450478" yOff="225323" xSize="30403" ySize="30147" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54412151109052147262B0_1A/sdmi/54412151109052147262B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30899" RasterYSize="30761" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30899" ySize="30761" />
+      <DstRect xOff="436575" yOff="263107" xSize="30360" ySize="30224" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54412161206022130072B0_1A/sdmi/54412161206022130072B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30588" RasterYSize="29685" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30588" ySize="29685" />
+      <DstRect xOff="413234" yOff="282776" xSize="30703" ySize="29797" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54412281009172140002B1_1A/sdmi/54412281009172140002B1_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30619" RasterYSize="29975" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30619" ySize="29975" />
+      <DstRect xOff="340921" yOff="516048" xSize="30767" ySize="30120" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54412290906092216292B0_1A/sdmi/54412290906092216292B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="33003" RasterYSize="31192" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="33003" ySize="31192" />
+      <DstRect xOff="317271" yOff="530683" xSize="36756" ySize="34739" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54412301010072155422B0_1A/sdmi/54412301010072155422B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31066" RasterYSize="31208" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31066" ySize="31208" />
+      <DstRect xOff="316671" yOff="552225" xSize="30607" ySize="30747" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54422050906162138482B3_1A/sdmi/54422050906162138482B3_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31380" RasterYSize="30340" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31380" ySize="30340" />
+      <DstRect xOff="511991" yOff="82616" xSize="30542" ySize="29530" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54422280906102157042B0_1A/sdmi/54422280906102157042B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31634" RasterYSize="31260" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31634" ySize="31260" />
+      <DstRect xOff="353995" yOff="513408" xSize="32079" ySize="31700" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54452061206182120362B0_1A/sdmi/54452061206182120362B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30559" RasterYSize="29050" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30559" ySize="29050" />
+      <DstRect xOff="516736" yOff="93673" xSize="30184" ySize="28694" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54452071206182120432B0_1A/sdmi/54452071206182120432B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30468" RasterYSize="29081" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30468" ySize="29081" />
+      <DstRect xOff="511507" yOff="111968" xSize="30132" ySize="28760" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54452111009212200512B0_1A/sdmi/54452111009212200512B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31978" RasterYSize="31069" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31978" ySize="31069" />
+      <DstRect xOff="487125" yOff="185349" xSize="32150" ySize="31236" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54452171009162157472B0_1A/sdmi/54452171009162157472B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31430" RasterYSize="31029" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31430" ySize="31029" />
+      <DstRect xOff="446661" yOff="299753" xSize="31513" ySize="31111" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54452181009162157552B0_1A/sdmi/54452181009162157552B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31402" RasterYSize="31044" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31402" ySize="31044" />
+      <DstRect xOff="438861" yOff="319030" xSize="31498" ySize="31139" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54452191009162158022B0_1A/sdmi/54452191009162158022B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31380" RasterYSize="31058" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31380" ySize="31058" />
+      <DstRect xOff="431042" yOff="338346" xSize="31485" ySize="31162" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54452191009172138442B0_1A/sdmi/54452191009172138442B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30230" RasterYSize="30115" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30230" ySize="30115" />
+      <DstRect xOff="439646" yOff="338704" xSize="29827" ySize="29714" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54452201009172138522B0_1A/sdmi/54452201009172138522B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30220" RasterYSize="30135" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30220" ySize="30135" />
+      <DstRect xOff="433438" yOff="358049" xSize="29825" ySize="29741" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54452211009172139002B0_1A/sdmi/54452211009172139002B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30216" RasterYSize="30156" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30216" ySize="30156" />
+      <DstRect xOff="427194" yOff="377457" xSize="29826" ySize="29766" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54452321007162151432B0_1A/sdmi/54452321007162151432B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30941" RasterYSize="30981" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30941" ySize="30981" />
+      <DstRect xOff="344278" yOff="593071" xSize="30623" ySize="30662" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54452331108102150102B0_1A/sdmi/54452331108102150102B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30982" RasterYSize="30982" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30982" ySize="30982" />
+      <DstRect xOff="336577" yOff="612847" xSize="30667" ySize="30667" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54452341108102150182B0_1A/sdmi/54452341108102150182B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31015" RasterYSize="30993" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31015" ySize="30993" />
+      <DstRect xOff="328950" yOff="632641" xSize="30690" ySize="30669" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54452351108052146392B6_1A/sdmi/54452351108052146392B6_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30846" RasterYSize="30867" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30846" ySize="30867" />
+      <DstRect xOff="316941" yOff="665879" xSize="30341" ySize="30361" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54462061108222115312B0_1A/sdmi/54462061108222115312B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30073" RasterYSize="27879" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30073" ySize="27879" />
+      <DstRect xOff="538978" yOff="90920" xSize="30204" ySize="28001" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54462171009012146082B1_1A/sdmi/54462171009012146082B1_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30663" RasterYSize="30568" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30663" ySize="30568" />
+      <DstRect xOff="468875" yOff="301062" xSize="30303" ySize="30209" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54462180908272157262B0_1A/sdmi/54462180908272157262B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31865" RasterYSize="30914" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31865" ySize="30914" />
+      <DstRect xOff="459147" yOff="317573" xSize="32904" ySize="31922" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54462241107202153002B0_1A/sdmi/54462241107202153002B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31259" RasterYSize="30785" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31259" ySize="30785" />
+      <DstRect xOff="426239" yOff="434842" xSize="31728" ySize="31247" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54462251107202153082B0_1A/sdmi/54462251107202153082B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31262" RasterYSize="30797" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31262" ySize="30797" />
+      <DstRect xOff="418533" yOff="454562" xSize="31732" ySize="31260" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54462261107202153162B0_1A/sdmi/54462261107202153162B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31270" RasterYSize="30809" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31270" ySize="30809" />
+      <DstRect xOff="410805" yOff="474294" xSize="31738" ySize="31270" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54462271107202153242B0_1A/sdmi/54462271107202153242B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31280" RasterYSize="30821" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31280" ySize="30821" />
+      <DstRect xOff="403044" yOff="494067" xSize="31745" ySize="31280" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54462281107202153332B0_1A/sdmi/54462281107202153332B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31295" RasterYSize="30833" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31295" ySize="30833" />
+      <DstRect xOff="395258" yOff="513848" xSize="31757" ySize="31288" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54462281107202153332B1_1A/sdmi/54462281107202153332B1_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31297" RasterYSize="30834" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31297" ySize="30834" />
+      <DstRect xOff="394390" yOff="516052" xSize="31759" ySize="31289" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54462321108152153452B0_1A/sdmi/54462321108152153452B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="31394" RasterYSize="30856" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="31394" ySize="30856" />
+      <DstRect xOff="365787" yOff="593165" xSize="31884" ySize="31338" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54462361108162134592B4_1A/sdmi/54462361108162134592B4_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30330" RasterYSize="30168" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30330" ySize="30168" />
+      <DstRect xOff="347248" yOff="682816" xSize="29904" ySize="29744" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54492101105302132262B0_1A/sdmi/54492101105302132262B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30270" RasterYSize="29756" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30270" ySize="29756" />
+      <DstRect xOff="534167" yOff="162931" xSize="29625" ySize="29121" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54492111105302132332B0_1A/sdmi/54492111105302132332B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30204" RasterYSize="29779" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30204" ySize="29779" />
+      <DstRect xOff="528405" yOff="181927" xSize="29588" ySize="29172" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54492121105302132412B0_1A/sdmi/54492121105302132412B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30146" RasterYSize="29802" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30146" ySize="29802" />
+      <DstRect xOff="522626" yOff="201002" xSize="29557" ySize="29220" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54492241009272147012B0_1A/sdmi/54492241009272147012B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30715" RasterYSize="30541" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30715" ySize="30541" />
+      <DstRect xOff="447255" yOff="434379" xSize="30737" ySize="30563" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54492251009272147092B0_1A/sdmi/54492251009272147092B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30720" RasterYSize="30555" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30720" ySize="30555" />
+      <DstRect xOff="440170" yOff="454182" xSize="30743" ySize="30577" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54492261009272147172B0_1A/sdmi/54492261009272147172B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30730" RasterYSize="30569" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30730" ySize="30569" />
+      <DstRect xOff="433052" yOff="474027" xSize="30751" ySize="30590" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54492271110182121162B0_1A/sdmi/54492271110182121162B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="29741" RasterYSize="28901" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="29741" ySize="28901" />
+      <DstRect xOff="426792" yOff="494554" xSize="29987" ySize="29140" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54492281110182121242B0_1A/sdmi/54492281110182121242B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="29763" RasterYSize="28922" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="29763" ySize="28922" />
+      <DstRect xOff="421521" yOff="514393" xSize="30006" ySize="29158" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54492291108162134012B0_1A/sdmi/54492291108162134012B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="29994" RasterYSize="30121" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="29994" ySize="30121" />
+      <DstRect xOff="414763" yOff="534096" xSize="29541" ySize="29666" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54492311010132140112B0_1A/sdmi/54492311010132140112B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30242" RasterYSize="30376" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30242" ySize="30376" />
+      <DstRect xOff="404486" yOff="573848" xSize="29824" ySize="29956" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54502241108112129312B0_1A/sdmi/54502241108112129312B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="29684" RasterYSize="29802" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="29684" ySize="29802" />
+      <DstRect xOff="468105" yOff="433868" xSize="29238" ySize="29354" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54502251108112129392B0_1A/sdmi/54502251108112129392B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="29693" RasterYSize="29820" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="29693" ySize="29820" />
+      <DstRect xOff="462288" yOff="453730" xSize="29247" ySize="29372" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54502261108112129472B0_1A/sdmi/54502261108112129472B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="29707" RasterYSize="29838" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="29707" ySize="29838" />
+      <DstRect xOff="456442" yOff="473621" xSize="29260" ySize="29389" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54502271108112129552B0_1A/sdmi/54502271108112129552B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="29723" RasterYSize="29855" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="29723" ySize="29855" />
+      <DstRect xOff="450556" yOff="493567" xSize="29274" ySize="29404" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54502281108112130032B0_1A/sdmi/54502281108112130032B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="29744" RasterYSize="29872" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="29744" ySize="29872" />
+      <DstRect xOff="444640" yOff="513539" xSize="29290" ySize="29416" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54532091106262112332B0_1A/sdmi/54532091106262112332B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="29315" RasterYSize="28071" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="29315" ySize="28071" />
+      <DstRect xOff="568231" yOff="140231" xSize="29052" ySize="27819" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54532111009232122072B1_1A/sdmi/54532111009232122072B1_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="29556" RasterYSize="28900" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="29556" ySize="28900" />
+      <DstRect xOff="548808" yOff="181716" xSize="29086" ySize="28440" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54532241009222143042B0_1A/sdmi/54532241009222143042B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30661" RasterYSize="30139" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30661" ySize="30139" />
+      <DstRect xOff="488387" yOff="431857" xSize="31110" ySize="30580" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54542081106042135492B0_1A/sdmi/54542081106042135492B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30931" RasterYSize="29780" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30931" ySize="29780" />
+      <DstRect xOff="594104" yOff="116390" xSize="30775" ySize="29630" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54542101206032109432B8_1A/sdmi/54542101206032109432B8_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="29252" RasterYSize="28667" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="29252" ySize="28667" />
+      <DstRect xOff="569940" yOff="175568" xSize="28739" ySize="28164" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54542121108062124052B0_1A/sdmi/54542121108062124052B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="29668" RasterYSize="29317" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="29668" ySize="29317" />
+      <DstRect xOff="565634" yOff="195286" xSize="29106" ySize="28761" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54542170907082117302B0_1A/sdmi/54542170907082117302B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="29260" RasterYSize="29149" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="29260" ySize="29149" />
+      <DstRect xOff="538056" yOff="293049" xSize="28814" ySize="28705" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54542221009182119372B0_1A/sdmi/54542221009182119372B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="29006" RasterYSize="28953" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="29006" ySize="28953" />
+      <DstRect xOff="520138" yOff="391167" xSize="28641" ySize="28589" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54572141009242103062B0_1A/sdmi/54572141009242103062B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="28589" RasterYSize="27006" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="28589" ySize="27006" />
+      <DstRect xOff="574254" yOff="231901" xSize="28919" ySize="27317" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54572221010142119312B0_1A/sdmi/54572221010142119312B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="28910" RasterYSize="29025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="28910" ySize="29025" />
+      <DstRect xOff="541730" yOff="388825" xSize="28478" ySize="28592" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54572231108122109562B0_1A/sdmi/54572231108122109562B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="28631" RasterYSize="28288" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="28631" ySize="28288" />
+      <DstRect xOff="534894" yOff="409306" xSize="28455" ySize="28114" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54572241108122110042B0_1A/sdmi/54572241108122110042B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="28645" RasterYSize="28313" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="28645" ySize="28313" />
+      <DstRect xOff="530620" yOff="429285" xSize="28469" ySize="28139" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54572251107212133362B0_1A/sdmi/54572251107212133362B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30307" RasterYSize="29599" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30307" ySize="29599" />
+      <DstRect xOff="527965" yOff="448099" xSize="30906" ySize="30184" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54572261107212133442B0_1A/sdmi/54572261107212133442B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="30315" RasterYSize="29613" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="30315" ySize="29613" />
+      <DstRect xOff="521692" yOff="468392" xSize="30913" ySize="30197" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54572271108122110282B0_1A/sdmi/54572271108122110282B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="28693" RasterYSize="28381" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="28693" ySize="28381" />
+      <DstRect xOff="517602" yOff="489539" xSize="28515" ySize="28204" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54572281108122110362B0_1A/sdmi/54572281108122110362B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="28716" RasterYSize="28402" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="28716" ySize="28402" />
+      <DstRect xOff="513197" yOff="509694" xSize="28535" ySize="28223" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54582170906022108482B0_1A/sdmi/54582170906022108482B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="28722" RasterYSize="28649" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="28722" ySize="28649" />
+      <DstRect xOff="580802" yOff="287333" xSize="28262" ySize="28191" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54582180906022108562B0_1A/sdmi/54582180906022108562B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="28704" RasterYSize="28673" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="28704" ySize="28673" />
+      <DstRect xOff="576334" yOff="307145" xSize="28255" ySize="28225" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54612141108282100422B0_1A/sdmi/54612141108282100422B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="28085" RasterYSize="27580" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="28085" ySize="27580" />
+      <DstRect xOff="619339" yOff="223971" xSize="27712" ySize="27214" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54612170906082053272B0_1A/sdmi/54612170906082053272B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="28002" RasterYSize="27097" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="28002" ySize="27097" />
+      <DstRect xOff="602465" yOff="284234" xSize="28020" ySize="27114" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54612251108282102092B0_1A/sdmi/54612251108282102092B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="28094" RasterYSize="27787" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="28094" ySize="27787" />
+      <DstRect xOff="569358" yOff="444610" xSize="27903" ySize="27598" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54612261108282102172B0_1A/sdmi/54612261108282102172B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="28111" RasterYSize="27812" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="28111" ySize="27812" />
+      <DstRect xOff="565612" yOff="464816" xSize="27920" ySize="27623" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54612271107022059142B0_1A/sdmi/54612271107022059142B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="28110" RasterYSize="27294" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="28110" ySize="27294" />
+      <DstRect xOff="561425" yOff="485204" xSize="28235" ySize="27416" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54622171109132053032B0_1A/sdmi/54622171109132053032B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="27827" RasterYSize="26628" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="27827" ySize="26628" />
+      <DstRect xOff="608422" yOff="283312" xSize="28001" ySize="26795" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54622181109132053112B0_1A/sdmi/54622181109132053112B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="27814" RasterYSize="26661" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="27814" ySize="26661" />
+      <DstRect xOff="605520" yOff="303027" xSize="27997" ySize="26836" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54622191108282101202B0_1A/sdmi/54622191108282101202B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="27979" RasterYSize="27724" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="27979" ySize="27724" />
+      <DstRect xOff="601774" yOff="322714" xSize="27666" ySize="27414" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54622251107222114112B0_1A/sdmi/54622251107222114112B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="28777" RasterYSize="28705" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="28777" ySize="28705" />
+      <DstRect xOff="591204" yOff="441082" xSize="28614" ySize="28543" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54622261107222114192B0_1A/sdmi/54622261107222114192B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="28785" RasterYSize="28722" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="28785" ySize="28722" />
+      <DstRect xOff="586486" yOff="461533" xSize="28623" ySize="28560" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54622271107222114272B0_1A/sdmi/54622271107222114272B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="28801" RasterYSize="28740" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="28801" ySize="28740" />
+      <DstRect xOff="581742" yOff="482014" xSize="28637" ySize="28576" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54622281106062059412B3_1A_new/sdmi/54622281106062059412B3_1A_new_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="28113" RasterYSize="27362" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="28113" ySize="27362" />
+      <DstRect xOff="558845" yOff="512194" xSize="28192" ySize="27439" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54622281106062059412B3_1A/sdmi/54622281106062059412B3_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14057" RasterYSize="13681" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="14057" ySize="13681" />
+      <DstRect xOff="558846" yOff="512194" xSize="28193" ySize="27439" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54652180908202051202B0_1A/sdmi/54652180908202051202B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="27606" RasterYSize="26931" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="27606" ySize="26931" />
+      <DstRect xOff="626207" yOff="299256" xSize="27503" ySize="26830" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54652190905232100592B0_1A/sdmi/54652190905232100592B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="28129" RasterYSize="28173" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="28129" ySize="28173" />
+      <DstRect xOff="620156" yOff="319301" xSize="27694" ySize="27737" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54652190905232100592B6_1A/sdmi/54652190905232100592B6_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="28121" RasterYSize="28189" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="28121" ySize="28189" />
+      <DstRect xOff="617437" yOff="333183" xSize="27691" ySize="27758" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54652200905232101072B1_1A/sdmi/54652200905232101072B1_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="28118" RasterYSize="28199" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="28118" ySize="28199" />
+      <DstRect xOff="615759" yOff="341730" xSize="27691" ySize="27771" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54652201105212106272B0_1A/sdmi/54652201105212106272B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="28132" RasterYSize="28167" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="28132" ySize="28167" />
+      <DstRect xOff="629243" yOff="337012" xSize="27747" ySize="27781" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/home/ingest/data/prep/54732281109182058022B0_1A/sdmi/54732281109182058022B0_1A_aa_rgb.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="27765" RasterYSize="27586" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="27765" ySize="27586" />
+      <DstRect xOff="669470" yOff="487894" xSize="27687" ySize="27509" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>

@@ -1,16 +1,16 @@
 <Composer title="Composer 1" visible="1">
- <ComposerLabel valign="32" labelText="website: http://alaskamapped.org/ortho&#xa;WMS:       http://wms.alaskamapped.org/ortho?&#xa;contact:  orthoproj@gina.alaska.edu" halign="1" margin="1">
-  <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0"/>
+ <ComposerLabel valign="32" labelText="2012.06.25" halign="1" margin="1">
+  <LabelFont description="Ubuntu,8,-1,5,50,0,0,0,0,0"/>
   <FontColor red="0" blue="0" green="0"/>
-  <ComposerItem width="78.34158415841583" x="202.1212871287129" y="182.2747524752475" rotation="0" height="15.14603960396038" frame="true" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="2.701342281879195" id="" positionLock="false">
+  <ComposerItem width="20.87361315918834" x="0.2611386138613057" y="2.35024752475249" rotation="0" height="5.801728159138089" frame="true" outlineWidth="0.3" zValue="4" lastValidViewScaleFactor="3.312080536912752" id="" positionLock="false">
    <FrameColor alpha="255" red="0" blue="0" green="0"/>
    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
   </ComposerItem>
  </ComposerLabel>
- <ComposerLabel valign="32" labelText="2012.02.07" halign="1" margin="1">
-  <LabelFont description="Ubuntu,8,-1,5,50,0,0,0,0,0"/>
+ <ComposerLabel valign="32" labelText="DRAFT- DRAFT - DRAFT&#xa;dayne@alaska.edu&#xa;" halign="1" margin="1">
+  <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0"/>
   <FontColor red="0" blue="0" green="0"/>
-  <ComposerItem width="17.75742574257428" x="0.2611386138613057" y="2.35024752475249" rotation="0" height="5.74504950495048" frame="true" outlineWidth="0.3" zValue="4" lastValidViewScaleFactor="2.701342281879195" id="" positionLock="false">
+  <ComposerItem width="89.23636231404296" x="202.1212871287129" y="182.2747524752475" rotation="0" height="18.8073143940534" frame="true" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="3.312080536912752" id="" positionLock="false">
    <FrameColor alpha="255" red="0" blue="0" green="0"/>
    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
   </ComposerItem>
@@ -21,19 +21,19 @@
   <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
    <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
   </Grid>
-  <ComposerItem width="300" x="-1.789603960396043" y="-0.2673267326732613" rotation="0" height="210" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="2.701342281879195" id="" positionLock="false">
+  <ComposerItem width="300" x="-1.789603960396043" y="0.03459829265602116" rotation="0" height="210" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="3.312080536912752" id="" positionLock="false">
    <FrameColor alpha="255" red="0" blue="0" green="0"/>
    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
   </ComposerItem>
  </ComposerMap>
- <ComposerLegend symbolWidth="7" title="SDMI Ortho" boxSpace="2" titleFont="Ubuntu,16,-1,5,50,0,0,0,0,0" map="0" groupFont="Ubuntu,14,-1,5,50,0,0,0,0,0" layerFont="Ubuntu,12,-1,5,50,0,0,0,0,0" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" itemFont="Ubuntu,12,-1,5,50,0,0,0,0,0">
+ <ComposerLegend symbolWidth="7" title="2012.06 status" boxSpace="2" titleFont="Ubuntu,16,-1,5,50,0,0,0,0,0" map="0" groupFont="Ubuntu,14,-1,5,50,0,0,0,0,0" layerFont="Ubuntu,12,-1,5,50,0,0,0,0,0" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" itemFont="Ubuntu,12,-1,5,50,0,0,0,0,0">
   <Model autoUpdate="1">
-   <LayerItem layerId="2009_2010_2011_source20120116234851013" text="SPOT5 L1A source (2009-2011)">
-    <VectorClassificationItemNg text="900,000 km2">
+   <LayerItem layerId="2011_draft_tiles_1202_clipped20120410155521876" text="2011 (draft) tiles">
+    <VectorClassificationItemNg text="being produced">
      <symbols>
       <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
        <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="color" v="0,170,0,255"/>
+        <prop k="color" v="0,255,255,255"/>
         <prop k="color_border" v="0,0,0,255"/>
         <prop k="offset" v="0,0"/>
         <prop k="style" v="solid"/>
@@ -44,11 +44,63 @@
      </symbols>
     </VectorClassificationItemNg>
    </LayerItem>
+   <LayerItem layerId="2010_final_tiles_clip20120518094331848" text="2010 ortho tiles">
+    <VectorClassificationItemNg text="completed/available">
+     <symbols>
+      <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+       <layer pass="0" class="SimpleFill" locked="0">
+        <prop k="color" v="255,237,161,255"/>
+        <prop k="color_border" v="0,0,0,255"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="style" v="solid"/>
+        <prop k="style_border" v="solid"/>
+        <prop k="width_border" v="0.26"/>
+       </layer>
+      </symbol>
+     </symbols>
+    </VectorClassificationItemNg>
+   </LayerItem>
+   <LayerItem layerId="2009_2010_source20120116165950270" text="Accepted source">
+    <VectorClassificationItem layerId="2009_2010_source20120116165950270" text="SPOT5 L1A scenes">
+     <symbol>
+      <lowervalue></lowervalue>
+      <uppervalue></uppervalue>
+      <label></label>
+      <pointsymbol>hard:circle</pointsymbol>
+      <pointsize>2</pointsize>
+      <pointsizeunits>pixels</pointsizeunits>
+      <outlinecolor red="0" blue="0" green="0"/>
+      <outlinestyle>SolidLine</outlinestyle>
+      <outlinewidth>0.26</outlinewidth>
+      <fillcolor red="0" blue="0" green="170"/>
+      <fillpattern>SolidPattern</fillpattern>
+      <texturepath>.</texturepath>
+     </symbol>
+    </VectorClassificationItem>
+   </LayerItem>
+   <LayerItem layerId="2012_06_25_source_scenes20120625115242570" text="2012.06 source">
+    <VectorClassificationItem layerId="2012_06_25_source_scenes20120625115242570" text=" (not reviewed/accepted)">
+     <symbol>
+      <lowervalue>unknown</lowervalue>
+      <uppervalue>unknown</uppervalue>
+      <label></label>
+      <pointsymbol>hard:circle</pointsymbol>
+      <pointsize>2</pointsize>
+      <pointsizeunits>pixels</pointsizeunits>
+      <outlinecolor red="0" blue="0" green="0"/>
+      <outlinestyle>SolidLine</outlinestyle>
+      <outlinewidth>0.26</outlinewidth>
+      <fillcolor red="255" blue="0" green="170"/>
+      <fillpattern>SolidPattern</fillpattern>
+      <texturepath>.</texturepath>
+     </symbol>
+    </VectorClassificationItem>
+   </LayerItem>
   </Model>
-  <ComposerItem width="63" x="227.7128712871287" y="7.834158415841586" rotation="0" height="19.54375" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.701342281879195" id="" positionLock="false">
+  <ComposerItem width="65" x="227.7128712871287" y="7.834158415841586" rotation="0" height="56.8" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="3.312080536912752" id="" positionLock="false">
    <FrameColor alpha="255" red="0" blue="0" green="0"/>
    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
   </ComposerItem>
  </ComposerLegend>
- <Composition printResolution="90" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
+ <Composition printResolution="100" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
 </Composer>
