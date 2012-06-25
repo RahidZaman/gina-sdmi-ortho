@@ -1,12 +1,12 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="1.8.0-Trunk">
+<qgis projectname="" version="1.7.3-Wroclaw">
     <title></title>
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>-1592584.722016</xmin>
+            <xmin>-1741595.434743</xmin>
             <ymin>426630.866040</ymin>
-            <xmax>1335869.648692</xmax>
+            <xmax>1484880.361419</xmax>
             <ymax>2466701.783647</ymax>
         </extent>
         <projections>1</projections>
@@ -24,19 +24,9 @@
         </destinationsrs>
     </mapcanvas>
     <legend>
-        <legendlayer open="true" checked="Qt::Unchecked" name="delivery_index" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="delivery_index20120518093954143" visible="0"/>
-            </filegroup>
-        </legendlayer>
         <legendlayer open="true" checked="Qt::Unchecked" name="2011-draft_tiles-1202" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="2011_draft_tiles_120220120515092553283" visible="0"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer open="false" checked="Qt::Unchecked" name="cir" showFeatureCount="0">
-            <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="cir20120510101500167" visible="0"/>
             </filegroup>
         </legendlayer>
         <legendlayer open="false" checked="Qt::Unchecked" name="0" showFeatureCount="0">
@@ -44,15 +34,15 @@
                 <legendlayerfile isInOverview="0" layerid="020120508092257399" visible="0"/>
             </filegroup>
         </legendlayer>
-        <legendgroup open="true" checked="Qt::Unchecked" name="Misc">
+        <legendgroup open="true" checked="Qt::PartiallyChecked" name="Misc">
             <legendlayer open="true" checked="Qt::Unchecked" name="sdmi_ortho_tile_layout" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="sdmi_ortho_tile_layout20120116234635208" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer open="false" checked="Qt::Unchecked" name="SDMI-clip_mask" showFeatureCount="0">
+            <legendlayer open="false" checked="Qt::Checked" name="SDMI-clip_mask" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="sdmi_clip_mask_11062320120116234430163" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="sdmi_clip_mask_11062320120116234430163" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
@@ -94,8 +84,8 @@
                     <legendlayerfile isInOverview="0" layerid="2009_2010_source20120116165950270" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer open="false" checked="Qt::Checked" name="2012-06-25-source_scenes" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
+            <legendlayer open="true" checked="Qt::Checked" name="2012-06-25-source_scenes" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="2012_06_25_source_scenes20120625115242570" visible="1"/>
                 </filegroup>
             </legendlayer>
@@ -193,18 +183,18 @@
         </legendgroup>
     </legend>
     <Composer title="Composer 1" visible="0">
-        <ComposerLabel valign="32" labelText="2012.06.25" halign="1" margin="1">
+        <ComposerLabel valign="32" labelText="2012.06.25" id="" halign="1" margin="1">
             <LabelFont description="Ubuntu,8,-1,5,50,0,0,0,0,0"/>
             <FontColor red="0" blue="0" green="0"/>
-            <ComposerItem width="20.87361315918834" x="0.2611386138613057" y="2.35024752475249" rotation="0" height="5.801728159138089" frame="true" outlineWidth="0.3" zValue="4" lastValidViewScaleFactor="3.312080536912752" id="" positionLock="false">
+            <ComposerItem width="22.74834005912448" x="1.261138613861306" y="2.35024752475249" rotation="0" height="14.95070034254609" frame="true" outlineWidth="0.3" zValue="4" lastValidViewScaleFactor="2.832214765100671" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
         </ComposerLabel>
-        <ComposerLabel valign="32" labelText="DRAFT- DRAFT - DRAFT&#xa;dayne@alaska.edu&#xa;" halign="1" margin="1">
+        <ComposerLabel valign="32" labelText="website: http://alaskamapped.org/ortho&#xa;WMS:  http://wms.alaskamapped.org/ortho&#xa;contact: orthoproj@gina.alaska.edu&#xa;Tom Heinrichs - Dayne Broderson - UAF-GINA" id="" halign="1" margin="1">
             <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0"/>
             <FontColor red="0" blue="0" green="0"/>
-            <ComposerItem width="89.23636231404296" x="202.1212871287129" y="182.2747524752475" rotation="0" height="18.8073143940534" frame="true" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="3.312080536912752" id="" positionLock="false">
+            <ComposerItem width="75.06381182355719" x="202.1212871287129" y="182.2747524752475" rotation="0" height="17.54829758295968" frame="true" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="2.88255033557047" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
@@ -215,14 +205,14 @@
             <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
                 <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
             </Grid>
-            <ComposerItem width="300" x="-1.789603960396043" y="0.03459829265602116" rotation="0" height="210" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="3.312080536912752" id="" positionLock="false">
+            <ComposerItem width="300" x="-1.789603960396043" y="0.03459829265602116" rotation="0" height="210" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="2.832214765100671" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
         </ComposerMap>
-        <ComposerLegend symbolWidth="7" title="2012.06 status" boxSpace="2" titleFont="Ubuntu,16,-1,5,50,0,0,0,0,0" map="0" groupFont="Ubuntu,14,-1,5,50,0,0,0,0,0" layerFont="Ubuntu,12,-1,5,50,0,0,0,0,0" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" itemFont="Ubuntu,12,-1,5,50,0,0,0,0,0">
+        <ComposerLegend symbolWidth="7" title="SDMI Ortho Imagery Status" boxSpace="2" titleFont="Ubuntu,16,-1,5,50,0,0,0,0,0" map="0" groupFont="Ubuntu,14,-1,5,50,0,0,0,0,0" layerFont="Ubuntu,12,-1,5,50,0,0,0,0,0" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" itemFont="Ubuntu,12,-1,5,50,0,0,0,0,0">
             <Model autoUpdate="1">
-                <LayerItem layerId="2011_draft_tiles_1202_clipped20120410155521876" text="2011 (draft) tiles">
+                <LayerItem layerId="2011_draft_tiles_1202_clipped20120410155521876" text="2011 ortho tiles">
                     <VectorClassificationItemNg text="being produced">
                         <symbols>
                             <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
@@ -272,8 +262,8 @@
                         </symbol>
                     </VectorClassificationItem>
                 </LayerItem>
-                <LayerItem layerId="2012_06_25_source_scenes20120625115242570" text="2012.06 source">
-                    <VectorClassificationItem layerId="2012_06_25_source_scenes20120625115242570" text=" (not reviewed/accepted)">
+                <LayerItem layerId="2012_06_25_source_scenes20120625115242570" text="2012 new source">
+                    <VectorClassificationItem layerId="2012_06_25_source_scenes20120625115242570" text="June 2012 L1A scenes">
                         <symbol>
                             <lowervalue>unknown</lowervalue>
                             <uppervalue>unknown</uppervalue>
@@ -291,14 +281,20 @@
                     </VectorClassificationItem>
                 </LayerItem>
             </Model>
-            <ComposerItem width="65" x="227.7128712871287" y="7.834158415841586" rotation="0" height="56.8" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="3.312080536912752" id="" positionLock="false">
+            <ComposerItem width="72" x="216.7673736567969" y="8.540319553282337" rotation="0" height="53.2421875" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.832214765100671" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
         </ComposerLegend>
-        <Composition printResolution="100" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
+        <ComposerPicture pictureWidth="20" file="./docs/GINA_poweredby_wURL_transparent-756x276.png" pictureHeight="8" mapId="-1">
+            <ComposerItem width="20" x="1.8246" y="6.945499999999999" rotation="0" height="8" frame="true" outlineWidth="0" zValue="7" lastValidViewScaleFactor="2.832214765100671" positionLock="false">
+                <FrameColor alpha="255" red="255" blue="255" green="255"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerPicture>
+        <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
     </Composer>
-    <projectlayers layercount="31">
+    <projectlayers layercount="29">
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>020120508092257399</id>
             <datasource>http://seakgis03.alaska.edu/agsv10_wshandler//SEAKHydro_Streams/MapServer/WMSServer</datasource>
@@ -468,7 +464,7 @@
                     <scaleclassificationfieldname></scaleclassificationfieldname>
                     <symbolfieldname></symbolfieldname>
                     <outlinecolor red="0" blue="0" green="0"/>
-                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinestyle>NoPen</outlinestyle>
                     <outlinewidth>0.26</outlinewidth>
                     <fillcolor red="0" blue="0" green="170"/>
                     <fillpattern>SolidPattern</fillpattern>
@@ -707,17 +703,6 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <attributeactions/>
-            <overlay display="false" type="diagram">
-                <renderer item_interpretation="linear">
-                    <diagramitem size="0" value="0"/>
-                    <diagramitem size="0" value="0"/>
-                </renderer>
-                <factory sizeUnits="MM" type="Pie">
-                    <wellknownname>Pie</wellknownname>
-                    <classificationfield>0</classificationfield>
-                </factory>
-                <scalingAttribute>0</scalingAttribute>
-            </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>2010_final_tiles_merged20120116161215915</id>
@@ -974,17 +959,6 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <attributeactions/>
-            <overlay display="false" type="diagram">
-                <renderer item_interpretation="linear">
-                    <diagramitem size="0" value="0"/>
-                    <diagramitem size="0" value="0"/>
-                </renderer>
-                <factory sizeUnits="MM" type="Pie">
-                    <wellknownname>Pie</wellknownname>
-                    <classificationfield>0</classificationfield>
-                </factory>
-                <scalingAttribute>0</scalingAttribute>
-            </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>2012_06_25_source_scenes20120625115242570</id>
@@ -1070,9 +1044,9 @@
                     <scaleclassificationfieldname></scaleclassificationfieldname>
                     <symbolfieldname></symbolfieldname>
                     <outlinecolor red="0" blue="0" green="0"/>
-                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinestyle>NoPen</outlinestyle>
                     <outlinewidth>0.26</outlinewidth>
-                    <fillcolor red="255" blue="0" green="170"/>
+                    <fillcolor red="144" blue="0" green="216"/>
                     <fillpattern>SolidPattern</fillpattern>
                     <texturepath>.</texturepath>
                 </symbol>
@@ -1111,17 +1085,6 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <attributeactions/>
-            <overlay display="false" type="diagram">
-                <renderer item_interpretation="linear">
-                    <diagramitem size="0" value="0"/>
-                    <diagramitem size="0" value="0"/>
-                </renderer>
-                <factory sizeUnits="MM" type="Pie">
-                    <wellknownname>Pie</wellknownname>
-                    <classificationfield>0</classificationfield>
-                </factory>
-                <scalingAttribute>0</scalingAttribute>
-            </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>BestDataAvailableLayer20120115152725124</id>
@@ -1644,7 +1607,7 @@
                         <max>1.79769e+308</max>
                     </minMaxEntry>
                 </contrastEnhancementMinMaxValues>
-                <mNoDataValue mValidNoDataValue="true">0.000000</mNoDataValue>
+                <mNoDataValue mValidNoDataValue="false">0.000000</mNoDataValue>
                 <singleValuePixelList>
                     <pixelListEntry pixelValue="0.000000" percentTransparent="100"/>
                 </singleValuePixelList>
@@ -1697,7 +1660,7 @@
                         <max>1.79769e+308</max>
                     </minMaxEntry>
                 </contrastEnhancementMinMaxValues>
-                <mNoDataValue mValidNoDataValue="true">0.000000</mNoDataValue>
+                <mNoDataValue mValidNoDataValue="false">0.000000</mNoDataValue>
                 <singleValuePixelList>
                     <pixelListEntry pixelValue="0.000000" percentTransparent="100"/>
                 </singleValuePixelList>
@@ -1803,7 +1766,7 @@
                         <max>1.79769e+308</max>
                     </minMaxEntry>
                 </contrastEnhancementMinMaxValues>
-                <mNoDataValue mValidNoDataValue="true">0.000000</mNoDataValue>
+                <mNoDataValue mValidNoDataValue="false">0.000000</mNoDataValue>
                 <singleValuePixelList>
                     <pixelListEntry pixelValue="0.000000" percentTransparent="100"/>
                 </singleValuePixelList>
@@ -1843,7 +1806,7 @@
                     <scaleclassificationfieldname></scaleclassificationfieldname>
                     <symbolfieldname></symbolfieldname>
                     <outlinecolor red="0" blue="0" green="0"/>
-                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinestyle>NoPen</outlinestyle>
                     <outlinewidth>0.26</outlinewidth>
                     <fillcolor red="0" blue="0" green="170"/>
                     <fillpattern>SolidPattern</fillpattern>
@@ -1889,17 +1852,6 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <attributeactions/>
-            <overlay display="false" type="diagram">
-                <renderer item_interpretation="linear">
-                    <diagramitem size="0" value="0"/>
-                    <diagramitem size="0" value="0"/>
-                </renderer>
-                <factory sizeUnits="MM" type="Pie">
-                    <wellknownname>Pie</wellknownname>
-                    <classificationfield>0</classificationfield>
-                </factory>
-                <scalingAttribute>0</scalingAttribute>
-            </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>Shaded_Relief_NED20120116151305819</id>
@@ -1953,139 +1905,6 @@
                     <pixelListEntry red="0.000000" blue="0.000000" green="0.000000" percentTransparent="100"/>
                 </threeValuePixelList>
             </rasterproperties>
-        </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-            <id>cir20120510101500167</id>
-            <datasource>/dds/sdmi_source/SDMI.ORTHO/SPOT5.SDMI.ORTHO.20120408/gina/cir.tif</datasource>
-            <layername>cir</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>1296</srsid>
-                    <srid>3338</srid>
-                    <authid>EPSG:3338</authid>
-                    <description>NAD83 / Alaska Albers</description>
-                    <projectionacronym>aea</projectionacronym>
-                    <ellipsoidacronym>GRS80</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <transparencyLevelInt>255</transparencyLevelInt>
-            <customproperties/>
-            <provider>gdal</provider>
-            <rasterproperties>
-                <mDrawingStyle>MultiBandColor</mDrawingStyle>
-                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
-                <mInvertColor boolean="false"/>
-                <mRedBandName>Band 1</mRedBandName>
-                <mGreenBandName>Band 2</mGreenBandName>
-                <mBlueBandName>Band 3</mBlueBandName>
-                <mGrayBandName>Not Set</mGrayBandName>
-                <mStandardDeviations>0</mStandardDeviations>
-                <mUserDefinedRGBMinimumMaximum boolean="false"/>
-                <mRGBMinimumMaximumEstimated boolean="true"/>
-                <mUserDefinedGrayMinimumMaximum boolean="false"/>
-                <mGrayMinimumMaximumEstimated boolean="true"/>
-                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
-                <contrastEnhancementMinMaxValues>
-                    <minMaxEntry>
-                        <min>0</min>
-                        <max>255</max>
-                    </minMaxEntry>
-                    <minMaxEntry>
-                        <min>0</min>
-                        <max>255</max>
-                    </minMaxEntry>
-                    <minMaxEntry>
-                        <min>0</min>
-                        <max>255</max>
-                    </minMaxEntry>
-                </contrastEnhancementMinMaxValues>
-                <mNoDataValue mValidNoDataValue="true">0.000000</mNoDataValue>
-                <singleValuePixelList>
-                    <pixelListEntry pixelValue="0.000000" percentTransparent="100"/>
-                </singleValuePixelList>
-                <threeValuePixelList>
-                    <pixelListEntry red="0.000000" blue="0.000000" green="0.000000" percentTransparent="100"/>
-                </threeValuePixelList>
-            </rasterproperties>
-        </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>delivery_index20120518093954143</id>
-            <datasource>/dds/sdmi_source/SDMI.ORTHO/SPOT5.SDMI.ORTHO.20120408/gina/delivery_index.shp</datasource>
-            <layername>delivery_index</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>1296</srsid>
-                    <srid>3338</srid>
-                    <authid>EPSG:3338</authid>
-                    <description>NAD83 / Alaska Albers</description>
-                    <projectionacronym>aea</projectionacronym>
-                    <ellipsoidacronym>GRS80</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="UTF-8">ogr</provider>
-            <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
-                <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
-                        <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="0,255,0,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="style" v="solid"/>
-                            <prop k="style_border" v="solid"/>
-                            <prop k="width_border" v="0.26"/>
-                        </layer>
-                    </symbol>
-                </symbols>
-                <rotation field=""/>
-                <sizescale field=""/>
-            </renderer-v2>
-            <customproperties/>
-            <displayfield>location</displayfield>
-            <label>0</label>
-            <labelattributes>
-                <label fieldname="" text="Label"/>
-                <family fieldname="" name="Sans"/>
-                <size fieldname="" units="pt" value="12"/>
-                <bold fieldname="" on="0"/>
-                <italic fieldname="" on="0"/>
-                <underline fieldname="" on="0"/>
-                <strikeout fieldname="" on="0"/>
-                <color fieldname="" red="0" blue="0" green="0"/>
-                <x fieldname=""/>
-                <y fieldname=""/>
-                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-                <angle fieldname="" value="0" auto="0"/>
-                <alignment fieldname="" value="center"/>
-                <buffercolor fieldname="" red="255" blue="255" green="255"/>
-                <buffersize fieldname="" units="pt" value="1"/>
-                <bufferenabled fieldname="" on=""/>
-                <multilineenabled fieldname="" on=""/>
-                <selectedonly on=""/>
-            </labelattributes>
-            <edittypes>
-                <edittype type="0" name="location"/>
-            </edittypes>
-            <editform>.</editform>
-            <editforminit></editforminit>
-            <annotationform>.</annotationform>
-            <attributeactions/>
-            <overlay display="false" type="diagram">
-                <renderer item_interpretation="linear">
-                    <diagramitem size="0" value="0"/>
-                    <diagramitem size="0" value="0"/>
-                </renderer>
-                <factory sizeUnits="MM" type="Pie">
-                    <wellknownname>Pie</wellknownname>
-                    <classificationfield>0</classificationfield>
-                </factory>
-                <scalingAttribute>0</scalingAttribute>
-            </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>gina_bath_2004_aa_grey20120117001943742</id>
