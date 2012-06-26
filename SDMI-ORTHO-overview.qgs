@@ -1,13 +1,13 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="1.7.3-Wroclaw">
+<qgis projectname="" version="1.8.0-Trunk">
     <title></title>
     <mapcanvas>
         <units>meters</units>
         <extent>
             <xmin>-1741595.434743</xmin>
-            <ymin>426630.866040</ymin>
+            <ymin>322824.426546</ymin>
             <xmax>1484880.361419</xmax>
-            <ymax>2466701.783647</ymax>
+            <ymax>2570508.223141</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -183,18 +183,18 @@
         </legendgroup>
     </legend>
     <Composer title="Composer 1" visible="0">
-        <ComposerLabel valign="32" labelText="2012.06.25" id="" halign="1" margin="1">
-            <LabelFont description="Ubuntu,8,-1,5,50,0,0,0,0,0"/>
+        <ComposerLabel valign="32" labelText="website: http://alaskamapped.org/ortho&#xa;WMS:  http://wms.alaskamapped.org/ortho&#xa;contact: orthoproj@gina.alaska.edu&#xa;Tom Heinrichs - Dayne Broderson - UAF-GINA" halign="1" margin="1">
+            <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0"/>
             <FontColor red="0" blue="0" green="0"/>
-            <ComposerItem width="22.74834005912448" x="1.261138613861306" y="2.35024752475249" rotation="0" height="14.95070034254609" frame="true" outlineWidth="0.3" zValue="4" lastValidViewScaleFactor="2.832214765100671" positionLock="false">
+            <ComposerItem width="85.61326201009157" x="202.1212871287129" y="182.2747524752475" rotation="0" height="19.41116444471196" frame="true" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="3.312080536912752" id="" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
         </ComposerLabel>
-        <ComposerLabel valign="32" labelText="website: http://alaskamapped.org/ortho&#xa;WMS:  http://wms.alaskamapped.org/ortho&#xa;contact: orthoproj@gina.alaska.edu&#xa;Tom Heinrichs - Dayne Broderson - UAF-GINA" id="" halign="1" margin="1">
-            <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0"/>
+        <ComposerLabel valign="32" labelText="2012.06.26" halign="1" margin="1">
+            <LabelFont description="Ubuntu,8,-1,5,50,0,0,0,0,0"/>
             <FontColor red="0" blue="0" green="0"/>
-            <ComposerItem width="75.06381182355719" x="202.1212871287129" y="182.2747524752475" rotation="0" height="17.54829758295968" frame="true" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="2.88255033557047" positionLock="false">
+            <ComposerItem width="22.74834005912448" x="1.261138613861306" y="2.35024752475249" rotation="0" height="14.95070034254609" frame="true" outlineWidth="0.3" zValue="4" lastValidViewScaleFactor="3.312080536912752" id="" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
@@ -205,7 +205,7 @@
             <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
                 <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
             </Grid>
-            <ComposerItem width="300" x="-1.789603960396043" y="0.03459829265602116" rotation="0" height="210" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="2.832214765100671" positionLock="false">
+            <ComposerItem width="300" x="-2.09152898572534" y="0.148073469960984" rotation="0" height="210" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="3.312080536912752" id="" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
@@ -272,22 +272,22 @@
                             <pointsize>2</pointsize>
                             <pointsizeunits>pixels</pointsizeunits>
                             <outlinecolor red="0" blue="0" green="0"/>
-                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinestyle>NoPen</outlinestyle>
                             <outlinewidth>0.26</outlinewidth>
-                            <fillcolor red="255" blue="0" green="170"/>
+                            <fillcolor red="144" blue="0" green="216"/>
                             <fillpattern>SolidPattern</fillpattern>
                             <texturepath>.</texturepath>
                         </symbol>
                     </VectorClassificationItem>
                 </LayerItem>
             </Model>
-            <ComposerItem width="72" x="216.7673736567969" y="8.540319553282337" rotation="0" height="53.2421875" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.832214765100671" positionLock="false">
+            <ComposerItem width="79" x="216.7673736567969" y="8.540319553282337" rotation="0" height="56.8" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="3.312080536912752" id="" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
         </ComposerLegend>
         <ComposerPicture pictureWidth="20" file="./docs/GINA_poweredby_wURL_transparent-756x276.png" pictureHeight="8" mapId="-1">
-            <ComposerItem width="20" x="1.8246" y="6.945499999999999" rotation="0" height="8" frame="true" outlineWidth="0" zValue="7" lastValidViewScaleFactor="2.832214765100671" positionLock="false">
+            <ComposerItem width="20" x="1.8246" y="6.945499999999999" rotation="0" height="8" frame="true" outlineWidth="0" zValue="7" lastValidViewScaleFactor="3.312080536912752" id="" positionLock="false">
                 <FrameColor alpha="255" red="255" blue="255" green="255"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
