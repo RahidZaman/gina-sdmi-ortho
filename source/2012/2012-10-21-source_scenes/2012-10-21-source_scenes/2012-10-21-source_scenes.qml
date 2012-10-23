@@ -49,10 +49,10 @@
       <scaleclassificationfieldname></scaleclassificationfieldname>
       <symbolfieldname></symbolfieldname>
       <outlinecolor red="255" blue="0" green="255"/>
-      <outlinestyle>SolidLine</outlinestyle>
+      <outlinestyle>NoPen</outlinestyle>
       <outlinewidth>0.26</outlinewidth>
       <fillcolor red="255" blue="127" green="170"/>
-      <fillpattern>Dense4Pattern</fillpattern>
+      <fillpattern>NoBrush</fillpattern>
       <texturepath>.</texturepath>
     </symbol>
     <symbol>

@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>-1741595.434743</xmin>
-            <ymin>322824.426546</ymin>
-            <xmax>1484880.361419</xmax>
-            <ymax>2570508.223141</ymax>
+            <xmin>-1696285.316324</xmin>
+            <ymin>-100335.584381</ymin>
+            <xmax>1626913.613228</xmax>
+            <ymax>3008463.414233</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -24,6 +24,16 @@
         </destinationsrs>
     </mapcanvas>
     <legend>
+        <legendlayer open="false" checked="Qt::Unchecked" name="ORTHO.PAN" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="ORTHO_PAN20120826125831039" visible="0"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="false" checked="Qt::Checked" name="ORTHO.MS" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="ORTHO_MS20120826125758862" visible="1"/>
+            </filegroup>
+        </legendlayer>
         <legendgroup open="true" checked="Qt::PartiallyChecked" name="Misc">
             <legendlayer open="true" checked="Qt::Unchecked" name="sdmi_ortho_tile_layout" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
@@ -36,9 +46,21 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
+        <legendgroup open="true" checked="Qt::Checked" name="2011-ortho-tiles">
+            <legendlayer open="false" checked="Qt::Checked" name="good_layout_blocks_merged" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="good_layout_blocks_merged20121017133440135" visible="1"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer open="false" checked="Qt::Checked" name="tie_layout_blocks_merged" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="tie_layout_blocks_merged20121017133440149" visible="1"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
         <legendgroup open="true" checked="Qt::PartiallyChecked" name="2010-final-ortho-tiles">
-            <legendlayer open="true" checked="Qt::Checked" name="2011-draft_tiles-1202-clipped" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
+            <legendlayer open="false" checked="Qt::Checked" name="2011-draft_tiles-1202-clipped" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="2011_draft_tiles_1202_clipped20120410155521876" visible="1"/>
                 </filegroup>
             </legendlayer>
@@ -64,19 +86,34 @@
             </legendlayer>
         </legendgroup>
         <legendgroup open="true" checked="Qt::PartiallyChecked" name="SPOT5-SOURCE">
-            <legendlayer open="false" checked="Qt::Checked" name="2011-source" showFeatureCount="0">
+            <legendlayer open="false" checked="Qt::Checked" name="2012-10-21-source_scenes" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="SPOT5_2011_source20120116165917838" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="2012_10_21_source_scenes20121021153207759" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer open="true" checked="Qt::Checked" name="2009_2010-source" showFeatureCount="0">
+            <legendlayer open="false" checked="Qt::Unchecked" name="2012-10-16-source_scenes" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="2012_10_16_source_scenes20121016114519529" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer open="true" checked="Qt::Unchecked" name="2012-10-04-source_scenes" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="2009_2010_source20120116165950270" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="2012_10_04_source_scenes20121016102723318" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer open="false" checked="Qt::Checked" name="2012-08-13-source_scenes" showFeatureCount="0">
+            <legendlayer open="false" checked="Qt::Unchecked" name="2011-source" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="2012_08_13_source_scenes20120813135724970" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="SPOT5_2011_source20120116165917838" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer open="true" checked="Qt::Unchecked" name="2009_2010-source" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="2009_2010_source20120116165950270" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer open="true" checked="Qt::Unchecked" name="2012-08-13-source_scenes" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="2012_08_13_source_scenes20120813135724970" visible="0"/>
                 </filegroup>
             </legendlayer>
             <legendlayer open="true" checked="Qt::Unchecked" name="2009_2010_2011-source" showFeatureCount="0">
@@ -144,9 +181,9 @@
                 <legendlayerfile isInOverview="0" layerid="Charts20120116151721623" visible="0"/>
             </filegroup>
         </legendlayer>
-        <legendlayer open="false" checked="Qt::Checked" name="gina-bath-2004-aa-grey" showFeatureCount="0">
+        <legendlayer open="false" checked="Qt::Unchecked" name="gina-bath-2004-aa-grey" showFeatureCount="0">
             <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="gina_bath_2004_aa_grey20120117001943742" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="gina_bath_2004_aa_grey20120117001943742" visible="0"/>
             </filegroup>
         </legendlayer>
         <legendgroup open="true" checked="Qt::Unchecked" name="WMS">
@@ -318,8 +355,240 @@
                         </symbol>
                     </VectorClassificationItem>
                 </LayerItem>
+                <LayerItem layerId="ORTHO_MS20120826125758862" text="ORTHO.MS"/>
+                <LayerItem layerId="ORTHO_PAN20120826125831039" text="ORTHO.PAN"/>
+                <LayerItem layerId="2012_10_04_source_scenes20121016102723318" text="2012-10-04-source_scenes">
+                    <VectorClassificationItem layerId="2012_10_04_source_scenes20121016102723318" text="default">
+                        <symbol>
+                            <lowervalue null="1"></lowervalue>
+                            <uppervalue></uppervalue>
+                            <label>default</label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="0" blue="0" green="0"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="53" blue="68" green="184"/>
+                            <fillpattern>SolidPattern</fillpattern>
+                            <texturepath>.</texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                    <VectorClassificationItem layerId="2012_10_04_source_scenes20121016102723318" text="accepted">
+                        <symbol>
+                            <lowervalue>accepted</lowervalue>
+                            <uppervalue>accepted</uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="255" blue="0" green="255"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="0" blue="0" green="255"/>
+                            <fillpattern>Dense4Pattern</fillpattern>
+                            <texturepath>.</texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                    <VectorClassificationItem layerId="2012_10_04_source_scenes20121016102723318" text="flagged">
+                        <symbol>
+                            <lowervalue>flagged</lowervalue>
+                            <uppervalue>flagged</uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="255" blue="0" green="255"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="255" blue="127" green="170"/>
+                            <fillpattern>Dense4Pattern</fillpattern>
+                            <texturepath>.</texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                    <VectorClassificationItem layerId="2012_10_04_source_scenes20121016102723318" text="unknown">
+                        <symbol>
+                            <lowervalue>unknown</lowervalue>
+                            <uppervalue>unknown</uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="255" blue="0" green="255"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="0" blue="255" green="255"/>
+                            <fillpattern>Dense4Pattern</fillpattern>
+                            <texturepath>.</texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                </LayerItem>
+                <LayerItem layerId="2012_10_16_source_scenes20121016114519529" text="2012-10-16-source_scenes">
+                    <VectorClassificationItem layerId="2012_10_16_source_scenes20121016114519529" text="default">
+                        <symbol>
+                            <lowervalue null="1"></lowervalue>
+                            <uppervalue></uppervalue>
+                            <label>default</label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="0" blue="0" green="0"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="53" blue="68" green="184"/>
+                            <fillpattern>SolidPattern</fillpattern>
+                            <texturepath>.</texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                    <VectorClassificationItem layerId="2012_10_16_source_scenes20121016114519529" text="accepted">
+                        <symbol>
+                            <lowervalue>accepted</lowervalue>
+                            <uppervalue>accepted</uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="255" blue="0" green="255"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="0" blue="0" green="255"/>
+                            <fillpattern>Dense4Pattern</fillpattern>
+                            <texturepath>.</texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                    <VectorClassificationItem layerId="2012_10_16_source_scenes20121016114519529" text="flagged">
+                        <symbol>
+                            <lowervalue>flagged</lowervalue>
+                            <uppervalue>flagged</uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="255" blue="0" green="255"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="255" blue="127" green="170"/>
+                            <fillpattern>Dense4Pattern</fillpattern>
+                            <texturepath>.</texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                    <VectorClassificationItem layerId="2012_10_16_source_scenes20121016114519529" text="unknown">
+                        <symbol>
+                            <lowervalue>unknown</lowervalue>
+                            <uppervalue>unknown</uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="255" blue="0" green="255"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="0" blue="255" green="255"/>
+                            <fillpattern>Dense4Pattern</fillpattern>
+                            <texturepath>.</texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                </LayerItem>
+                <LayerItem layerId="good_layout_blocks_merged20121017133440135" text="good_layout_blocks_merged">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="126,179,161,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="tie_layout_blocks_merged20121017133440149" text="tie_layout_blocks_merged">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="124,209,59,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="2012_10_21_source_scenes20121021153207759" text="2012-10-21-source_scenes">
+                    <VectorClassificationItem layerId="2012_10_21_source_scenes20121021153207759" text="default">
+                        <symbol>
+                            <lowervalue null="1"></lowervalue>
+                            <uppervalue></uppervalue>
+                            <label>default</label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="0" blue="0" green="0"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="53" blue="68" green="184"/>
+                            <fillpattern>SolidPattern</fillpattern>
+                            <texturepath>.</texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                    <VectorClassificationItem layerId="2012_10_21_source_scenes20121021153207759" text="accepted">
+                        <symbol>
+                            <lowervalue>accepted</lowervalue>
+                            <uppervalue>accepted</uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="255" blue="0" green="255"/>
+                            <outlinestyle>NoPen</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="0" blue="0" green="170"/>
+                            <fillpattern>SolidPattern</fillpattern>
+                            <texturepath>.</texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                    <VectorClassificationItem layerId="2012_10_21_source_scenes20121021153207759" text="flagged">
+                        <symbol>
+                            <lowervalue>flagged</lowervalue>
+                            <uppervalue>flagged</uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="255" blue="0" green="255"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="255" blue="127" green="170"/>
+                            <fillpattern>Dense4Pattern</fillpattern>
+                            <texturepath>.</texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                    <VectorClassificationItem layerId="2012_10_21_source_scenes20121021153207759" text="unknown">
+                        <symbol>
+                            <lowervalue>unknown</lowervalue>
+                            <uppervalue>unknown</uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="255" blue="0" green="255"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="0" blue="255" green="255"/>
+                            <fillpattern>Dense4Pattern</fillpattern>
+                            <texturepath>.</texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                </LayerItem>
             </Model>
-            <ComposerItem width="79" x="216.7673736567969" y="8.540319553282337" rotation="0" height="74.8" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="3.312080536912752" id="" positionLock="false">
+            <ComposerItem width="79" x="216.7673736567969" y="8.540319553282337" rotation="0" height="200.1000000000001" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="3.312080536912752" id="" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
@@ -332,7 +601,7 @@
         </ComposerPicture>
         <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
     </Composer>
-    <projectlayers layercount="27">
+    <projectlayers layercount="34">
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>2009_2010_2011_source20120116234851013</id>
             <datasource>./source/maps/2009_2010_2011-source.shp</datasource>
@@ -838,7 +1107,7 @@
                 <symbols>
                     <symbol outputUnit="MM" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="0,255,255,255"/>
+                            <prop k="color" v="170,85,255,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="style" v="solid"/>
@@ -881,6 +1150,17 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <attributeactions/>
+            <overlay display="false" type="diagram">
+                <renderer item_interpretation="linear">
+                    <diagramitem size="0" value="0"/>
+                    <diagramitem size="0" value="0"/>
+                </renderer>
+                <factory sizeUnits="MM" type="Pie">
+                    <wellknownname>Pie</wellknownname>
+                    <classificationfield>0</classificationfield>
+                </factory>
+                <scalingAttribute>0</scalingAttribute>
+            </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>2012_08_13_source_scenes20120813135724970</id>
@@ -1002,6 +1282,419 @@
                 <edittype type="0" name="sensor"/>
                 <edittype type="0" name="spot_id"/>
                 <edittype type="0" name="status"/>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <attributeactions/>
+            <overlay display="false" type="diagram">
+                <renderer item_interpretation="linear">
+                    <diagramitem size="0" value="0"/>
+                    <diagramitem size="0" value="0"/>
+                </renderer>
+                <factory sizeUnits="MM" type="Pie">
+                    <wellknownname>Pie</wellknownname>
+                    <classificationfield>0</classificationfield>
+                </factory>
+                <scalingAttribute>0</scalingAttribute>
+            </overlay>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+            <id>2012_10_04_source_scenes20121016102723318</id>
+            <datasource>./source/2012/2012-10-04-source_scenes/2012-10-04-source_scenes/2012-10-04-source_scenes.shp</datasource>
+            <layername>2012-10-04-source_scenes</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <classificationattribute>status</classificationattribute>
+            <uniquevalue>
+                <classificationfield>status</classificationfield>
+                <symbol>
+                    <lowervalue null="1"></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label>default</label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="0" blue="0" green="0"/>
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="53" blue="68" green="184"/>
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath>.</texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>accepted</lowervalue>
+                    <uppervalue>accepted</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="255" blue="0" green="255"/>
+                    <outlinestyle>NoPen</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="0" blue="0" green="170"/>
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath>.</texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>flagged</lowervalue>
+                    <uppervalue>flagged</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="255" blue="0" green="255"/>
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="255" blue="127" green="170"/>
+                    <fillpattern>Dense4Pattern</fillpattern>
+                    <texturepath>.</texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>unknown</lowervalue>
+                    <uppervalue>unknown</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="255" blue="0" green="255"/>
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="0" blue="255" green="255"/>
+                    <fillpattern>Dense4Pattern</fillpattern>
+                    <texturepath>.</texturepath>
+                </symbol>
+            </uniquevalue>
+            <customproperties/>
+            <displayfield>spot_id</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="comment"/>
+                <edittype type="0" name="response"/>
+                <edittype type="0" name="sensor"/>
+                <edittype type="0" name="spot_id"/>
+                <edittype type="0" name="status"/>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <attributeactions/>
+            <overlay display="false" type="diagram">
+                <renderer item_interpretation="linear">
+                    <diagramitem size="0" value="0"/>
+                    <diagramitem size="0" value="0"/>
+                </renderer>
+                <factory sizeUnits="MM" type="Pie">
+                    <wellknownname>Pie</wellknownname>
+                    <classificationfield>0</classificationfield>
+                </factory>
+                <scalingAttribute>0</scalingAttribute>
+            </overlay>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+            <id>2012_10_16_source_scenes20121016114519529</id>
+            <datasource>./source/2012/2012-10-16-source_scenes/2012-10-16-source_scenes/2012-10-16-source_scenes.shp</datasource>
+            <layername>2012-10-16-source_scenes</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <classificationattribute>status</classificationattribute>
+            <uniquevalue>
+                <classificationfield>status</classificationfield>
+                <symbol>
+                    <lowervalue null="1"></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label>default</label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="0" blue="0" green="0"/>
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="53" blue="68" green="184"/>
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath>.</texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>accepted</lowervalue>
+                    <uppervalue>accepted</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="255" blue="0" green="255"/>
+                    <outlinestyle>NoPen</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="0" blue="0" green="170"/>
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath>.</texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>flagged</lowervalue>
+                    <uppervalue>flagged</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="255" blue="0" green="255"/>
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="255" blue="127" green="170"/>
+                    <fillpattern>Dense4Pattern</fillpattern>
+                    <texturepath>.</texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>unknown</lowervalue>
+                    <uppervalue>unknown</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="255" blue="0" green="255"/>
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="0" blue="255" green="255"/>
+                    <fillpattern>Dense4Pattern</fillpattern>
+                    <texturepath>.</texturepath>
+                </symbol>
+            </uniquevalue>
+            <customproperties/>
+            <displayfield>spot_id</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="comment"/>
+                <edittype type="0" name="response"/>
+                <edittype type="0" name="sensor"/>
+                <edittype type="0" name="spot_id"/>
+                <edittype type="0" name="status"/>
+                <edittype type="0" name="year"/>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <attributeactions/>
+            <overlay display="false" type="diagram">
+                <renderer item_interpretation="linear">
+                    <diagramitem size="0" value="0"/>
+                    <diagramitem size="0" value="0"/>
+                </renderer>
+                <factory sizeUnits="MM" type="Pie">
+                    <wellknownname>Pie</wellknownname>
+                    <classificationfield>0</classificationfield>
+                </factory>
+                <scalingAttribute>0</scalingAttribute>
+            </overlay>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+            <id>2012_10_21_source_scenes20121021153207759</id>
+            <datasource>./source/2012/2012-10-21-source_scenes/2012-10-21-source_scenes/2012-10-21-source_scenes.shp</datasource>
+            <layername>2012-10-21-source_scenes</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <classificationattribute>status</classificationattribute>
+            <uniquevalue>
+                <classificationfield>status</classificationfield>
+                <symbol>
+                    <lowervalue null="1"></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label>default</label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="0" blue="0" green="0"/>
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="53" blue="68" green="184"/>
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath>.</texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>accepted</lowervalue>
+                    <uppervalue>accepted</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="255" blue="0" green="255"/>
+                    <outlinestyle>NoPen</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="0" blue="0" green="170"/>
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath>.</texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>flagged</lowervalue>
+                    <uppervalue>flagged</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="255" blue="0" green="255"/>
+                    <outlinestyle>NoPen</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="255" blue="127" green="170"/>
+                    <fillpattern>NoBrush</fillpattern>
+                    <texturepath>.</texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>unknown</lowervalue>
+                    <uppervalue>unknown</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="255" blue="0" green="255"/>
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="0" blue="255" green="255"/>
+                    <fillpattern>Dense4Pattern</fillpattern>
+                    <texturepath>.</texturepath>
+                </symbol>
+            </uniquevalue>
+            <customproperties/>
+            <displayfield>spot_id</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="comment"/>
+                <edittype type="0" name="response"/>
+                <edittype type="0" name="sensor"/>
+                <edittype type="0" name="spot_id"/>
+                <edittype type="0" name="status"/>
+                <edittype type="0" name="year"/>
             </edittypes>
             <editform>.</editform>
             <editforminit></editforminit>
@@ -1444,6 +2137,59 @@
             </rasterproperties>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>ORTHO_MS20120826125758862</id>
+            <datasource>http://wms.soy.gina.alaska.edu/map/source</datasource>
+            <layername>ORTHO.MS</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>wms</provider>
+            <rasterproperties>
+                <wmsSublayer>
+                    <name>ORTHO.MS</name>
+                    <style></style>
+                </wmsSublayer>
+                <wmsFormat>image/png</wmsFormat>
+                <mDrawingStyle>SingleBandColorDataStyle</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>-1.79769e+308</min>
+                        <max>1.79769e+308</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">0.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="0.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="0.000000" blue="0.000000" green="0.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>ORTHO_PAN20120115152653060</id>
             <datasource>http://wms.alaskamapped.org/ortho</datasource>
             <layername>ORTHO.PAN</layername>
@@ -1550,6 +2296,59 @@
             </rasterproperties>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>ORTHO_PAN20120826125831039</id>
+            <datasource>http://wms.soy.gina.alaska.edu/map/source</datasource>
+            <layername>ORTHO.PAN</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>wms</provider>
+            <rasterproperties>
+                <wmsSublayer>
+                    <name>ORTHO.PAN</name>
+                    <style></style>
+                </wmsSublayer>
+                <wmsFormat>image/png</wmsFormat>
+                <mDrawingStyle>SingleBandColorDataStyle</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>-1.79769e+308</min>
+                        <max>1.79769e+308</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">0.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="0.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="0.000000" blue="0.000000" green="0.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>ORTHO_RGB20120115152830838</id>
             <datasource>http://wms.alaskamapped.org/ortho</datasource>
             <layername>ORTHO.RGB</layername>
@@ -1646,7 +2445,7 @@
                         <max>1.79769e+308</max>
                     </minMaxEntry>
                 </contrastEnhancementMinMaxValues>
-                <mNoDataValue mValidNoDataValue="true">0.000000</mNoDataValue>
+                <mNoDataValue mValidNoDataValue="false">0.000000</mNoDataValue>
                 <singleValuePixelList>
                     <pixelListEntry pixelValue="0.000000" percentTransparent="100"/>
                 </singleValuePixelList>
@@ -1887,6 +2686,85 @@
                 </threeValuePixelList>
             </rasterproperties>
         </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>good_layout_blocks_merged20121017133440135</id>
+            <datasource>./ortho/2011/layout/good_layout_blocks_merged.shp</datasource>
+            <layername>good_layout_blocks_merged</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="0,255,255,255"/>
+                            <prop k="color_border" v="0,255,255,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>TileName</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="Block"/>
+                <edittype type="0" name="Status"/>
+                <edittype type="0" name="TileName"/>
+            </edittypes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <attributeactions/>
+            <overlay display="false" type="diagram">
+                <renderer item_interpretation="linear">
+                    <diagramitem size="0" value="0"/>
+                    <diagramitem size="0" value="0"/>
+                </renderer>
+                <factory sizeUnits="MM" type="Pie">
+                    <wellknownname>Pie</wellknownname>
+                    <classificationfield>0</classificationfield>
+                </factory>
+                <scalingAttribute>0</scalingAttribute>
+            </overlay>
+        </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>sdmi_clip_mask_11062320120116234430163</id>
             <datasource>./ortho/clipmask/2011/sdmi-clip-mask-110623.shp</datasource>
@@ -2034,6 +2912,85 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>tie_layout_blocks_merged20121017133440149</id>
+            <datasource>./ortho/2011/layout/tie_layout_blocks_merged.shp</datasource>
+            <layername>tie_layout_blocks_merged</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="0,255,255,255"/>
+                            <prop k="color_border" v="0,255,255,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>TileName</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="Block"/>
+                <edittype type="0" name="Status"/>
+                <edittype type="0" name="TileName"/>
+            </edittypes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <attributeactions/>
+            <overlay display="false" type="diagram">
+                <renderer item_interpretation="linear">
+                    <diagramitem size="0" value="0"/>
+                    <diagramitem size="0" value="0"/>
+                </renderer>
+                <factory sizeUnits="MM" type="Pie">
+                    <wellknownname>Pie</wellknownname>
+                    <classificationfield>0</classificationfield>
+                </factory>
+                <scalingAttribute>0</scalingAttribute>
+            </overlay>
         </maplayer>
     </projectlayers>
     <properties>
