@@ -1,0 +1,88 @@
+<Composer title="Composer 2" visible="1">
+ <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+  <Extent ymin="322824.426546" xmin="-1905770.59239187" ymax="2819525.039945817" xmax="1649055.51906787"/>
+  <LayerSet/>
+  <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+   <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Lucida Grande,13,-1,5,50,0,0,0,0,0"/>
+  </Grid>
+  <ComposerItem width="299" x="-1" y="0" rotation="0" height="210" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="2.432885906040268" positionLock="false">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerMap>
+ <ComposerLegend symbolWidth="7" title="SDMI ortho" boxSpace="2" titleFont="Lucida Grande,16,-1,5,50,0,0,0,0,0" map="0" groupFont="Lucida Grande,14,-1,5,50,0,0,0,0,0" layerFont="Lucida Grande,12,-1,5,50,0,0,0,0,0" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" itemFont="Lucida Grande,12,-1,5,50,0,0,0,0,0">
+  <Model autoUpdate="1">
+   <LayerItem layerId="2012_10_24_source_scenes20121024113140597" text="L1A source scenes">
+    <VectorClassificationItem layerId="2012_10_24_source_scenes20121024113140597" text="2009">
+     <symbol>
+      <lowervalue>2009</lowervalue>
+      <uppervalue>2009</uppervalue>
+      <label></label>
+      <pointsymbol>hard:circle</pointsymbol>
+      <pointsize>2</pointsize>
+      <pointsizeunits>pixels</pointsizeunits>
+      <outlinecolor red="0" blue="0" green="0"/>
+      <outlinestyle>NoPen</outlinestyle>
+      <outlinewidth>0.26</outlinewidth>
+      <fillcolor red="0" blue="0" green="85"/>
+      <fillpattern>SolidPattern</fillpattern>
+      <texturepath null="1"></texturepath>
+     </symbol>
+    </VectorClassificationItem>
+    <VectorClassificationItem layerId="2012_10_24_source_scenes20121024113140597" text="2010">
+     <symbol>
+      <lowervalue>2010</lowervalue>
+      <uppervalue>2010</uppervalue>
+      <label></label>
+      <pointsymbol>hard:circle</pointsymbol>
+      <pointsize>2</pointsize>
+      <pointsizeunits>pixels</pointsizeunits>
+      <outlinecolor red="0" blue="0" green="0"/>
+      <outlinestyle>NoPen</outlinestyle>
+      <outlinewidth>0.26</outlinewidth>
+      <fillcolor red="0" blue="0" green="170"/>
+      <fillpattern>SolidPattern</fillpattern>
+      <texturepath null="1"></texturepath>
+     </symbol>
+    </VectorClassificationItem>
+    <VectorClassificationItem layerId="2012_10_24_source_scenes20121024113140597" text="2011">
+     <symbol>
+      <lowervalue>2011</lowervalue>
+      <uppervalue>2011</uppervalue>
+      <label></label>
+      <pointsymbol>hard:circle</pointsymbol>
+      <pointsize>2</pointsize>
+      <pointsizeunits>pixels</pointsizeunits>
+      <outlinecolor red="0" blue="0" green="0"/>
+      <outlinestyle>NoPen</outlinestyle>
+      <outlinewidth>0.26</outlinewidth>
+      <fillcolor red="0" blue="0" green="255"/>
+      <fillpattern>SolidPattern</fillpattern>
+      <texturepath null="1"></texturepath>
+     </symbol>
+    </VectorClassificationItem>
+    <VectorClassificationItem layerId="2012_10_24_source_scenes20121024113140597" text="2012">
+     <symbol>
+      <lowervalue>2012</lowervalue>
+      <uppervalue>2012</uppervalue>
+      <label></label>
+      <pointsymbol>hard:circle</pointsymbol>
+      <pointsize>2</pointsize>
+      <pointsizeunits>pixels</pointsizeunits>
+      <outlinecolor red="0" blue="0" green="0"/>
+      <outlinestyle>NoPen</outlinestyle>
+      <outlinewidth>0.26</outlinewidth>
+      <fillcolor red="132" blue="0" green="255"/>
+      <fillpattern>SolidPattern</fillpattern>
+      <texturepath null="1"></texturepath>
+     </symbol>
+    </VectorClassificationItem>
+   </LayerItem>
+  </Model>
+  <ComposerItem width="43.56965517241379" x="235.111724137931" y="71.93103448275862" rotation="0" height="43.15862068965519" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.432885906040268" positionLock="false">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerLegend>
+ <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
+</Composer>
