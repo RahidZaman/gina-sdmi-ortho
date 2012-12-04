@@ -1,0 +1,288 @@
+SDMI.IFSAR.2010.FUGRO delivery review notes
+===========================================
+
+  Dayne Broderson 
+  UAF-GINA
+  dayne@alaska.edu
+  907-474-6182
+
+
+Log of activity
+===============
+
+2012.03.23  - received data in Anchorage Airport (ADOT&PF Commisioner's office)
+2012.03.26  - spun data on to GINA staging area, delivered disk to Rick Guritz 
+              at ASF
+2012.03.27  - begun review of delivery and restructing for ingest found 
+              possible dups and mis-delivered cells.  Email USGS
+2012.03.30  - parsed edge-matching cells, got response back from USGS
+
+
+Data delivery overview
+======================
+
+70G of data
+
+Fugro_cells_AK_MidAccuracy_DEM - 70GB
+  Alaska_EdgeMatching   - 3.9G
+  Alaska_FiveCellBlock  - 23G
+  Alaska_NineCellBlock  - 44G
+
+Alaska_EdgeMatching
+===================
+
+Cell's 02,03,11,12,17,21. 
+
+Oddly paired together (compared to other folders and intermap delivery):
+
+  Cell_02_03
+    Alaska_IfSAR_EdgeMatch_Cell_02_03_Report_11232011.pdf
+    AOI_Pts # renamed to AOI_Pts.EdgeMatch-02_03
+    Cell_02
+    Cell_03 # EdgeMatch-to-Intermap
+  Cell_11_12
+    Alaska_IfSAR_EdgeMatch_Cell_11_12_Report_11182011_v3.pdf
+    AOI_Pts # renamed to AOI_Pts.EdgeMatch-11_12
+    Cell_11
+    Cell_12 # EdgeMatch-to-Intermap
+  Cell_17_21
+    Alaska_IfSAR_EdgeMatch_Cell_17_21_Report_11222011.pdf
+    AOI_Pts # renamed to AOI_Pts.EdgeMatch-17_21
+    Cell_17
+    Cell_21 # EdgeMatch-to-Intermap
+
+Cells 03, 12, and 21 were also provided in the Alaska_NineCellBlock delivery.
+Choose to consider the 03,12,21 cells here as duplicates based on date in the
+Report.
+
+Alaska_FiveCellBlock
+====================
+
+Cell's 19,23,24,29,30
+
+Alaska_Fugro_Cell_19_23_24_29_30_IfSAR_QCReport_12162011.pdf
+AOI_Pts # renamed to 
+  AOI_Pts.Alaska_FiveCellBlock-19_23_24_29_30
+Survey_Checkpoints # renamed to 
+  Survey_Checkpoints.Alaska_FiveCellBlock-19_23_24_29_30
+Cell_19
+Cell_23
+Cell_24
+Cell_29
+Cell_30
+
+
+Alaska_NineCellBlock
+====================
+
+Cell's 03,04,05,12,13,14,18,21,22
+
+Alaska_Fugro_Cell_03_04_05_12_13_14_18_21_22_IfSAR_QCReport_12072011.pdf
+AOI_Pts # renamed to
+  AOI_Pts.Alaska_NineCellBlock-03_04_05_12_13_14_18_21_22
+Cell_03
+Cell_04
+Cell_05
+Cell_12
+Cell_13
+Cell_14
+Cell_18
+Cell_21
+Cell_22
+Survey_Checkpoints # renamed to
+  Survey_Checkpoints.Alaska_NineCellBlock-03_04_05_12_13_14_18_21_22
+
+
+Reorganized structure: org-cells
+================================
+
+Alaska_Fugro_Cell_03_04_05_12_13_14_18_21_22_IfSAR_QCReport_12072011.pdf
+Alaska_Fugro_Cell_19_23_24_29_30_IfSAR_QCReport_12162011.pdf
+Alaska_IfSAR_EdgeMatch_Cell_02_03_Report_11232011.pdf
+Alaska_IfSAR_EdgeMatch_Cell_11_12_Report_11182011_v3.pdf
+Alaska_IfSAR_EdgeMatch_Cell_17_21_Report_11222011.pdf
+AOI_Pts.Alaska_FiveCellBlock-19_23_24_29_30
+AOI_Pts.Alaska_NineCellBlock-03_04_05_12_13_14_18_21_22
+AOI_Pts.EdgeMatch-02_03
+AOI_Pts.EdgeMatch-11_12
+AOI_Pts.EdgeMatch-17_21
+Cell_02
+Cell_03
+Cell_04
+Cell_05
+Cell_11
+Cell_12
+Cell_13
+Cell_14
+Cell_17
+Cell_18
+Cell_19
+Cell_21
+Cell_22
+Cell_23
+Cell_24
+Cell_29
+Cell_30
+EdgeMatch-dups
+  # 03, 12, and 21 cell's from EdgeMatch
+Survey_Checkpoints.Alaska_FiveCellBlock-19_23_24_29_30
+Survey_Checkpoints.Alaska_NineCellBlock-03_04_05_12_13_14_18_21_22
+
+Review of Cell structure
+========================
+
+Cell_03:
+  Diagram_Files  HRTe3_Tiles  USGS_15_Tiles
+
+Cell_04:
+  Diagram_Files  HRTe3_Tiles  USGS_15_Tiles
+
+Cell_05:
+  Diagram_Files  HRTe3_Tiles  USGS_15_Tiles
+
+Cell_12:
+  Diagram_Files  HRTe3_Tiles  USGS_15_Tiles
+
+Cell_13:
+  Diagram_Files  HRTe3_Tiles  USGS_15_Tiles
+
+Cell_14:
+  Diagram_Files  HRTe3_Tiles  USGS_15_Tiles
+
+Cell_18:
+  Diagram_Files  HRTe3_Tiles  USGS_15_Tiles
+
+Cell_19:
+  Diagram_Files  HRTe3_Tiles  USGS_15_Tiles
+
+Cell_21:
+  Diagram_Files  HRTe3_Tiles  USGS_15_Tiles
+
+Cell_22:
+  Diagram_Files  HRTe3_Tiles  USGS_15_Tiles
+
+Cell_23:
+  Diagram_Files  HRTe3_Tiles  USGS_15_Tiles
+
+Cell_24:
+  Diagram_Files  HRTe3_Tiles  USGS_15_Tiles
+
+Cell_29:
+  Diagram_Files  HRTe3_Tiles  USGS_15_Tiles
+
+Cell_30:
+  Diagram_Files  HRTe3_Tiles  USGS_15_Tiles
+
+EdgeMatch-to-Intermap
+  Cell_02
+  Cell_03
+  Cell_11
+  Cell_12
+  Cell_17
+  Cell_21
+
+
+Begin review of data
+====================
+
+for I in Cell*; do
+  cd $I
+  gdalbuildvrt $I-DSM.vrt USGS_15_Tiles/*/*DSM*.tif
+  gdalbuildvrt $I-DTM.vrt USGS_15_Tiles/*/*DTM*.tif
+  gdalbuildvrt $I-ORI.vrt USGS_15_Tiles/*/*ORI*.tif
+  cd ..
+done
+
+mkdir cell_indexes
+
+for I in DSM DTM ORI; do
+  gdaltindex cell_indexes/$I-index-vrt.shp Cell_*/*${I}.vrt
+  gdaltindex cell_indexes/$I-USGS_15_Tiles.shp Cell_*/USGS_15_Tiles/*/*${I}*.tif
+done
+
+This process worked fine meaning all the good tiles (not 02,11,17) have good
+and consistent headers that blend together nicely.
+
+
+Hillshade testing
+=================
+
+gdaldem hillshade Cell_30/Cell_30-DTM.vrt tests/Cell_30-DTM-hs       \
+        -z 1.0 -s 1.0 -az 315.0 -alt 45.0 -of GTiff
+
+gdaldem hillshade Cell_30/Cell_30-DTM.vrt Cell_30-DTM-hs-zt_ce       \
+        -z 1.0 -s 1.0 -az 315.0 -alt 45.0 -alg ZevenbergenThorne     \
+        -compute_edges -of GTiff
+
+Sadly the no data value of 0 was not burned into the geotif and to make my
+life easier for large mosaic sanity checking I wanted that in there.
+
+gdal_translate -co BIGTIFF=YES -co TILED=YES -co COMPRESS=LZW        \
+               -a_nodata 0 Cell_03-DTM.vrt Cell_03-DTM.tif
+
+gdaladdo -r average  Cell_03-DTM.tif  2  4  8  16  32  64  128  256  \
+         512  1024  2048  4096  8192
+
+That let me do a good hillshade (w/o nodata being shaded):
+
+gdaldem hillshade Cell_03/Cell_03-DTM.tif Cell_03-DTM-hs-zt_ce_ndv0  \
+        -z 1.0 -s 1.0 -az 315.0 -alt 45.0 -alg ZevenbergenThorne     \
+        -compute_edges -of GTiff
+
+add overviews
+
+gdal_dem2rgb -default_pallete $I/$I-$T.tif 
+
+Response from USGS
+==================
+
+Patrick F. Emmett
+United States Geological Survey
+National Geospatial Technical Operations Center
+Commercial Partnership Team-GPSC 
+1400 Independence Road - MS 666
+Rolla, MO  65401
+573-308-3587
+573-308-3810 FAX
+
+Duplicate cells: 03, 12, and 21 showed up in EdgeMatching and NineCellBlock.  
+Need clarification of which ones should considered final. 
+
+  The cells are not actually duplicate datasets. Cells 03, 12, and 21 in 
+the NineCellBlock folder contain the one degree block deliveries of these cells
+(ORI, DSM, DTM, and all extra deliverables).   Cells 03, 12, and 21 in the 
+EdgeMatching folder contain EDGE tiles for the corresponding Intermap cells 
+(02, 11, and 17).  There will ONLY be DTM and DSM tiles for these cells in the 
+EdgeMatching folder for the following reason: these tiles have been mosaicked 
+using a blend method with their corresponding Intermap tiles, and then clipped 
+back to their original boundaries.  This was done to satisfy the requirement 
+that the data collected between Fugro and Intermap would match at the edges 
+seamlessly.  There will be no ORI data or extra deliverables as these have been
+provided in the NineCellBlock delivery.  Both sets of data are valid.  If 
+Alaska wishes to have matching edges between Fugro and Intermap, processing 
+the rasters using the new edge tiles instead of the original tiles provided 
+in the NineCellBlock will allow them to do so.  The original tiles have been 
+provided as a task order requirement. 
+
+Cells 02, 11, and 17 appear to be the incorrect directory for the delivery.  
+They only contain the DSM and DTM tiles.  Missing Diagram_Files, HRTe3_Tiles, and USGS_15_Tiles structure.  Going to need these redelivered. 
+
+These were included in the EdgeMatching folder.  As state above, there will 
+ONLY be DTM and DSM tiles for these cells in the EdgeMatching folder for the 
+following reasons.   These tiles have been mosaicked using a blend method with
+their corresponding Fugro tiles, and then clipped back to their original
+boundaries.  All of the missing data should have been with the original 
+delivery of these tiles, which was some time ago.  These tiles only function
+as edge-replacements, not complete deliveries.
+
+
+HRTe3 limited distribution
+==========================
+
+Patrick Emmett also clarified that the HRTe3 data is for limited distribution:
+
+The HRTe3 data is classified as Limited Distribution "LIMDIS" and would 
+require NGA's blessing to post it to the public. 
+ 
+https://www.neco.navy.mil/necoattach/N0018909RZ0160006J9_Program_(Addendum_X_-_LIMDIS).pdf
+
