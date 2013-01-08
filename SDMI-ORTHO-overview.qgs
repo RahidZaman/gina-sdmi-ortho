@@ -1,13 +1,13 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="1.8.0-Trunk">
+<qgis projectname="" version="1.8.0-Lisboa">
     <title></title>
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>-1455548.729778</xmin>
-            <ymin>-404486.825989</ymin>
-            <xmax>1686221.938082</xmax>
-            <ymax>3307006.339740</ymax>
+            <xmin>-3493770.543212</xmin>
+            <ymin>-668984.040098</ymin>
+            <xmax>2457416.774250</xmax>
+            <ymax>3042509.125631</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -23,176 +23,171 @@
             </spatialrefsys>
         </destinationsrs>
     </mapcanvas>
-    <legend>
-        <legendlayer open="true" checked="Qt::Unchecked" name="2010-tagged" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="2010_tagged20121221092651317" visible="0"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer open="false" checked="Qt::Unchecked" name="ORTHO.PAN" showFeatureCount="0">
+    <legend updateDrawingOrder="true">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="ORTHO.PAN" showFeatureCount="0">
             <filegroup open="false" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="ORTHO_PAN20120826125831039" visible="0"/>
             </filegroup>
         </legendlayer>
-        <legendlayer open="false" checked="Qt::Unchecked" name="ORTHO.MS" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="ORTHO.MS" showFeatureCount="0">
             <filegroup open="false" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="ORTHO_MS20120826125758862" visible="0"/>
             </filegroup>
         </legendlayer>
         <legendgroup open="true" checked="Qt::PartiallyChecked" name="Misc">
-            <legendlayer open="true" checked="Qt::Unchecked" name="sdmi_ortho_tile_layout" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="all_ortho_tiles" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="all_ortho_tiles20130108125136897" visible="1"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="sdmi_ortho_tile_layout" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="sdmi_ortho_tile_layout20120116234635208" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer open="false" checked="Qt::Checked" name="SDMI-clip_mask" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="SDMI-clip_mask" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="sdmi_clip_mask_11062320120116234430163" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::PartiallyChecked" name="2011-ortho-tiles">
-            <legendlayer open="true" checked="Qt::Checked" name="SDMI-ORTHO-2011-final_tiles" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="SDMI_ORTHO_2011_final_tiles20121219110009019" visible="1"/>
+        <legendgroup open="true" checked="Qt::Checked" name="2011-ortho-tiles">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="SDMI-ORTHO-2011-final_tiles" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="SDMI_ORTHO_2011_final_tiles20130108121617379" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
         <legendgroup open="true" checked="Qt::PartiallyChecked" name="2010-final-ortho-tiles">
-            <legendlayer open="true" checked="Qt::Checked" name="2010-final-tiles-clip" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="2010-final-tiles-clip" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="2010_final_tiles_clip20120518094331848" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="2010_final_tiles_clip20120518094331848" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer open="true" checked="Qt::Unchecked" name="2010-final-tiles" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="2010-final-tiles" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="2010_final_tiles20120116161631656" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="2010_final_tiles20130108124015359" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer open="true" checked="Qt::Unchecked" name="2010-final-tiles-clip" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="2010-final-tiles-clip" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="2010_final_tiles_clip20120116235844856" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer open="true" checked="Qt::Unchecked" name="2010-final-tiles-merged" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="2010-final-tiles-merged" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="2010_final_tiles_merged20120116161215915" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
         <legendgroup open="true" checked="Qt::Unchecked" name="SPOT5-SOURCE">
-            <legendlayer open="true" checked="Qt::Unchecked" name="2012-10-21-source_scenes" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="2012-10-21-source_scenes" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="2012_10_21_source_scenes20121021153207759" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer open="true" checked="Qt::Unchecked" name="2012-10-04-source_scenes" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="2012-10-04-source_scenes" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="2012_10_04_source_scenes20121016102723318" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer open="false" checked="Qt::Unchecked" name="2011-source" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="2011-source" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="SPOT5_2011_source20120116165917838" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer open="true" checked="Qt::Unchecked" name="2009_2010-source" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="2009_2010-source" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="2009_2010_source20120116165950270" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer open="true" checked="Qt::Unchecked" name="2012-08-13-source_scenes" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="2012-08-13-source_scenes" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="2012_08_13_source_scenes20120813135724970" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer open="true" checked="Qt::Unchecked" name="2009_2010_2011-source" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="2009_2010_2011-source" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="2009_2010_2011_source20120116234851013" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendlayer open="false" checked="Qt::Unchecked" name="2011_SDMI_Priority_Zones" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="2011_SDMI_Priority_Zones" showFeatureCount="0">
             <filegroup open="false" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="2011_SDMI_Priority_Zones20120116154614668" visible="0"/>
             </filegroup>
         </legendlayer>
         <legendgroup open="false" checked="Qt::Unchecked" name="SDMI-ORTHO">
-            <legendlayer open="false" checked="Qt::Unchecked" name="ORTHO.CIR" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="ORTHO.CIR" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="ORTHO_CIR20120115152634764" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer open="false" checked="Qt::Unchecked" name="ORTHO.PAN" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="ORTHO.PAN" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="ORTHO_PAN20120115152653060" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer open="false" checked="Qt::Unchecked" name="ORTHO.RGB" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="ORTHO.RGB" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="ORTHO_RGB20120115152830838" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
         <legendgroup open="false" checked="Qt::Unchecked" name="SDMI-Extras">
-            <legendlayer open="false" checked="Qt::Unchecked" name="Pseudo Color Landsat" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Pseudo Color Landsat" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="Pseudo_Color_Landsat20120116151225930" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer open="false" checked="Qt::Unchecked" name="DRG" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="DRG" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="DRG20120116151159122" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer open="false" checked="Qt::Unchecked" name="DRG-no scale limits" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="DRG-no scale limits" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="DRG_WITHOUT_SCALE_LIMITS20120116151238515" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer open="false" checked="Qt::Unchecked" name="Shaded Relief NED" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Shaded Relief NED" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="Shaded_Relief_NED20120116151305819" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer open="false" checked="Qt::Unchecked" name="Blue_Marble" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Blue_Marble" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="Blue_Marble20120116151318219" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer open="false" checked="Qt::Unchecked" name="Landsat Pan" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Landsat Pan" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="Landsat_Pan20120116151325603" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendlayer open="false" checked="Qt::Unchecked" name="NOAA-Charts" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NOAA-Charts" showFeatureCount="0">
             <filegroup open="false" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="Charts20120116151721623" visible="0"/>
             </filegroup>
         </legendlayer>
-        <legendlayer open="false" checked="Qt::Unchecked" name="gina-bath-2004-aa-grey" showFeatureCount="0">
-            <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="gina_bath_2004_aa_grey20120117001943742" visible="0"/>
-            </filegroup>
-        </legendlayer>
         <legendgroup open="true" checked="Qt::Unchecked" name="WMS">
-            <legendlayer open="false" checked="Qt::Unchecked" name="ORTHO.RGB" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="ORTHO.RGB" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="ORTHO_RGB20120116235424152" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer open="false" checked="Qt::Unchecked" name="ORTHO.PAN" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="ORTHO.PAN" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="ORTHO_PAN20120116235409436" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer open="false" checked="Qt::Unchecked" name="ORTHO.CIR" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="ORTHO.CIR" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="ORTHO_CIR20120116235347285" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer open="false" checked="Qt::Unchecked" name="SDMI-BDL" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="SDMI-BDL" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="BestDataAvailableLayer20120115152725124" visible="0"/>
                 </filegroup>
@@ -203,7 +198,7 @@
         <ComposerLabel valign="32" labelText="website: http://alaskamapped.org/ortho&#xa;WMS:  http://wms.alaskamapped.org/ortho&#xa;contact: orthoproj@gina.alaska.edu&#xa;Tom Heinrichs - Dayne Broderson - UAF-GINA" halign="1" margin="1">
             <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0"/>
             <FontColor red="0" blue="0" green="0"/>
-            <ComposerItem width="85.61326201009157" x="202.1212871287129" y="182.2747524752475" rotation="0" height="19.41116444471196" frame="true" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="3.312080536912752" id="" positionLock="false">
+            <ComposerItem width="85.6133" x="202.121" y="182.275" rotation="0" height="19.4112" frame="true" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="3.31208" id="" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
@@ -211,23 +206,29 @@
         <ComposerLabel valign="32" labelText="2012.06.26" halign="1" margin="1">
             <LabelFont description="Ubuntu,8,-1,5,50,0,0,0,0,0"/>
             <FontColor red="0" blue="0" green="0"/>
-            <ComposerItem width="22.74834005912448" x="1.261138613861306" y="2.35024752475249" rotation="0" height="14.95070034254609" frame="true" outlineWidth="0.3" zValue="4" lastValidViewScaleFactor="3.312080536912752" id="" positionLock="false">
+            <ComposerItem width="22.7483" x="1.26114" y="2.35025" rotation="0" height="14.9507" frame="true" outlineWidth="0.3" zValue="4" lastValidViewScaleFactor="3.31208" id="" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
         </ComposerLabel>
         <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
-            <Extent ymin="359706.850599393" xmin="-1438952.236152796" ymax="2394275.262674652" xmax="1467574.06681186"/>
+            <Extent ymin="359707" xmin="-1.43895e+06" ymax="2.39428e+06" xmax="1.46757e+06"/>
             <LayerSet/>
             <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
                 <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
             </Grid>
-            <ComposerItem width="300" x="-2.09152898572534" y="0.148073469960984" rotation="0" height="210" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="3.312080536912752" id="" positionLock="false">
+            <ComposerItem width="300" x="-2.09153" y="0.148073" rotation="0" height="210" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="3.31208" id="" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
         </ComposerMap>
-        <ComposerLegend symbolWidth="7" title="SDMI Ortho Imagery Status" boxSpace="2" titleFont="Ubuntu,16,-1,5,50,0,0,0,0,0" map="0" groupFont="Ubuntu,14,-1,5,50,0,0,0,0,0" layerFont="Ubuntu,12,-1,5,50,0,0,0,0,0" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" itemFont="Ubuntu,12,-1,5,50,0,0,0,0,0">
+        <ComposerPicture pictureWidth="20" file="./docs/GINA_poweredby_wURL_transparent-756x276.png" pictureHeight="8" mapId="-1">
+            <ComposerItem width="20" x="1.8246" y="6.9455" rotation="0" height="8" frame="true" outlineWidth="0" zValue="7" lastValidViewScaleFactor="3.31208" id="" positionLock="false">
+                <FrameColor alpha="255" red="255" blue="255" green="255"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerPicture>
+        <ComposerLegend symbolWidth="7" title="SDMI Ortho Imagery Status" boxSpace="2" titleFont="Ubuntu,16,-1,5,50,0,0,0,0,0" map="0" groupFont="Ubuntu,14,-1,5,50,0,0,0,0,0" layerFont="Ubuntu,12,-1,5,50,0,0,0,0,0" groupSpace="3" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" wrapChar="" itemFont="Ubuntu,12,-1,5,50,0,0,0,0,0">
             <Model autoUpdate="1">
                 <LayerItem layerId="2010_final_tiles_clip20120518094331848" text="2010 ortho tiles">
                     <VectorClassificationItemNg text="completed/available">
@@ -469,22 +470,6 @@
                         </symbol>
                     </VectorClassificationItem>
                 </LayerItem>
-                <LayerItem layerId="SDMI_ORTHO_2011_final_tiles20121219110009019" text="SDMI-ORTHO-2011-final_tiles">
-                    <VectorClassificationItemNg text="">
-                        <symbols>
-                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
-                                <layer pass="0" class="SimpleFill" locked="0">
-                                    <prop k="color" v="159,219,140,255"/>
-                                    <prop k="color_border" v="0,0,0,255"/>
-                                    <prop k="offset" v="0,0"/>
-                                    <prop k="style" v="solid"/>
-                                    <prop k="style_border" v="solid"/>
-                                    <prop k="width_border" v="0.26"/>
-                                </layer>
-                            </symbol>
-                        </symbols>
-                    </VectorClassificationItemNg>
-                </LayerItem>
                 <LayerItem layerId="2010_tagged20121221092651317" text="2010-tagged">
                     <VectorClassificationItemNg text="">
                         <symbols>
@@ -501,24 +486,68 @@
                         </symbols>
                     </VectorClassificationItemNg>
                 </LayerItem>
+                <LayerItem layerId="SDMI_ORTHO_2011_final_tiles20130108121617379" text="SDMI-ORTHO-2011-final_tiles">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="226,13,226,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="2010_final_tiles20130108124015359" text="2010-final-tiles">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="255,237,161,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="all_ortho_tiles20130108125136897" text="all_ortho_tiles">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="161,63,3,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
             </Model>
-            <ComposerItem width="79" x="216.7673736567969" y="8.540319553282337" rotation="0" height="188.2" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="3.312080536912752" id="" positionLock="false">
+            <ComposerItem width="11" x="216.767" y="8.54032" rotation="0" height="191" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="3.31208" id="" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
         </ComposerLegend>
-        <ComposerPicture pictureWidth="20" file="./docs/GINA_poweredby_wURL_transparent-756x276.png" pictureHeight="8" mapId="-1">
-            <ComposerItem width="20" x="1.8246" y="6.945499999999999" rotation="0" height="8" frame="true" outlineWidth="0" zValue="7" lastValidViewScaleFactor="3.312080536912752" id="" positionLock="false">
-                <FrameColor alpha="255" red="255" blue="255" green="255"/>
-                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            </ComposerItem>
-        </ComposerPicture>
         <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
     </Composer>
-    <projectlayers layercount="32">
+    <projectlayers layercount="31">
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>2009_2010_2011_source20120116234851013</id>
             <datasource>./source/maps/2009_2010_2011-source.shp</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>2009_2010_2011-source</layername>
             <srs>
                 <spatialrefsys>
@@ -604,6 +633,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>2009_2010_source20120116165950270</id>
             <datasource>./source/2009_2010/2009_2010-source.shp</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>2009_2010-source</layername>
             <srs>
                 <spatialrefsys>
@@ -675,8 +706,10 @@
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>2010_final_tiles20120116161631656</id>
+            <id>2010_final_tiles20130108124015359</id>
             <datasource>./ortho/2010/final-tiles/2010-final-tiles-shp/2010-final-tiles.shp</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>2010-final-tiles</layername>
             <srs>
                 <spatialrefsys>
@@ -691,7 +724,7 @@
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="UTF-8">ogr</provider>
+            <provider encoding="System">ogr</provider>
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
@@ -743,6 +776,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>2010_final_tiles_clip20120116235844856</id>
             <datasource>./ortho/2010/final-tiles/2010-final-tiles-clip-shp/2010-final-tiles-clip.shp</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>2010-final-tiles-clip</layername>
             <srs>
                 <spatialrefsys>
@@ -809,6 +844,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>2010_final_tiles_clip20120518094331848</id>
             <datasource>./ortho/2010/final-tiles/2010-final-tiles-clip-shp/2010-final-tiles-clip.shp</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>2010-final-tiles-clip</layername>
             <srs>
                 <spatialrefsys>
@@ -875,6 +912,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>2010_final_tiles_merged20120116161215915</id>
             <datasource>./ortho/2010/final-tiles/2010-final-tiles-merged.geojson</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>2010-final-tiles-merged</layername>
             <srs>
                 <spatialrefsys>
@@ -936,71 +975,10 @@
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>2010_tagged20121221092651317</id>
-            <datasource>./ortho/2010/2010-tagged.shp</datasource>
-            <layername>2010-tagged</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>1296</srsid>
-                    <srid>3338</srid>
-                    <authid>EPSG:3338</authid>
-                    <description>NAD83 / Alaska Albers</description>
-                    <projectionacronym>aea</projectionacronym>
-                    <ellipsoidacronym>GRS80</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="UTF-8">ogr</provider>
-            <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
-                <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
-                        <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="223,251,131,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="style" v="solid"/>
-                            <prop k="style_border" v="solid"/>
-                            <prop k="width_border" v="0.26"/>
-                        </layer>
-                    </symbol>
-                </symbols>
-                <rotation field=""/>
-                <sizescale field=""/>
-            </renderer-v2>
-            <customproperties/>
-            <displayfield>location</displayfield>
-            <label>0</label>
-            <labelattributes>
-                <label fieldname="" text="Label"/>
-                <family fieldname="" name="Sans Serif"/>
-                <size fieldname="" units="pt" value="12"/>
-                <bold fieldname="" on="0"/>
-                <italic fieldname="" on="0"/>
-                <underline fieldname="" on="0"/>
-                <strikeout fieldname="" on="0"/>
-                <color fieldname="" red="0" blue="0" green="0"/>
-                <x fieldname=""/>
-                <y fieldname=""/>
-                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-                <angle fieldname="" value="0" auto="0"/>
-                <alignment fieldname="" value="center"/>
-                <buffercolor fieldname="" red="255" blue="255" green="255"/>
-                <buffersize fieldname="" units="pt" value="1"/>
-                <bufferenabled fieldname="" on=""/>
-                <multilineenabled fieldname="" on=""/>
-                <selectedonly on=""/>
-            </labelattributes>
-            <editform>.</editform>
-            <editforminit></editforminit>
-            <annotationform>.</annotationform>
-            <attributeactions/>
-        </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>2011_SDMI_Priority_Zones20120116154614668</id>
             <datasource>./ortho/2011/priority_zones/2011_SDMI_Priority_Zones.shp</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>2011_SDMI_Priority_Zones</layername>
             <srs>
                 <spatialrefsys>
@@ -1064,6 +1042,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>2012_08_13_source_scenes20120813135724970</id>
             <datasource>./source/2012/2012-08-13-source_scenes/2012-08-13-source_scenes/2012-08-13-source_scenes.shp</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>2012-08-13-source_scenes</layername>
             <srs>
                 <spatialrefsys>
@@ -1186,21 +1166,12 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <attributeactions/>
-            <overlay display="false" type="diagram">
-                <renderer item_interpretation="linear">
-                    <diagramitem size="0" value="0"/>
-                    <diagramitem size="0" value="0"/>
-                </renderer>
-                <factory sizeUnits="MM" type="Pie">
-                    <wellknownname>Pie</wellknownname>
-                    <classificationfield>0</classificationfield>
-                </factory>
-                <scalingAttribute>0</scalingAttribute>
-            </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>2012_10_04_source_scenes20121016102723318</id>
             <datasource>./source/2012/2012-10-04-source_scenes/2012-10-04-source_scenes/2012-10-04-source_scenes.shp</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>2012-10-04-source_scenes</layername>
             <srs>
                 <spatialrefsys>
@@ -1323,21 +1294,12 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <attributeactions/>
-            <overlay display="false" type="diagram">
-                <renderer item_interpretation="linear">
-                    <diagramitem size="0" value="0"/>
-                    <diagramitem size="0" value="0"/>
-                </renderer>
-                <factory sizeUnits="MM" type="Pie">
-                    <wellknownname>Pie</wellknownname>
-                    <classificationfield>0</classificationfield>
-                </factory>
-                <scalingAttribute>0</scalingAttribute>
-            </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>2012_10_21_source_scenes20121021153207759</id>
             <datasource>./source/2012/2012-10-21-source_scenes/2012-10-21-source_scenes/2012-10-21-source_scenes.shp</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>2012-10-21-source_scenes</layername>
             <srs>
                 <spatialrefsys>
@@ -1461,21 +1423,12 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <attributeactions/>
-            <overlay display="false" type="diagram">
-                <renderer item_interpretation="linear">
-                    <diagramitem size="0" value="0"/>
-                    <diagramitem size="0" value="0"/>
-                </renderer>
-                <factory sizeUnits="MM" type="Pie">
-                    <wellknownname>Pie</wellknownname>
-                    <classificationfield>0</classificationfield>
-                </factory>
-                <scalingAttribute>0</scalingAttribute>
-            </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>BestDataAvailableLayer20120115152725124</id>
             <datasource>http://wms.alaskamapped.org/bdl</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>SDMI-BDL</layername>
             <srs>
                 <spatialrefsys>
@@ -1529,6 +1482,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>Blue_Marble20120116151318219</id>
             <datasource>http://wms.alaskamapped.org/extras</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>Blue_Marble</layername>
             <srs>
                 <spatialrefsys>
@@ -1582,6 +1537,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>Charts20120116151721623</id>
             <datasource>http://wms.alaskamapped.org/charts</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>NOAA-Charts</layername>
             <srs>
                 <spatialrefsys>
@@ -1635,6 +1592,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>DRG20120116151159122</id>
             <datasource>http://wms.alaskamapped.org/extras</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>DRG</layername>
             <srs>
                 <spatialrefsys>
@@ -1688,6 +1647,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>DRG_WITHOUT_SCALE_LIMITS20120116151238515</id>
             <datasource>http://wms.alaskamapped.org/extras</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>DRG-no scale limits</layername>
             <srs>
                 <spatialrefsys>
@@ -1741,6 +1702,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>Landsat_Pan20120116151325603</id>
             <datasource>http://wms.alaskamapped.org/extras</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>Landsat Pan</layername>
             <srs>
                 <spatialrefsys>
@@ -1794,6 +1757,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>ORTHO_CIR20120115152634764</id>
             <datasource>http://wms.alaskamapped.org/ortho</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>ORTHO.CIR</layername>
             <srs>
                 <spatialrefsys>
@@ -1847,6 +1812,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>ORTHO_CIR20120116235347285</id>
             <datasource>http://wms.alaskamapped.org/ortho</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>ORTHO.CIR</layername>
             <srs>
                 <spatialrefsys>
@@ -1900,6 +1867,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>ORTHO_MS20120826125758862</id>
             <datasource>http://wms.soy.gina.alaska.edu/map/source</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>ORTHO.MS</layername>
             <srs>
                 <spatialrefsys>
@@ -1953,6 +1922,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>ORTHO_PAN20120115152653060</id>
             <datasource>http://wms.alaskamapped.org/ortho</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>ORTHO.PAN</layername>
             <srs>
                 <spatialrefsys>
@@ -2006,6 +1977,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>ORTHO_PAN20120116235409436</id>
             <datasource>http://wms.alaskamapped.org/ortho</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>ORTHO.PAN</layername>
             <srs>
                 <spatialrefsys>
@@ -2059,6 +2032,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>ORTHO_PAN20120826125831039</id>
             <datasource>http://wms.soy.gina.alaska.edu/map/source</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>ORTHO.PAN</layername>
             <srs>
                 <spatialrefsys>
@@ -2112,6 +2087,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>ORTHO_RGB20120115152830838</id>
             <datasource>http://wms.alaskamapped.org/ortho</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>ORTHO.RGB</layername>
             <srs>
                 <spatialrefsys>
@@ -2165,6 +2142,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>ORTHO_RGB20120116235424152</id>
             <datasource>http://wms.alaskamapped.org/ortho</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>ORTHO.RGB</layername>
             <srs>
                 <spatialrefsys>
@@ -2218,6 +2197,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>Pseudo_Color_Landsat20120116151225930</id>
             <datasource>http://wms.alaskamapped.org/extras</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>Pseudo Color Landsat</layername>
             <srs>
                 <spatialrefsys>
@@ -2269,8 +2250,10 @@
             </rasterproperties>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>SDMI_ORTHO_2011_final_tiles20121219110009019</id>
+            <id>SDMI_ORTHO_2011_final_tiles20130108121617379</id>
             <datasource>./ortho/2011/SDMI-ORTHO-2011-final_tiles/SDMI-ORTHO-2011-final_tiles.shp</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>SDMI-ORTHO-2011-final_tiles</layername>
             <srs>
                 <spatialrefsys>
@@ -2285,13 +2268,13 @@
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="UTF-8">ogr</provider>
+            <provider encoding="System">ogr</provider>
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
                     <symbol outputUnit="MM" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="159,219,140,255"/>
+                            <prop k="color" v="0,197,0,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="style" v="solid"/>
@@ -2304,7 +2287,7 @@
                 <sizescale field=""/>
             </renderer-v2>
             <customproperties/>
-            <displayfield>location</displayfield>
+            <displayfield>LOCATION</displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Label"/>
@@ -2326,14 +2309,19 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform>.</editform>
+            <edittypes>
+                <edittype type="0" name="LOCATION"/>
+            </edittypes>
+            <editform></editform>
             <editforminit></editforminit>
-            <annotationform>.</annotationform>
+            <annotationform></annotationform>
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>SPOT5_2011_source20120116165917838</id>
             <datasource>./source/2011/SPOT5-2011-source/SPOT5-2011-source.shp</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>2011-source</layername>
             <srs>
                 <spatialrefsys>
@@ -2412,6 +2400,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>Shaded_Relief_NED20120116151305819</id>
             <datasource>http://wms.alaskamapped.org/extras</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>Shaded Relief NED</layername>
             <srs>
                 <spatialrefsys>
@@ -2462,10 +2452,12 @@
                 </threeValuePixelList>
             </rasterproperties>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-            <id>gina_bath_2004_aa_grey20120117001943742</id>
-            <datasource>./maps/gina-bath-2004-aa-grey.tif</datasource>
-            <layername>gina-bath-2004-aa-grey</layername>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>all_ortho_tiles20130108125136897</id>
+            <datasource>./ortho/all_ortho_tiles/all_ortho_tiles.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>all_ortho_tiles</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -2479,40 +2471,60 @@
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="0.615686" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="161,63,3,157"/>
+                            <prop k="color_border" v="0,0,0,157"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
             <customproperties/>
-            <provider>gdal</provider>
-            <rasterproperties>
-                <mDrawingStyle>SingleBandGray</mDrawingStyle>
-                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
-                <mInvertColor boolean="false"/>
-                <mRedBandName>Not Set</mRedBandName>
-                <mGreenBandName>Not Set</mGreenBandName>
-                <mBlueBandName>Not Set</mBlueBandName>
-                <mGrayBandName>Band 1</mGrayBandName>
-                <mStandardDeviations>0</mStandardDeviations>
-                <mUserDefinedRGBMinimumMaximum boolean="false"/>
-                <mRGBMinimumMaximumEstimated boolean="true"/>
-                <mUserDefinedGrayMinimumMaximum boolean="false"/>
-                <mGrayMinimumMaximumEstimated boolean="true"/>
-                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
-                <contrastEnhancementMinMaxValues>
-                    <minMaxEntry>
-                        <min>0</min>
-                        <max>255</max>
-                    </minMaxEntry>
-                </contrastEnhancementMinMaxValues>
-                <mNoDataValue mValidNoDataValue="true">0.000000</mNoDataValue>
-                <singleValuePixelList>
-                    <pixelListEntry pixelValue="0.000000" percentTransparent="100"/>
-                </singleValuePixelList>
-                <threeValuePixelList>
-                    <pixelListEntry red="0.000000" blue="0.000000" green="0.000000" percentTransparent="100"/>
-                </threeValuePixelList>
-            </rasterproperties>
+            <displayfield>LOCATION</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Sans Serif"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="LOCATION"/>
+            </edittypes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>sdmi_clip_mask_11062320120116234430163</id>
             <datasource>./ortho/clipmask/2011/sdmi-clip-mask-110623.shp</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>SDMI-clip_mask</layername>
             <srs>
                 <spatialrefsys>
@@ -2591,6 +2603,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>sdmi_ortho_tile_layout20120116234635208</id>
             <datasource>./ortho/ortho_tile_layout/sdmi_ortho_tile_layout.shp</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>sdmi_ortho_tile_layout</layername>
             <srs>
                 <spatialrefsys>
