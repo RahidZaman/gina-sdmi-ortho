@@ -1,0 +1,103 @@
+<Composer title="Composer 3" visible="1">
+ <Composition printResolution="100" paperWidth="298" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" numPages="1" paperHeight="210" printAsRaster="0">
+  <ComposerLabel valign="32" labelText="Overlap between the 2012 IFSAR collection (blue) and the unprocessed source scenes (green) provides a rough overview of the 2012 ortho tiles that might be processed spring/summer of 2013&#xa;&#xa;gina.alaska.edu&#xa;alaskamapped.org/ortho&#xa;support@gina.alaska.edu" halign="1" margin="1">
+   <LabelFont description="Sans,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="54.1818" x="226.648" y="70.7337" rotation="0" height="53.0371" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="2.62081" id="" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLegend symbolWidth="7" title="" groupSpace="2" itemFont="Sans,12,-1,5,50,0,0,0,0,0" symbolSpace="2" map="0" layerSpace="2" titleFont="Sans,16,-1,5,50,0,0,0,0,0" wrapChar="" layerFont="Sans,12,-1,5,50,0,0,0,0,0" columnCount="1" iconLabelSpace="2" groupFont="Sans,14,-1,5,50,0,0,0,0,0" columnSpace="2" symbolHeight="4" equalColumnWidth="0" splitLayer="0" boxSpace="2">
+   <Model autoUpdate="1">
+    <LayerItem layerId="Area1b_with_additions20130117171816602" text="2012-IFSAR" showFeatureCount="0">
+     <VectorClassificationItemNg text="">
+      <symbols>
+       <symbol outputUnit="MM" alpha="0.717647" type="fill" name="classificationSymbol">
+        <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="color" v="0,0,255,255"/>
+         <prop k="color_border" v="0,0,255,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="style" v="b_diagonal"/>
+         <prop k="style_border" v="solid"/>
+         <prop k="width_border" v="0.26"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+    </LayerItem>
+    <LayerItem layerId="all_ortho_tiles20130117163012111" text="Completed ortho tiles" showFeatureCount="0">
+     <VectorClassificationItemNg text="">
+      <symbols>
+       <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+        <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="color" v="255,253,175,255"/>
+         <prop k="color_border" v="255,253,175,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="style" v="solid"/>
+         <prop k="style_border" v="solid"/>
+         <prop k="width_border" v="0.26"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+    </LayerItem>
+    <LayerItem layerId="SPOT5_source_dissolved20130117163039255" text="SPOT5 L1A source" showFeatureCount="0">
+     <VectorClassificationItemNg text="">
+      <symbols>
+       <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+        <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="color" v="33,210,104,255"/>
+         <prop k="color_border" v="0,0,0,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="style" v="solid"/>
+         <prop k="style_border" v="solid"/>
+         <prop k="width_border" v="0.26"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+    </LayerItem>
+   </Model>
+   <ComposerItem width="59.5237" x="225.122" y="34.3406" rotation="0" height="90.0487" frame="false" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.62081" id="" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLegend>
+  <ComposerMap keepLayerSet="false" overviewFrameMap="-1" id="0" previewMode="Cache" drawCanvasItems="true">
+   <overviewFrame overviewFrameMap="-1">
+    <symbol outputUnit="MM" alpha="0.3" type="fill" name="">
+     <layer pass="0" class="SimpleFill" locked="0">
+      <prop k="color" v="255,0,0,125"/>
+      <prop k="color_border" v="0,0,0,255"/>
+      <prop k="offset" v="0,0"/>
+      <prop k="style" v="solid"/>
+      <prop k="style_border" v="no"/>
+      <prop k="width_border" v="0.26"/>
+     </layer>
+    </symbol>
+   </overviewFrame>
+   <Extent ymin="1.43193e+06" xmin="-1.05999e+06" ymax="2.35602e+06" xmax="229441"/>
+   <LayerSet/>
+   <Grid gridStyle="0" crossLength="3" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" show="0">
+    <symbol outputUnit="MM" alpha="1" type="line" name="">
+     <layer pass="0" class="SimpleLine" locked="0">
+      <prop k="capstyle" v="flat"/>
+      <prop k="color" v="0,0,0,255"/>
+      <prop k="customdash" v="5;2"/>
+      <prop k="joinstyle" v="bevel"/>
+      <prop k="offset" v="0"/>
+      <prop k="penstyle" v="solid"/>
+      <prop k="use_custom_dash" v="0"/>
+      <prop k="width" v="0.3"/>
+     </layer>
+    </symbol>
+    <Annotation rightDirection="0" bottomDirection="0" format="0" topPosition="1" precision="3" leftDirection="0" rightPosition="1" bottomPosition="1" frameDistance="1" show="0" font="Sans,10,-1,5,50,0,0,0,0,0" leftPosition="1" topDirection="0"/>
+   </Grid>
+   <ComposerItem width="300" x="-2" y="-3" rotation="0" height="215" frame="false" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="2.62081" id="" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerMap>
+ </Composition>
+</Composer>
