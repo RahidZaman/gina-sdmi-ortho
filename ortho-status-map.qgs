@@ -5,9 +5,9 @@
         <units>meters</units>
         <extent>
             <xmin>-1926862.997627</xmin>
-            <ymin>414929.967521</ymin>
+            <ymin>201319.546049</ymin>
             <xmax>2079950.665732</xmax>
-            <ymax>2408627.234588</ymax>
+            <ymax>2622237.656060</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -29,6 +29,37 @@
                 <legendlayerfile isInOverview="0" layerid="sdmi_clip_mask20130117163152768" visible="1"/>
             </filegroup>
         </legendlayer>
+        <legendgroup open="true" checked="Qt::Checked" name="QAQC">
+            <legendgroup open="true" checked="Qt::Checked" name="accepted">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="SM2_West_20130401_20130523_Tile_Layout_Dissolved" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="SM2_West_20130401_20130523_Tile_Layout_Dissolved20130801082859740" visible="1"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NM2_20130307_20130523_Tile_Layout_Dissolved" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="NM2_20130307_20130523_Tile_Layout_Dissolved20130801082859733" visible="1"/>
+                    </filegroup>
+                </legendlayer>
+            </legendgroup>
+            <legendgroup open="true" checked="Qt::Checked" name="in_progress">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="CM2_20130416_Tile_Layout_Dissolved" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="CM2_20130416_Tile_Layout_Dissolved20130801082741290" visible="1"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NM1_20130318_Tile_Layout_Dissolved" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="NM1_20130318_Tile_Layout_Dissolved20130801082741297" visible="1"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NM2_20130311_Tile_Layout_Dissolved" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="NM2_20130311_Tile_Layout_Dissolved20130801082741303" visible="1"/>
+                    </filegroup>
+                </legendlayer>
+            </legendgroup>
+        </legendgroup>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="SPOT5-2011-source" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="SPOT5_2011_source20130117163112912" visible="0"/>
@@ -39,8 +70,8 @@
                 <legendlayerfile isInOverview="0" layerid="2009_2010_source20130117163100767" visible="0"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="2013-ortho_draft-clipped" showFeatureCount="0">
-            <filegroup open="false" hidden="false">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="2013-ortho_draft-clipped" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="2013_ortho_draft_clipped20130621101307304" visible="1"/>
             </filegroup>
         </legendlayer>
@@ -54,9 +85,14 @@
                 <legendlayerfile isInOverview="0" layerid="completed_ortho_tiles_dissolve_clipped_20130125155952123" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="SPOT5 source clipped-v1304" showFeatureCount="0">
-            <filegroup open="false" hidden="false">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="SPOT5 source clipped-v1304" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="2013_03_18_clipped20130621112107425" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="2013-07-31-source_scenes" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="2013_07_31_source_scenes20130801082254163" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="completed_ortho_tiles-dissolve " showFeatureCount="0">
@@ -81,14 +117,17 @@
         </legendlayer>
     </legend>
     <Composer title="Composer 2" visible="0">
-        <ComposerLabel valign="32" labelText="An orthomosaic map created from SPOT5 2.5m imagery that meets 1:24K National Map Accuracy Standards with a CE90 of 12.2-meters.  The ortho tile map products are delivered as a color infrared (CIR), psuedo-natural color, and panchromatic (grayscale).  Project is fully funded and will be complete statewide in 2016." halign="1" margin="1">
-            <LabelFont description="Sans,10,-1,5,50,0,0,0,0,0"/>
-            <FontColor red="0" blue="0" green="0"/>
-            <ComposerItem width="71.3198" x="215.505" y="56.6867" rotation="0" height="32.4766" frame="false" outlineWidth="0.3" zValue="6" lastValidViewScaleFactor="2.50671" id="" positionLock="false">
+        <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+            <Extent ymin="359707" xmin="-1.43895e+06" ymax="2.39427e+06" xmax="1.46757e+06"/>
+            <LayerSet/>
+            <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+                <Annotation direction="0" precision="3" position="0" frameDistance="1" show="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+            </Grid>
+            <ComposerItem width="300" x="-2.09153" y="0.148073" rotation="0" height="210" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="3.63033" id="" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
-        </ComposerLabel>
+        </ComposerMap>
         <ComposerLabel valign="32" labelText="website: http://alaskamapped.org/ortho&#xa;WMS:  http://wms.alaskamapped.org/ortho&#xa;contact: support@gina.alaska.edu&#xa;Tom Heinrichs - Dayne Broderson - UAF-GINA" halign="1" margin="1">
             <LabelFont description="Lucida Grande,9,-1,5,75,0,0,0,0,0"/>
             <FontColor red="0" blue="0" green="0"/>
@@ -97,17 +136,14 @@
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
         </ComposerLabel>
-        <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
-            <Extent ymin="359707" xmin="-1.43895e+06" ymax="2.39427e+06" xmax="1.46757e+06"/>
-            <LayerSet/>
-            <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
-                <Annotation direction="0" precision="3" position="0" frameDistance="1" show="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
-            </Grid>
-            <ComposerItem width="300" x="-2.09153" y="0.148073" rotation="0" height="210" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="2.50671" id="" positionLock="false">
+        <ComposerLabel valign="32" labelText="An orthomosaic map created from SPOT5 2.5m imagery that meets 1:24K National Map Accuracy Standards with a CE90 of 12.2-meters.  The ortho tile map products are delivered as a color infrared (CIR), psuedo-natural color, and panchromatic (grayscale).  Project is fully funded and will be complete statewide in 2016." halign="1" margin="1">
+            <LabelFont description="Sans,10,-1,5,50,0,0,0,0,0"/>
+            <FontColor red="0" blue="0" green="0"/>
+            <ComposerItem width="75.102" x="218.81" y="78.9987" rotation="0" height="31.735" frame="false" outlineWidth="0.3" zValue="6" lastValidViewScaleFactor="3.63033" id="" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
-        </ComposerMap>
+        </ComposerLabel>
         <ComposerLegend symbolWidth="8" title="Alaska Ortho-Imagery" boxSpace="2" titleFont="Ubuntu,16,-1,5,50,0,0,0,0,0" map="0" groupFont="Ubuntu,14,-1,5,50,0,0,0,0,0" layerFont="Ubuntu,12,-1,5,50,0,0,0,0,0" groupSpace="3" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" wrapChar="" itemFont="Ubuntu,12,-1,5,50,0,0,0,0,0">
             <Model autoUpdate="1">
                 <LayerItem layerId="all_ortho_tiles20130117163012111" text="Completed ortho tiles (2010,2011)">
@@ -142,6 +178,22 @@
                         </symbols>
                     </VectorClassificationItemNg>
                 </LayerItem>
+                <LayerItem layerId="CM2_20130416_Tile_Layout_Dissolved20130801082741290" text="">
+                    <VectorClassificationItemNg text="(in review)">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="0,255,255,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
                 <LayerItem layerId="2013_03_18_clipped20130621112107425" text="SPOT5 L1A source (2009-2012)">
                     <VectorClassificationItemNg text="1,350,000 km2">
                         <symbols>
@@ -158,26 +210,41 @@
                         </symbols>
                     </VectorClassificationItemNg>
                 </LayerItem>
+                <LayerItem layerId="2013_07_31_source_scenes20130801082254163" text="2013 SPOT5 L1A source">
+                    <VectorClassificationItem layerId="2013_07_31_source_scenes20130801082254163" text="collection in progress">
+                        <symbol>
+                            <lowervalue>accepted</lowervalue>
+                            <uppervalue>accepted</uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="255" blue="0" green="255"/>
+                            <outlinestyle>NoPen</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="0" blue="0" green="255"/>
+                            <fillpattern>SolidPattern</fillpattern>
+                            <texturepath>.</texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                </LayerItem>
             </Model>
-            <ComposerItem width="71.7509" x="215.478" y="6.15876" rotation="0" height="84.3981" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.50671" id="" positionLock="false">
+            <ComposerItem width="77.0572" x="217.131" y="6.88642" rotation="0" height="103.847" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="3.63033" id="" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
         </ComposerLegend>
-        <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
-    </Composer>
-    <Composer title="Composer 2" visible="0">
-        <ComposerMap keepLayerSet="false" id="1" previewMode="Cache" drawCanvasItems="true">
-            <Extent ymin="391544" xmin="-1.77416e+06" ymax="2.8047e+06" xmax="1.67815e+06"/>
-            <LayerSet/>
-            <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
-                <Annotation direction="0" precision="3" position="0" frameDistance="1" show="0" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
-            </Grid>
-            <ComposerItem width="299" x="-1" y="0" rotation="0" height="209" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="4.88152" id="" positionLock="false">
+        <ComposerLabel valign="32" labelText="August 1st, 2013" halign="1" margin="1">
+            <LabelFont description="Lucida Grande,7,-1,5,75,0,0,0,0,0"/>
+            <FontColor red="0" blue="0" green="0"/>
+            <ComposerItem width="24.7911" x="3.8564" y="5.23368" rotation="0" height="6.33551" frame="true" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="3.63033" id="" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
-        </ComposerMap>
+        </ComposerLabel>
+        <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
+    </Composer>
+    <Composer title="Composer 2" visible="0">
         <ComposerLegend symbolWidth="7" title="Alaska Ortho-Imagery" boxSpace="2" titleFont="Ubuntu,16,-1,5,50,0,0,0,0,0" map="2" groupFont="Ubuntu,14,-1,5,50,0,0,0,0,0" layerFont="Ubuntu,12,-1,5,50,0,0,0,0,0" groupSpace="3" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" wrapChar="" itemFont="Ubuntu,12,-1,5,50,0,0,0,0,0">
             <Model autoUpdate="1">
                 <LayerItem layerId="sdmi_clip_mask20130117163152768" text="sdmi-clip-mask">
@@ -261,20 +328,169 @@
                         </symbols>
                     </VectorClassificationItemNg>
                 </LayerItem>
+                <LayerItem layerId="2013_07_31_source_scenes20130801082254163" text="2013-07-31-source_scenes">
+                    <VectorClassificationItem layerId="2013_07_31_source_scenes20130801082254163" text="default">
+                        <symbol>
+                            <lowervalue null="1"></lowervalue>
+                            <uppervalue></uppervalue>
+                            <label>default</label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="0" blue="0" green="0"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="53" blue="68" green="184"/>
+                            <fillpattern>SolidPattern</fillpattern>
+                            <texturepath>.</texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                    <VectorClassificationItem layerId="2013_07_31_source_scenes20130801082254163" text="accepted">
+                        <symbol>
+                            <lowervalue>accepted</lowervalue>
+                            <uppervalue>accepted</uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="255" blue="0" green="255"/>
+                            <outlinestyle>NoPen</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="0" blue="0" green="170"/>
+                            <fillpattern>SolidPattern</fillpattern>
+                            <texturepath>.</texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                    <VectorClassificationItem layerId="2013_07_31_source_scenes20130801082254163" text="flagged">
+                        <symbol>
+                            <lowervalue>flagged</lowervalue>
+                            <uppervalue>flagged</uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="255" blue="0" green="255"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="255" blue="127" green="170"/>
+                            <fillpattern>Dense4Pattern</fillpattern>
+                            <texturepath>.</texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                    <VectorClassificationItem layerId="2013_07_31_source_scenes20130801082254163" text="unknown">
+                        <symbol>
+                            <lowervalue>unknown</lowervalue>
+                            <uppervalue>unknown</uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="255" blue="0" green="255"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="0" blue="255" green="255"/>
+                            <fillpattern>Dense4Pattern</fillpattern>
+                            <texturepath>.</texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                </LayerItem>
+                <LayerItem layerId="CM2_20130416_Tile_Layout_Dissolved20130801082741290" text="CM2_20130416_Tile_Layout_Dissolved">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="195,137,99,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="NM1_20130318_Tile_Layout_Dissolved20130801082741297" text="NM1_20130318_Tile_Layout_Dissolved">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="153,213,140,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="NM2_20130311_Tile_Layout_Dissolved20130801082741303" text="NM2_20130311_Tile_Layout_Dissolved">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="65,179,88,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="NM2_20130307_20130523_Tile_Layout_Dissolved20130801082859733" text="NM2_20130307_20130523_Tile_Layout_Dissolved">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="69,22,145,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="SM2_West_20130401_20130523_Tile_Layout_Dissolved20130801082859740" text="SM2_West_20130401_20130523_Tile_Layout_Dissolved">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="29,175,126,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
             </Model>
-            <ComposerItem width="4" x="215.478" y="6.15876" rotation="0" height="51.5" frame="true" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="3.01422" id="" positionLock="false">
+            <ComposerItem width="11" x="215.478" y="6.15876" rotation="0" height="131" frame="true" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="3.01422" id="" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
         </ComposerLegend>
-        <ComposerLabel valign="32" labelText="An orthomosaic map created from SPOT5 2.5m imagery that meets 1:24K National Map Accuracy Standards with a CE90 of 12.2-meters.  The ortho tile map products are delivered as a color infrared (CIR), psuedo-natural color, and panchromatic (grayscale).  Project is fully funded and will be complete statewide in 2016." halign="1" margin="1">
-            <LabelFont description="Sans,10,-1,5,50,0,0,0,0,0"/>
-            <FontColor red="0" blue="0" green="0"/>
-            <ComposerItem width="77.8387" x="215.872" y="48.8399" rotation="0" height="36.63" frame="false" outlineWidth="0.3" zValue="4" lastValidViewScaleFactor="2.62081" id="" positionLock="false">
+        <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+            <Extent ymin="399146" xmin="-1.32721e+06" ymax="2.43371e+06" xmax="1.57931e+06"/>
+            <LayerSet/>
+            <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+                <Annotation direction="0" precision="3" position="0" frameDistance="1" show="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+            </Grid>
+            <ComposerItem width="300" x="-2.09153" y="0.148073" rotation="0" height="210" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="4.88152" id="" positionLock="true">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
-        </ComposerLabel>
+        </ComposerMap>
         <ComposerLabel valign="32" labelText="website: http://alaskamapped.org/ortho&#xa;WMS:  http://wms.alaskamapped.org/ortho&#xa;contact: support@gina.alaska.edu&#xa;Tom Heinrichs - Dayne Broderson - UAF-GINA" halign="1" margin="1">
             <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0"/>
             <FontColor red="0" blue="0" green="0"/>
@@ -283,6 +499,25 @@
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
         </ComposerLabel>
+        <ComposerLabel valign="32" labelText="An orthomosaic map created from SPOT5 2.5m imagery that meets 1:24K National Map Accuracy Standards with a CE90 of 12.2-meters.  The ortho tile map products are delivered as a color infrared (CIR), psuedo-natural color, and panchromatic (grayscale).  Project is fully funded and will be complete statewide in 2016." halign="1" margin="1">
+            <LabelFont description="Sans,10,-1,5,50,0,0,0,0,0"/>
+            <FontColor red="0" blue="0" green="0"/>
+            <ComposerItem width="77.8387" x="215.872" y="48.8399" rotation="0" height="36.63" frame="false" outlineWidth="0.3" zValue="4" lastValidViewScaleFactor="2.62081" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLabel>
+        <ComposerMap keepLayerSet="false" id="1" previewMode="Cache" drawCanvasItems="true">
+            <Extent ymin="391544" xmin="-1.77416e+06" ymax="2.8047e+06" xmax="1.67815e+06"/>
+            <LayerSet/>
+            <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+                <Annotation direction="0" precision="3" position="0" frameDistance="1" show="0" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+            </Grid>
+            <ComposerItem width="299" x="-1" y="0" rotation="0" height="209" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="4.88152" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerMap>
         <ComposerMap keepLayerSet="false" id="2" previewMode="Cache" drawCanvasItems="true">
             <Extent ymin="391544" xmin="-1.77416e+06" ymax="nan" xmax="1.67815e+06"/>
             <LayerSet/>
@@ -290,17 +525,6 @@
                 <Annotation direction="0" precision="3" position="0" frameDistance="1" show="0" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
             </Grid>
             <ComposerItem width="0" x="56" y="25" rotation="0" height="0" frame="true" outlineWidth="0.3" zValue="6" lastValidViewScaleFactor="4.88152" id="" positionLock="false">
-                <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            </ComposerItem>
-        </ComposerMap>
-        <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
-            <Extent ymin="399146" xmin="-1.32721e+06" ymax="2.43371e+06" xmax="1.57931e+06"/>
-            <LayerSet/>
-            <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
-                <Annotation direction="0" precision="3" position="0" frameDistance="1" show="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
-            </Grid>
-            <ComposerItem width="300" x="-2.09153" y="0.148073" rotation="0" height="210" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="4.88152" id="" positionLock="true">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
@@ -386,15 +610,161 @@
                         </symbols>
                     </VectorClassificationItemNg>
                 </LayerItem>
+                <LayerItem layerId="2013_07_31_source_scenes20130801082254163" text="2013-07-31-source_scenes">
+                    <VectorClassificationItem layerId="2013_07_31_source_scenes20130801082254163" text="default">
+                        <symbol>
+                            <lowervalue null="1"></lowervalue>
+                            <uppervalue></uppervalue>
+                            <label>default</label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="0" blue="0" green="0"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="53" blue="68" green="184"/>
+                            <fillpattern>SolidPattern</fillpattern>
+                            <texturepath>.</texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                    <VectorClassificationItem layerId="2013_07_31_source_scenes20130801082254163" text="accepted">
+                        <symbol>
+                            <lowervalue>accepted</lowervalue>
+                            <uppervalue>accepted</uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="255" blue="0" green="255"/>
+                            <outlinestyle>NoPen</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="0" blue="0" green="170"/>
+                            <fillpattern>SolidPattern</fillpattern>
+                            <texturepath>.</texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                    <VectorClassificationItem layerId="2013_07_31_source_scenes20130801082254163" text="flagged">
+                        <symbol>
+                            <lowervalue>flagged</lowervalue>
+                            <uppervalue>flagged</uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="255" blue="0" green="255"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="255" blue="127" green="170"/>
+                            <fillpattern>Dense4Pattern</fillpattern>
+                            <texturepath>.</texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                    <VectorClassificationItem layerId="2013_07_31_source_scenes20130801082254163" text="unknown">
+                        <symbol>
+                            <lowervalue>unknown</lowervalue>
+                            <uppervalue>unknown</uppervalue>
+                            <label></label>
+                            <pointsymbol>hard:circle</pointsymbol>
+                            <pointsize>2</pointsize>
+                            <pointsizeunits>pixels</pointsizeunits>
+                            <outlinecolor red="255" blue="0" green="255"/>
+                            <outlinestyle>SolidLine</outlinestyle>
+                            <outlinewidth>0.26</outlinewidth>
+                            <fillcolor red="0" blue="255" green="255"/>
+                            <fillpattern>Dense4Pattern</fillpattern>
+                            <texturepath>.</texturepath>
+                        </symbol>
+                    </VectorClassificationItem>
+                </LayerItem>
+                <LayerItem layerId="CM2_20130416_Tile_Layout_Dissolved20130801082741290" text="CM2_20130416_Tile_Layout_Dissolved">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="195,137,99,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="NM1_20130318_Tile_Layout_Dissolved20130801082741297" text="NM1_20130318_Tile_Layout_Dissolved">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="153,213,140,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="NM2_20130311_Tile_Layout_Dissolved20130801082741303" text="NM2_20130311_Tile_Layout_Dissolved">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="65,179,88,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="NM2_20130307_20130523_Tile_Layout_Dissolved20130801082859733" text="NM2_20130307_20130523_Tile_Layout_Dissolved">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="69,22,145,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="SM2_West_20130401_20130523_Tile_Layout_Dissolved20130801082859740" text="SM2_West_20130401_20130523_Tile_Layout_Dissolved">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="29,175,126,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
             </Model>
-            <ComposerItem width="4" x="215.906" y="26.6442" rotation="0" height="42" frame="true" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="3.01422" id="" positionLock="false">
+            <ComposerItem width="11" x="215.906" y="26.6442" rotation="0" height="121.5" frame="true" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="3.01422" id="" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
         </ComposerLegend>
         <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
     </Composer>
-    <projectlayers layercount="11">
+    <projectlayers layercount="17">
         <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>2009_2010_source20130117163100767</id>
             <datasource>./source/2009_2010/2009_2010-source.shp</datasource>
@@ -537,9 +907,138 @@
                 <edittype type="0" name="status"/>
                 <edittype type="0" name="year"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+            <id>2013_07_31_source_scenes20130801082254163</id>
+            <datasource>./source/2013/2013-07-31-source_scenes/2013-07-31-source_scenes/2013-07-31-source_scenes.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>2013-07-31-source_scenes</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <classificationattribute>status</classificationattribute>
+            <uniquevalue>
+                <classificationfield>status</classificationfield>
+                <symbol>
+                    <lowervalue null="1"></lowervalue>
+                    <uppervalue></uppervalue>
+                    <label>default</label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="0" blue="0" green="0"/>
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="53" blue="68" green="184"/>
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath>.</texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>accepted</lowervalue>
+                    <uppervalue>accepted</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="255" blue="0" green="255"/>
+                    <outlinestyle>NoPen</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="0" blue="0" green="255"/>
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath>.</texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>flagged</lowervalue>
+                    <uppervalue>flagged</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="255" blue="0" green="255"/>
+                    <outlinestyle>NoPen</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="255" blue="127" green="170"/>
+                    <fillpattern>NoBrush</fillpattern>
+                    <texturepath>.</texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>unknown</lowervalue>
+                    <uppervalue>unknown</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="255" blue="0" green="255"/>
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="0" blue="255" green="255"/>
+                    <fillpattern>Dense4Pattern</fillpattern>
+                    <texturepath>.</texturepath>
+                </symbol>
+            </uniquevalue>
+            <customproperties/>
+            <displayfield>spot_id</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="comment"/>
+                <edittype type="0" name="response"/>
+                <edittype type="0" name="sensor"/>
+                <edittype type="0" name="spot_id"/>
+                <edittype type="0" name="status"/>
+                <edittype type="0" name="year"/>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
@@ -611,6 +1110,76 @@
             <annotationform>.</annotationform>
             <attributeactions/>
         </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>CM2_20130416_Tile_Layout_Dissolved20130801082741290</id>
+            <datasource>./ortho/2012/qa_qc/In_Progress/CM2_20130416_Tile_Layout_Dissolved.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>CM2_20130416_Tile_Layout_Dissolved</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="0,255,255,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>TileName</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Lucida Grande"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="BLOCK"/>
+                <edittype type="0" name="Status"/>
+                <edittype type="0" name="TileName"/>
+            </edittypes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <attributeactions/>
+        </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>GINA_Bathymetry20130621100804934</id>
             <datasource>http://wms.alaskamapped.org/extras</datasource>
@@ -665,6 +1234,218 @@
                     <pixelListEntry red="0.000000" blue="0.000000" green="0.000000" percentTransparent="100"/>
                 </threeValuePixelList>
             </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>NM1_20130318_Tile_Layout_Dissolved20130801082741297</id>
+            <datasource>./ortho/2012/qa_qc/In_Progress/NM1_20130318_Tile_Layout_Dissolved.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>NM1_20130318_Tile_Layout_Dissolved</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="0,255,255,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>TileName</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Lucida Grande"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="BLOCK"/>
+                <edittype type="0" name="Status"/>
+                <edittype type="0" name="TileName"/>
+            </edittypes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>NM2_20130307_20130523_Tile_Layout_Dissolved20130801082859733</id>
+            <datasource>./ortho/2012/qa_qc/Reviewed/NM2_20130307_20130523_Tile_Layout_Dissolved.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>NM2_20130307_20130523_Tile_Layout_Dissolved</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="0,255,255,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>TileName</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Lucida Grande"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="Area"/>
+                <edittype type="0" name="BLOCK"/>
+                <edittype type="0" name="Status"/>
+                <edittype type="0" name="TileName"/>
+            </edittypes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>NM2_20130311_Tile_Layout_Dissolved20130801082741303</id>
+            <datasource>./ortho/2012/qa_qc/In_Progress/NM2_20130311_Tile_Layout_Dissolved.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>NM2_20130311_Tile_Layout_Dissolved</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="0,255,255,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>TileName</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Lucida Grande"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="Area"/>
+                <edittype type="0" name="BLOCK"/>
+                <edittype type="0" name="Status"/>
+                <edittype type="0" name="TileName"/>
+            </edittypes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>SDMI_Y3_DRAFT_Tiles_2013031920130621100935928</id>
@@ -733,6 +1514,77 @@
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>SM2_West_20130401_20130523_Tile_Layout_Dissolved20130801082859740</id>
+            <datasource>./ortho/2012/qa_qc/Reviewed/SM2_West_20130401_20130523_Tile_Layout_Dissolved.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>SM2_West_20130401_20130523_Tile_Layout_Dissolved</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="0,255,255,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>TileName</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Lucida Grande"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="Area"/>
+                <edittype type="0" name="BLOCK"/>
+                <edittype type="0" name="Status"/>
+                <edittype type="0" name="TileName"/>
+            </edittypes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
@@ -1101,7 +1953,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>completed_ortho_tiles_dissolve_clipped_20130125155952123</id>
-            <datasource>./ortho/completed_ortho_tiles-dissolve-clipped .shp</datasource>
+            <datasource>./ortho/completed_ortho_tiles-dissolve-clipped.shp</datasource>
             <title></title>
             <abstract></abstract>
             <layername>completed_ortho_tiles-dissolve-clipped </layername>
