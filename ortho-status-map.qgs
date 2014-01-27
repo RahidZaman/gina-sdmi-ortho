@@ -119,12 +119,12 @@
             </filegroup>
         </legendlayer>
     </legend>
-    <Composer title="Composer 2" visible="0">
+    <Composer title="Composer 2" visible="1">
         <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="210" alignmentSnapTolerance="2" printAsRaster="0">
             <ComposerLabel valign="32" labelText="The Statewide Alaska Orthoimagery Mosaic created from SPOT5 2.5m imagery that meets 1:24K National Map Accuracy Standards with a CE90 of 12.2-meters.  The ortho tile map products are derived from the SPOT5 L1A source and are delivered as a color infrared (CIR), psuedo-natural color, and panchromatic (grayscale).  Project is fully funded and will be complete in 2015." htmlState="0" halign="1" margin="1">
                 <LabelFont description="Sans,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="71.4565" x="218.087" transparency="0" y="46.5223" rotation="0" height="47.099" positionMode="0" frame="false" outlineWidth="0.3" zValue="6" lastValidViewScaleFactor="2.33893" uuid="{8cfc718c-b7cf-4922-82e0-73086ae8f7a7}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="69.1483" x="218.087" transparency="0" y="46.5223" rotation="0" height="48.364" positionMode="0" frame="false" outlineWidth="0.3" zValue="6" lastValidViewScaleFactor="4.7109" uuid="{8cfc718c-b7cf-4922-82e0-73086ae8f7a7}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -184,7 +184,7 @@
                         </VectorClassificationItemNg>
                     </LayerItem>
                 </Model>
-                <ComposerItem width="73.9567" x="217.565" transparency="0" y="6.46847" rotation="0" height="91.1234" positionMode="0" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="4.78523" uuid="{0be4e1c1-673b-4651-a478-fae4bb35dcc2}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="72.4008" x="217.565" transparency="0" y="6.46847" rotation="0" height="90.5406" positionMode="0" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.33893" uuid="{0be4e1c1-673b-4651-a478-fae4bb35dcc2}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
