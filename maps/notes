@@ -1,0 +1,2 @@
+#convert -resize 1227x868 Alaska-Ortho-Imagery-status-v1401.png Alaska-Ortho-Imagery-status-current-web.jpg 
+#convert -resize 263x186 Alaska-Ortho-Imagery-status-v1401.png Alaska-Ortho-Imagery-status-current-thumb.jpg
