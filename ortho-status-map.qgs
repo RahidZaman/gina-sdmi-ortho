@@ -5,9 +5,9 @@
         <units>meters</units>
         <extent>
             <xmin>-8199517.5664181299507618</xmin>
-            <ymin>-3820081.19336889125406742</ymin>
+            <ymin>-5450404.85765678808093071</ymin>
             <xmax>8352605.23452312964946032</xmax>
-            <ymax>6643638.39547789096832275</ymax>
+            <ymax>8273962.05976578779518604</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -207,7 +207,7 @@
                         </VectorClassificationItemNg>
                     </LayerItem>
                 </Model>
-                <ComposerItem width="69.6703" x="217.565" transparency="0" y="6.46847" rotation="0" height="44.8" positionMode="0" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.33893" uuid="{0be4e1c1-673b-4651-a478-fae4bb35dcc2}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="67.7016" x="217.565" transparency="0" y="6.46847" rotation="0" height="42.4641" positionMode="0" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="1.87248" uuid="{0be4e1c1-673b-4651-a478-fae4bb35dcc2}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -249,7 +249,7 @@
                         <fontColor red="0" blue="0" green="0"/>
                     </Annotation>
                 </Grid>
-                <ComposerItem width="300" x="-3" transparency="0" y="0" rotation="0" height="210" positionMode="0" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="2.33893" uuid="{9e13df6b-462e-4b86-bbee-ec43d201e98e}" id="" background="false" blendMode="0" positionLock="false">
+                <ComposerItem width="300" x="-3" transparency="0" y="0" rotation="0" height="210" positionMode="0" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="1.87248" uuid="{9e13df6b-462e-4b86-bbee-ec43d201e98e}" id="" background="false" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -618,7 +618,7 @@
                         </VectorClassificationItemNg>
                     </LayerItem>
                 </Model>
-                <ComposerItem width="110.37" x="215.478" transparency="0" y="6.15876" rotation="0" height="239.8" positionMode="0" frame="true" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="3.01422" uuid="{08ae6197-2b01-4fd6-be08-05224026967d}" id="" background="false" blendMode="0" positionLock="false">
+                <ComposerItem width="110.894" x="215.478" transparency="0" y="6.15876" rotation="0" height="226.723" positionMode="0" frame="true" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="3.01422" uuid="{08ae6197-2b01-4fd6-be08-05224026967d}" id="" background="false" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1027,7 +1027,7 @@
                         </VectorClassificationItemNg>
                     </LayerItem>
                 </Model>
-                <ComposerItem width="110.37" x="215.906" transparency="0" y="26.6442" rotation="0" height="226.3" positionMode="0" frame="true" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="3.01422" uuid="{cc7b7735-ccb1-4f80-87f7-68a806b30ede}" id="" background="false" blendMode="0" positionLock="false">
+                <ComposerItem width="110.894" x="215.906" transparency="0" y="26.6442" rotation="0" height="213.991" positionMode="0" frame="true" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="1.90268" uuid="{cc7b7735-ccb1-4f80-87f7-68a806b30ede}" id="" background="false" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1069,7 +1069,122 @@
                         <fontColor red="0" blue="0" green="0"/>
                     </Annotation>
                 </Grid>
-                <ComposerItem width="298" x="0" transparency="0" y="0" rotation="0" height="210" positionMode="0" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="2.44076" uuid="{bb0308a9-fdaa-437b-9783-25413737e6df}" id="" background="false" blendMode="0" positionLock="false">
+                <ComposerItem width="298" x="0" transparency="0" y="0" rotation="0" height="210" positionMode="0" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="1.90268" uuid="{bb0308a9-fdaa-437b-9783-25413737e6df}" id="" background="false" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerMap>
+        </Composition>
+    </Composer>
+    <Composer title="SDMI GAP FILL" visible="1">
+        <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="210" alignmentSnapTolerance="2" printAsRaster="0">
+            <ComposerLegend symbolWidth="7" title="Alaska Ortho-Imagery" boxSpace="2" splitLayer="0" equalColumnWidth="0" map="0" symbolHeight="4" wrapChar="" fontColor="#000000" columnSpace="2" columnCount="1">
+                <styles>
+                    <style marginBottom="2" name="title" font="Lucida Grande,16,-1,5,50,0,0,0,0,0"/>
+                    <style marginTop="2" name="group" font="Lucida Grande,14,-1,5,50,0,0,0,0,0"/>
+                    <style marginTop="2" name="subgroup" font="Lucida Grande,12,-1,5,50,0,0,0,0,0"/>
+                    <style marginTop="2" name="symbol" font="Lucida Grande,13,-1,5,50,0,0,0,0,0"/>
+                    <style marginTop="2" marginLeft="2" name="symbolLabel" font="Lucida Grande,12,-1,5,50,0,0,0,0,0"/>
+                </styles>
+                <Model autoUpdate="1">
+                    <LayerItem layerId="2013_completed_ortho_tiles_dissolve_clipped20131014110800282" userText="Completed ortho tiles (2010-2012)" style="subgroup" text="Completed ortho tiles (2010-2012)" showFeatureCount="0">
+                        <VectorClassificationItemNg userText="799,710 km2" text="799,710 km2">
+                            <symbols>
+                                <symbol alpha="1" type="fill" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleFill" locked="0">
+                                        <prop k="border_width_unit" v="MM"/>
+                                        <prop k="color" v="255,253,175,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="style" v="solid"/>
+                                        <prop k="style_border" v="solid"/>
+                                        <prop k="width_border" v="0.26"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                    </LayerItem>
+                    <LayerItem layerId="2009_2013_source_clipped20131014114037077" userText="SPOT5 L1A source (2009-2013)" style="subgroup" text="SPOT5 L1A source (2009-2013)" showFeatureCount="0">
+                        <VectorClassificationItemNg userText="" text="SPOT5 L1A source (2009-2013)">
+                            <symbols>
+                                <symbol alpha="1" type="fill" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleFill" locked="0">
+                                        <prop k="border_width_unit" v="MM"/>
+                                        <prop k="color" v="0,170,0,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="style" v="solid"/>
+                                        <prop k="style_border" v="solid"/>
+                                        <prop k="width_border" v="0.26"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                    </LayerItem>
+                    <LayerItem layerId="gap_fill_only_dissolve_clip20140130152207907" userText="SPOT5 L1A wrap-up (2009-2013)" style="subgroup" text="SPOT5 L1A wrap-up (2009-2013)" showFeatureCount="0">
+                        <VectorClassificationItemNg userText="" text="SPOT5 L1A wrap-up (2009-2013)">
+                            <symbols>
+                                <symbol alpha="1" type="fill" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleFill" locked="0">
+                                        <prop k="border_width_unit" v="MM"/>
+                                        <prop k="color" v="181,97,37,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="style" v="solid"/>
+                                        <prop k="style_border" v="solid"/>
+                                        <prop k="width_border" v="0.26"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                    </LayerItem>
+                </Model>
+                <ComposerItem width="81.9188" x="211.533" transparency="0" y="3.20962" rotation="0" height="56.2729" positionMode="0" frame="false" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="1.91946" uuid="{59e937a4-7839-4e54-8926-3e94f015fe56}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLegend>
+            <ComposerMap keepLayerSet="false" overviewFrameMap="-1" id="0" previewMode="Cache" drawCanvasItems="true">
+                <overviewFrame overviewBlendMode="0" overviewFrameMap="-1" overviewInverted="false">
+                    <symbol alpha="0.3" type="fill" name="">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="255,0,0,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="no"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </overviewFrame>
+                <Extent ymin="359707" xmin="-1.43895e+06" ymax="2.40793e+06" xmax="1.46757e+06"/>
+                <LayerSet/>
+                <Grid gridStyle="0" crossLength="3" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
+                    <symbol alpha="1" type="line" name="">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="flat"/>
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.3"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                    </symbol>
+                    <Annotation rightDirection="0" bottomDirection="0" format="0" topPosition="1" precision="3" leftDirection="0" rightPosition="1" bottomPosition="1" frameDistance="1" show="0" font="Lucida Grande,13,-1,5,50,0,0,0,0,0" leftPosition="1" topDirection="0">
+                        <fontColor red="0" blue="0" green="0"/>
+                    </Annotation>
+                </Grid>
+                <ComposerItem width="298" x="-1" transparency="0" y="0" rotation="0" height="210" positionMode="0" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="1.91946" uuid="{dcc1bf5d-765e-459f-bf64-bc69ba1dcfca}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -2985,9 +3100,9 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
