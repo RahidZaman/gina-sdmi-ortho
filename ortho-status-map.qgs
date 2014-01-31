@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>-3657044.05655690282583237</xmin>
-            <ymin>-1366423.27368003595620394</ymin>
-            <xmax>3810131.72466190299019217</xmax>
-            <ymax>4189980.47578903567045927</ymax>
+            <xmin>-8199517.5664181299507618</xmin>
+            <ymin>-3820081.19336889125406742</ymin>
+            <xmax>8352605.23452312964946032</xmax>
+            <ymax>6643638.39547789096832275</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -23,7 +23,7 @@
             </spatialrefsys>
         </destinationsrs>
     </mapcanvas>
-    <legend updateDrawingOrder="true" activeLayer="L1AStatus_Dissolved_Clipped_2014012420140124102441810">
+    <legend updateDrawingOrder="true" activeLayer="gap_fill_only_dissolve_clip20140130152207907">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="2012_tiles" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="2012_tiles20131125131140065" visible="0"/>
@@ -68,14 +68,19 @@
                 <legendlayerfile isInOverview="0" layerid="completed_ortho_tiles_dissolve_clipped_20130125155952123" visible="0"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="2009_2013-source_clipped" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="2009_2013-source_clipped" showFeatureCount="0">
             <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="2009_2013_source_clipped20131014114037077" visible="0"/>
+                <legendlayerfile isInOverview="0" layerid="2009_2013_source_clipped20131014114037077" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="L1AStatus_Dissolved_Clipped_20140124" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="gap_fill_only_dissolve_clip" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="L1AStatus_Dissolved_Clipped_2014012420140124102441810" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="gap_fill_only_dissolve_clip20140130152207907" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="L1AStatus_Dissolved_Clipped_20140124" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="L1AStatus_Dissolved_Clipped_2014012420140124102441810" visible="0"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="SPOT5 source clipped-v1304" showFeatureCount="0">
@@ -183,8 +188,26 @@
                             </symbols>
                         </VectorClassificationItemNg>
                     </LayerItem>
+                    <LayerItem layerId="gap_fill_only_dissolve_clip20140130152207907" userText="" style="hidden" text="gap_fill_only_dissolve_clip" showFeatureCount="0">
+                        <VectorClassificationItemNg userText="" text="gap_fill_only_dissolve_clip">
+                            <symbols>
+                                <symbol alpha="1" type="fill" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleFill" locked="0">
+                                        <prop k="border_width_unit" v="MM"/>
+                                        <prop k="color" v="181,97,37,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="style" v="solid"/>
+                                        <prop k="style_border" v="solid"/>
+                                        <prop k="width_border" v="0.26"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                    </LayerItem>
                 </Model>
-                <ComposerItem width="72.4008" x="217.565" transparency="0" y="6.46847" rotation="0" height="90.5406" positionMode="0" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.33893" uuid="{0be4e1c1-673b-4651-a478-fae4bb35dcc2}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="69.6703" x="217.565" transparency="0" y="6.46847" rotation="0" height="44.8" positionMode="0" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.33893" uuid="{0be4e1c1-673b-4651-a478-fae4bb35dcc2}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -576,8 +599,26 @@
                             </symbols>
                         </VectorClassificationItemNg>
                     </LayerItem>
+                    <LayerItem layerId="gap_fill_only_dissolve_clip20140130152207907" userText="" style="hidden" text="gap_fill_only_dissolve_clip" showFeatureCount="0">
+                        <VectorClassificationItemNg userText="" text="gap_fill_only_dissolve_clip">
+                            <symbols>
+                                <symbol alpha="1" type="fill" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleFill" locked="0">
+                                        <prop k="border_width_unit" v="MM"/>
+                                        <prop k="color" v="181,97,37,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="style" v="solid"/>
+                                        <prop k="style_border" v="solid"/>
+                                        <prop k="width_border" v="0.26"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                    </LayerItem>
                 </Model>
-                <ComposerItem width="110.37" x="215.478" transparency="0" y="6.15876" rotation="0" height="231.8" positionMode="0" frame="true" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="3.01422" uuid="{08ae6197-2b01-4fd6-be08-05224026967d}" id="" background="false" blendMode="0" positionLock="false">
+                <ComposerItem width="110.37" x="215.478" transparency="0" y="6.15876" rotation="0" height="239.8" positionMode="0" frame="true" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="3.01422" uuid="{08ae6197-2b01-4fd6-be08-05224026967d}" id="" background="false" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -967,8 +1008,26 @@
                             </symbols>
                         </VectorClassificationItemNg>
                     </LayerItem>
+                    <LayerItem layerId="gap_fill_only_dissolve_clip20140130152207907" userText="" style="hidden" text="gap_fill_only_dissolve_clip" showFeatureCount="0">
+                        <VectorClassificationItemNg userText="" text="gap_fill_only_dissolve_clip">
+                            <symbols>
+                                <symbol alpha="1" type="fill" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleFill" locked="0">
+                                        <prop k="border_width_unit" v="MM"/>
+                                        <prop k="color" v="181,97,37,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="style" v="solid"/>
+                                        <prop k="style_border" v="solid"/>
+                                        <prop k="width_border" v="0.26"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                    </LayerItem>
                 </Model>
-                <ComposerItem width="110.37" x="215.906" transparency="0" y="26.6442" rotation="0" height="218.3" positionMode="0" frame="true" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="3.01422" uuid="{cc7b7735-ccb1-4f80-87f7-68a806b30ede}" id="" background="false" blendMode="0" positionLock="false">
+                <ComposerItem width="110.37" x="215.906" transparency="0" y="26.6442" rotation="0" height="226.3" positionMode="0" frame="true" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="3.01422" uuid="{cc7b7735-ccb1-4f80-87f7-68a806b30ede}" id="" background="false" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1017,7 +1076,7 @@
             </ComposerMap>
         </Composition>
     </Composer>
-    <projectlayers layercount="18">
+    <projectlayers layercount="19">
         <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>2009_2010_source20130117163100767</id>
             <datasource>./source/2009_2010/2009_2010-source.shp</datasource>
@@ -2853,6 +2912,82 @@
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
+            <editorlayout>generatedlayout</editorlayout>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+            <id>gap_fill_only_dissolve_clip20140130152207907</id>
+            <datasource>./source/gap.fill/gap_fill_only_dissolve_clip.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>gap_fill_only_dissolve_clip</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1296</srsid>
+                    <srid>3338</srid>
+                    <authid>EPSG:3338</authid>
+                    <description>NAD83 / Alaska Albers</description>
+                    <projectionacronym>aea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <provider encoding="System">ogr</provider>
+            <previewExpression></previewExpression>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="181,97,37,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field="" scalemethod="area"/>
+            </renderer-v2>
+            <customproperties/>
+            <blendMode>0</blendMode>
+            <featureBlendMode>0</featureBlendMode>
+            <layerTransparency>0</layerTransparency>
+            <displayfield>location</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Ubuntu"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
